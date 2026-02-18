@@ -166,13 +166,96 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| (Updated by roadmap) | | |
+| FNDN-01 | Phase 1 | Pending |
+| FNDN-02 | Phase 1 | Pending |
+| FNDN-03 | Phase 1 | Pending |
+| FNDN-04 | Phase 1 | Pending |
+| FNDN-05 | Phase 1 | Pending |
+| FNDN-06 | Phase 1 | Pending |
+| FNDN-07 | Phase 1 | Pending |
+| FNDN-08 | Phase 1 | Pending |
+| FNDN-09 | Phase 1 | Pending |
+| FNDN-10 | Phase 1 | Pending |
+| NAV-01 | Phase 2 | Pending |
+| NAV-02 | Phase 2 | Pending |
+| NAV-03 | Phase 2 | Pending |
+| NAV-04 | Phase 2 | Pending |
+| NAV-05 | Phase 2 | Pending |
+| NAV-06 | Phase 2 | Pending |
+| NAV-07 | Phase 2 | Pending |
+| NAV-08 | Phase 2 | Pending |
+| NAV-09 | Phase 2 | Pending |
+| NAV-10 | Phase 2 | Pending |
+| HOME-01 | Phase 3 | Pending |
+| HOME-02 | Phase 3 | Pending |
+| HOME-03 | Phase 3 | Pending |
+| HOME-04 | Phase 3 | Pending |
+| HOME-05 | Phase 3 | Pending |
+| HOME-06 | Phase 3 | Pending |
+| HOME-07 | Phase 3 | Pending |
+| HOME-08 | Phase 3 | Pending |
+| HOME-09 | Phase 3 | Pending |
+| HOME-10 | Phase 3 | Pending |
+| HOME-11 | Phase 3 | Pending |
+| ABOUT-01 | Phase 4 | Pending |
+| ABOUT-02 | Phase 4 | Pending |
+| ABOUT-03 | Phase 4 | Pending |
+| ABOUT-04 | Phase 4 | Pending |
+| ABOUT-05 | Phase 4 | Pending |
+| SERV-01 | Phase 5 | Pending |
+| SERV-02 | Phase 5 | Pending |
+| SERV-03 | Phase 5 | Pending |
+| SERV-04 | Phase 5 | Pending |
+| SERV-05 | Phase 5 | Pending |
+| SERV-06 | Phase 5 | Pending |
+| SERV-07 | Phase 5 | Pending |
+| SERV-08 | Phase 5 | Pending |
+| SERV-09 | Phase 5 | Pending |
+| PROD-01 | Phase 6 | Pending |
+| PROD-02 | Phase 6 | Pending |
+| PROD-03 | Phase 6 | Pending |
+| PROD-04 | Phase 6 | Pending |
+| PROD-05 | Phase 6 | Pending |
+| PROD-06 | Phase 6 | Pending |
+| PROD-07 | Phase 6 | Pending |
+| PROD-08 | Phase 6 | Pending |
+| PROD-09 | Phase 6 | Pending |
+| GALL-01 | Phase 7 | Pending |
+| GALL-02 | Phase 7 | Pending |
+| GALL-03 | Phase 7 | Pending |
+| GALL-04 | Phase 7 | Pending |
+| GALL-05 | Phase 7 | Pending |
+| CONT-01 | Phase 8 | Pending |
+| CONT-02 | Phase 8 | Pending |
+| CONT-03 | Phase 8 | Pending |
+| CONT-04 | Phase 8 | Pending |
+| CONT-05 | Phase 8 | Pending |
+| CONT-06 | Phase 8 | Pending |
+| CONT-07 | Phase 8 | Pending |
+| CONT-08 | Phase 8 | Pending |
+| SEO-01 | Phase 9 | Pending |
+| SEO-02 | Phase 9 | Pending |
+| SEO-03 | Phase 9 | Pending |
+| SEO-04 | Phase 9 | Pending |
+| SEO-05 | Phase 9 | Pending |
+| SEO-06 | Phase 9 | Pending |
+| SEO-07 | Phase 9 | Pending |
+| SEO-08 | Phase 9 | Pending |
+| A11Y-01 | Phase 10 | Pending |
+| A11Y-02 | Phase 10 | Pending |
+| A11Y-03 | Phase 10 | Pending |
+| A11Y-04 | Phase 10 | Pending |
+| A11Y-05 | Phase 10 | Pending |
+| RESP-01 | Phase 10 | Pending |
+| RESP-02 | Phase 10 | Pending |
+| RESP-03 | Phase 10 | Pending |
+| RESP-04 | Phase 10 | Pending |
 
 **Coverage:**
-- v1 requirements: 62 total
-- Mapped to phases: 0
-- Unmapped: 62 (pending roadmap)
+- v1 requirements: 84 total (note: initial count of 62 in traceability header was incorrect; actual count is 84)
+- Mapped to phases: 84
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-18*
-*Last updated: 2026-02-18 after initial definition*
+*Last updated: 2026-02-18 after roadmap creation — full traceability added*
