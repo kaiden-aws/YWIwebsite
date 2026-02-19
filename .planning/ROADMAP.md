@@ -69,12 +69,12 @@ Plans:
   3. A testimonial carousel auto-advances through 3 placeholder testimonials with star ratings and quotation mark decoration
   4. A full-width CTA banner appears near the bottom of the page with a textured background, the "Ready to Transform Your Outdoor Space?" headline, and both a quote button and phone number
   5. The entire page is server-rendered — page source contains the full homepage HTML, not a loading skeleton
-**Plans**: TBD
+**Plans**: 3 plans in 3 waves
 
 Plans:
-- [ ] 03-01: Hero section with parallax, grain overlay, headline, CTAs, and scroll indicator
-- [ ] 03-02: Services preview, about teaser, and products banner
-- [ ] 03-03: Project showcase, testimonial carousel, and CTA banner with scroll animations
+- [ ] 03-01-PLAN.md — Hero section with parallax, grain overlay, headline, CTAs, scroll indicator, and all static data files
+- [ ] 03-02-PLAN.md — Services preview cards, about teaser split layout, and products banner with retail yard address
+- [ ] 03-03-PLAN.md — Project showcase grid, testimonial carousel with auto-advance, and CTA banner
 
 ### Phase 4: About Page
 **Goal**: A potential client visiting the About page can learn the company's story, understand its values, see who is on the team, and read the specific differentiators that make Yard Weasels Inc. worth hiring — building trust before they ever contact the company.
