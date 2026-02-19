@@ -118,12 +118,11 @@ Plans:
   3. A Material Calculator accepts Length (ft), Width (ft), and Depth (in) inputs along with a product type selection and displays the resulting cubic yards needed
   4. The calculator shows inline validation errors for out-of-range or missing inputs and does not allow calculation to proceed with invalid data
   5. Below the calculator result, a "Request Delivery Quote" CTA is visible; the retail yard address (6470 Beatty Line N) and hours appear in a callout section
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 06-01: Products page hero and product category grid with hover reveal
-- [ ] 06-02: Material Calculator with product dropdown, coverage formula, input validation, and CTA
-- [ ] 06-03: Retail yard callout and "hard-to-find materials" info section
+- [ ] 06-01-PLAN.md — Products page hero and product category grid with CSS hover "Contact for Pricing" overlay
+- [ ] 06-02-PLAN.md — Material Calculator with input validation, product dropdown, delivery quote CTA, retail yard callout, and page assembly
 
 ### Phase 7: Gallery Page
 **Goal**: A prospective client can browse Yard Weasels Inc.'s completed projects, filter to the type of work they are considering, open individual photos in a full-screen lightbox, and navigate through them with keyboard or click controls — giving them the visual proof of quality needed to trust the company with their project.
@@ -201,7 +200,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 3. Homepage | 3/3 | Complete | 2026-02-19 |
 | 4. About Page | 2/2 | Complete | 2026-02-19 |
 | 5. Services Page | 0/2 | Not started | - |
-| 6. Products Page | 0/3 | Not started | - |
+| 6. Products Page | 0/2 | Not started | - |
 | 7. Gallery Page | 0/2 | Not started | - |
 | 8. Contact Page | 0/2 | Not started | - |
 | 9. SEO and Performance | 0/2 | Not started | - |
