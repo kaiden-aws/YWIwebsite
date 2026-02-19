@@ -22,12 +22,12 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Navigation & Layout
 
-- [ ] **NAV-01**: Sticky header that becomes translucent with blur effect on scroll
-- [ ] **NAV-02**: Logo on left (text "YARD WEASELS" + placeholder for mascot image)
-- [ ] **NAV-03**: Phone number (519-843-5489) visible in header on desktop
-- [ ] **NAV-04**: "Get a Quote" CTA button in nav (terracotta color)
-- [ ] **NAV-05**: Mobile hamburger menu with smooth slide-in drawer animation
-- [ ] **NAV-06**: Active page indicator on current nav link
+- [x] **NAV-01**: Sticky header that becomes translucent with blur effect on scroll
+- [x] **NAV-02**: Logo on left (text "YARD WEASELS" + placeholder for mascot image)
+- [x] **NAV-03**: Phone number (519-843-5489) visible in header on desktop
+- [x] **NAV-04**: "Get a Quote" CTA button in nav (terracotta color)
+- [x] **NAV-05**: Mobile hamburger menu with smooth slide-in drawer animation
+- [x] **NAV-06**: Active page indicator on current nav link
 - [ ] **NAV-07**: Multi-column footer: company info, quick links, services, contact info
 - [ ] **NAV-08**: Footer shows both addresses (office + retail yard), phone, hours (Mon-Fri 8-5), social icons, copyright 2026
 - [ ] **NAV-09**: Back-to-top button appears after scrolling, smooth scroll to top
@@ -176,12 +176,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FNDN-08 | Phase 1 | Complete |
 | FNDN-09 | Phase 1 | Complete |
 | FNDN-10 | Phase 1 | Complete |
-| NAV-01 | Phase 2 | Pending |
-| NAV-02 | Phase 2 | Pending |
-| NAV-03 | Phase 2 | Pending |
-| NAV-04 | Phase 2 | Pending |
-| NAV-05 | Phase 2 | Pending |
-| NAV-06 | Phase 2 | Pending |
+| NAV-01 | Phase 2 | Complete |
+| NAV-02 | Phase 2 | Complete |
+| NAV-03 | Phase 2 | Complete |
+| NAV-04 | Phase 2 | Complete |
+| NAV-05 | Phase 2 | Complete |
+| NAV-06 | Phase 2 | Complete |
 | NAV-07 | Phase 2 | Pending |
 | NAV-08 | Phase 2 | Pending |
 | NAV-09 | Phase 2 | Pending |
