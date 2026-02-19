@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-18)
 ## Current Position
 
 Phase: 1 of 10 (Foundation and Design System)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: Executing
-Last activity: 2026-02-19 — Completed 01-01-PLAN.md (Project scaffold and design tokens)
+Last activity: 2026-02-19 — Completed 01-02-PLAN.md (Typography, motion provider, and UI primitives)
 
-Progress: [█░░░░░░░░░] 3%
+Progress: [██░░░░░░░░] 7%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 1
+- Total plans completed: 2
 - Average duration: 4 min
-- Total execution time: 0.07 hours
+- Total execution time: 0.12 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
-| 01-foundation | 1 | 4 min | 4 min |
+| 01-foundation | 2 | 7 min | 4 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (4 min)
-- Trend: -
+- Last 5 plans: 01-01 (4 min), 01-02 (3 min)
+- Trend: stable
 
 *Updated after each plan completion*
 
@@ -49,6 +49,9 @@ Recent decisions affecting current work:
 - [01-01]: Used src/ directory structure for cleaner separation (create-next-app default is root app/)
 - [01-01]: Kept Tailwind default --spacing 0.25rem (4px base) — generous whitespace by convention not base override
 - [01-01]: All design tokens exclusively in CSS @theme block (no v3 tailwind.config.js)
+- [01-02]: Import m from motion/react (not motion/react-m) for TypeScript compatibility with m.div pattern
+- [01-02]: Font CSS variables on html element (not body) so @theme var() references resolve correctly
+- [01-02]: LazyMotion strict mode to catch accidental full-bundle motion imports at runtime
 
 ### Pending Todos
 
@@ -63,5 +66,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 01-01-PLAN.md (Project scaffold and design tokens)
+Stopped at: Completed 01-02-PLAN.md (Typography, motion provider, and UI primitives)
 Resume file: None

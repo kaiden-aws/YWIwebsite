@@ -12,13 +12,13 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **FNDN-01**: Site uses Next.js 15+ with App Router, TypeScript, deployed to Vercel
 - [x] **FNDN-02**: Tailwind CSS v4 configured with CSS-based `@theme` block (not v3 syntax)
 - [x] **FNDN-03**: Color palette defined as CSS variables: forest green (#1a3a2a), cream (#f5f0e8), terracotta (#c4703f), charcoal (#2a2a2a), sage (#8fa98a)
-- [ ] **FNDN-04**: Editorial typography pairing loaded via `next/font`: DM Serif Display (headings) + Plus Jakarta Sans (body)
-- [ ] **FNDN-05**: Framer Motion configured with LazyMotion + domAnimation to minimize bundle size
-- [ ] **FNDN-06**: Reusable AnimatedSection wrapper for scroll-triggered fade-in/slide-up animations
-- [ ] **FNDN-07**: Image placeholder system — styled colored boxes with descriptive labels, easy to swap for real photos
-- [ ] **FNDN-08**: Grain/noise texture overlay available for hero sections
+- [x] **FNDN-04**: Editorial typography pairing loaded via `next/font`: DM Serif Display (headings) + Plus Jakarta Sans (body)
+- [x] **FNDN-05**: Framer Motion configured with LazyMotion + domAnimation to minimize bundle size
+- [x] **FNDN-06**: Reusable AnimatedSection wrapper for scroll-triggered fade-in/slide-up animations
+- [x] **FNDN-07**: Image placeholder system — styled colored boxes with descriptive labels, easy to swap for real photos
+- [x] **FNDN-08**: Grain/noise texture overlay available for hero sections
 - [x] **FNDN-09**: Spacing system uses generous whitespace with consistent 8px base scale
-- [ ] **FNDN-10**: All pages server-rendered by default; client components only where interactivity is needed
+- [x] **FNDN-10**: All pages server-rendered by default; client components only where interactivity is needed
 
 ### Navigation & Layout
 
@@ -169,13 +169,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | FNDN-01 | Phase 1 | Complete |
 | FNDN-02 | Phase 1 | Complete |
 | FNDN-03 | Phase 1 | Complete |
-| FNDN-04 | Phase 1 | Pending |
-| FNDN-05 | Phase 1 | Pending |
-| FNDN-06 | Phase 1 | Pending |
-| FNDN-07 | Phase 1 | Pending |
-| FNDN-08 | Phase 1 | Pending |
+| FNDN-04 | Phase 1 | Complete |
+| FNDN-05 | Phase 1 | Complete |
+| FNDN-06 | Phase 1 | Complete |
+| FNDN-07 | Phase 1 | Complete |
+| FNDN-08 | Phase 1 | Complete |
 | FNDN-09 | Phase 1 | Complete |
-| FNDN-10 | Phase 1 | Pending |
+| FNDN-10 | Phase 1 | Complete |
 | NAV-01 | Phase 2 | Pending |
 | NAV-02 | Phase 2 | Pending |
 | NAV-03 | Phase 2 | Pending |
