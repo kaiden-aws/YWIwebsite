@@ -64,8 +64,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SERV-05**: Municipal Projects card — community-level landscape projects, public spaces
 - [x] **SERV-06**: Irrigation & Landscape Lighting card — design/install/maintain systems, licensed backflow testing, programmable controllers, lighting design
 - [x] **SERV-07**: Snow Removal card — lot/drive clearing, salting, walkway shovelling, snow hauling, contract/per-visit/hourly pricing
-- [ ] **SERV-08**: Each service has image placeholder, detailed description, and "Get a Quote" CTA
-- [ ] **SERV-09**: Bottom CTA: "Not sure what you need? Let's talk." with contact link
+- [x] **SERV-08**: Each service has image placeholder, detailed description, and "Get a Quote" CTA
+- [x] **SERV-09**: Bottom CTA: "Not sure what you need? Let's talk." with contact link
 
 ### Products Page
 
@@ -209,8 +209,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SERV-05 | Phase 5 | Complete |
 | SERV-06 | Phase 5 | Complete |
 | SERV-07 | Phase 5 | Complete |
-| SERV-08 | Phase 5 | Pending |
-| SERV-09 | Phase 5 | Pending |
+| SERV-08 | Phase 5 | Complete |
+| SERV-09 | Phase 5 | Complete |
 | PROD-01 | Phase 6 | Pending |
 | PROD-02 | Phase 6 | Pending |
 | PROD-03 | Phase 6 | Pending |

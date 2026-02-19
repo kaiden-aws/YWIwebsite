@@ -16,7 +16,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 2: Layout Chrome** - Sticky nav with phone/CTA/hamburger drawer, multi-column footer with both addresses, back-to-top, and page transitions
 - [x] **Phase 3: Homepage** - Full homepage with hero, services preview, about teaser, products banner, project showcase, testimonial carousel, and CTA banner — establishes the visual language for all subsequent pages
 - [x] **Phase 4: About Page** - Complete About page with company story, values grid, team section, and differentiator section
-- [ ] **Phase 5: Services Page** - Complete Services page with six detailed service cards, CTAs, and bottom contact prompt
+- [x] **Phase 5: Services Page** - Complete Services page with six detailed service cards, CTAs, and bottom contact prompt
 - [ ] **Phase 6: Products Page** - Complete Products page with category grid, interactive Material Calculator with validation, and retail yard callout
 - [ ] **Phase 7: Gallery Page** - Filterable masonry gallery with lightbox, filter transitions, and keyboard navigation
 - [ ] **Phase 8: Contact Page** - Split-layout contact page with validated UI-only form, info panel, and map placeholder
@@ -105,8 +105,8 @@ Plans:
 **Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 05-01-PLAN.md — Services data expansion (6 services), homepage ServicesPreview backward compat, and ServicesHero component
-- [ ] 05-02-PLAN.md — ServiceCardGrid (all 6 cards), ServicesContact bottom CTA, and page assembly
+- [x] 05-01-PLAN.md — Services data expansion (6 services), homepage ServicesPreview backward compat, and ServicesHero component
+- [x] 05-02-PLAN.md — ServiceCardGrid (all 6 cards), ServicesContact bottom CTA, and page assembly
 
 ### Phase 6: Products Page
 **Goal**: A visitor interested in purchasing landscape materials can browse all product categories, calculate exactly how much material they need for their project, and easily request a delivery quote — reducing friction for the retail materials yard use case.
