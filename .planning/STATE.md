@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 4 complete — About Page (all 2 plans done). Ready for Phase 5.
+**Current focus:** Phase 5 in progress — Services Page (plan 1 of 2 done).
 
 ## Current Position
 
-Phase: 4 of 10 (About Page) - COMPLETE
-Plan: 2 of 2 in current phase
-Status: Phase Complete
-Last activity: 2026-02-19 — Completed 04-02-PLAN.md (Team section and differentiators, About page complete)
+Phase: 5 of 10 (Services Page)
+Plan: 1 of 2 in current phase
+Status: In Progress
+Last activity: 2026-02-19 — Completed 05-01-PLAN.md (Services data expansion, hero, homepage filter)
 
-Progress: [████████░░] 40%
+Progress: [████████░░] 45%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 10
+- Total plans completed: 11
 - Average duration: 2 min
-- Total execution time: 0.34 hours
+- Total execution time: 0.37 hours
 
 **By Phase:**
 
@@ -31,9 +31,10 @@ Progress: [████████░░] 40%
 | 02-layout-chrome | 2 | 4 min | 2 min |
 | 03-homepage | 3 | 6 min | 2 min |
 | 04-about-page | 2 | 3 min | 2 min |
+| 05-services-page | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 03-01 (2 min), 03-02 (2 min), 03-03 (2 min), 04-01 (2 min), 04-02 (1 min)
+- Last 5 plans: 03-02 (2 min), 03-03 (2 min), 04-01 (2 min), 04-02 (1 min), 05-01 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -74,6 +75,9 @@ Recent decisions affecting current work:
 - [04-01]: Data file includes all Plan 02 data (teamMembers, differentiators) upfront for single-source-of-truth
 - [04-02]: TeamSection uses cream default bg (no bg class) for alternation rhythm with white ValuesGrid above and forest WhyChooseUs below
 - [04-02]: WhyChooseUs uses CheckCircle from lucide-react with terracotta accent for contrast on forest background
+- [05-01]: Featured flag pattern on services.ts to filter homepage (3 featured) vs services page (all 6)
+- [05-01]: Renamed residential-landscaping to residential-maintenance per requirements
+- [05-01]: Services array order matches display order: Design & Build first, Snow Removal last
 
 ### Pending Todos
 
@@ -88,5 +92,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 04-02-PLAN.md (Team section, differentiators — Phase 4 complete)
+Stopped at: Completed 05-01-PLAN.md (Services data expansion, hero, homepage filter)
 Resume file: None

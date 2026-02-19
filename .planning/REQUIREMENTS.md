@@ -57,13 +57,13 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Services Page
 
-- [ ] **SERV-01**: Hero with "Our Services" headline
-- [ ] **SERV-02**: Landscape Design & Build card — Pavestone, Concrete, Retaining Walls, Pool Scapes, Garden Structures, design consultation to completion
-- [ ] **SERV-03**: Residential Maintenance card — lawn care, garden maintenance, seasonal cleanup
-- [ ] **SERV-04**: Commercial Landscaping card — property maintenance, curb appeal, professional grounds keeping
-- [ ] **SERV-05**: Municipal Projects card — community-level landscape projects, public spaces
-- [ ] **SERV-06**: Irrigation & Landscape Lighting card — design/install/maintain systems, licensed backflow testing, programmable controllers, lighting design
-- [ ] **SERV-07**: Snow Removal card — lot/drive clearing, salting, walkway shovelling, snow hauling, contract/per-visit/hourly pricing
+- [x] **SERV-01**: Hero with "Our Services" headline
+- [x] **SERV-02**: Landscape Design & Build card — Pavestone, Concrete, Retaining Walls, Pool Scapes, Garden Structures, design consultation to completion
+- [x] **SERV-03**: Residential Maintenance card — lawn care, garden maintenance, seasonal cleanup
+- [x] **SERV-04**: Commercial Landscaping card — property maintenance, curb appeal, professional grounds keeping
+- [x] **SERV-05**: Municipal Projects card — community-level landscape projects, public spaces
+- [x] **SERV-06**: Irrigation & Landscape Lighting card — design/install/maintain systems, licensed backflow testing, programmable controllers, lighting design
+- [x] **SERV-07**: Snow Removal card — lot/drive clearing, salting, walkway shovelling, snow hauling, contract/per-visit/hourly pricing
 - [ ] **SERV-08**: Each service has image placeholder, detailed description, and "Get a Quote" CTA
 - [ ] **SERV-09**: Bottom CTA: "Not sure what you need? Let's talk." with contact link
 
@@ -202,13 +202,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ABOUT-03 | Phase 4 | Complete |
 | ABOUT-04 | Phase 4 | Complete |
 | ABOUT-05 | Phase 4 | Complete |
-| SERV-01 | Phase 5 | Pending |
-| SERV-02 | Phase 5 | Pending |
-| SERV-03 | Phase 5 | Pending |
-| SERV-04 | Phase 5 | Pending |
-| SERV-05 | Phase 5 | Pending |
-| SERV-06 | Phase 5 | Pending |
-| SERV-07 | Phase 5 | Pending |
+| SERV-01 | Phase 5 | Complete |
+| SERV-02 | Phase 5 | Complete |
+| SERV-03 | Phase 5 | Complete |
+| SERV-04 | Phase 5 | Complete |
+| SERV-05 | Phase 5 | Complete |
+| SERV-06 | Phase 5 | Complete |
+| SERV-07 | Phase 5 | Complete |
 | SERV-08 | Phase 5 | Pending |
 | SERV-09 | Phase 5 | Pending |
 | PROD-01 | Phase 6 | Pending |
