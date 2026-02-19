@@ -1,8 +1,13 @@
+import ServicesHero from '@/components/sections/services/ServicesHero'
+import ServiceCardGrid from '@/components/sections/services/ServiceCardGrid'
+import ServicesContact from '@/components/sections/services/ServicesContact'
+
 export default function ServicesPage() {
   return (
-    <div className="min-h-screen py-24 px-6">
-      <h1 className="font-display text-4xl text-forest">Services</h1>
-      <p className="mt-4 text-charcoal/70">Coming soon.</p>
+    <div>
+      <ServicesHero />
+      <ServiceCardGrid />
+      <ServicesContact />
     </div>
   )
 }
