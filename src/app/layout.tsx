@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import { DM_Serif_Display, Plus_Jakarta_Sans } from 'next/font/google'
 import MotionProvider from '@/providers/MotionProvider'
+import Header from '@/components/layout/Header'
 import './globals.css'
 
 const dmSerifDisplay = DM_Serif_Display({
@@ -30,6 +31,7 @@ export default function RootLayout({
     <html lang="en" className={`${dmSerifDisplay.variable} ${plusJakartaSans.variable}`}>
       <body className="font-body text-charcoal bg-cream antialiased">
         <MotionProvider>
+          <Header />
           {children}
         </MotionProvider>
       </body>
