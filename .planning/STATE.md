@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 3 — Homepage
+**Current focus:** Phase 3 complete — ready for Phase 4 (About Page)
 
 ## Current Position
 
-Phase: 3 of 10 (Homepage)
-Plan: 2 of 3 in current phase
-Status: In Progress
-Last activity: 2026-02-19 — Completed 03-02-PLAN.md (Content sections: services, about, products)
+Phase: 3 of 10 (Homepage) — COMPLETE
+Plan: 3 of 3 in current phase
+Status: Phase Complete
+Last activity: 2026-02-19 — Completed 03-03-PLAN.md (Project showcase, testimonial carousel, CTA banner)
 
-Progress: [██████░░░░] 28%
+Progress: [███████░░░] 32%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 7
+- Total plans completed: 8
 - Average duration: 2 min
-- Total execution time: 0.26 hours
+- Total execution time: 0.29 hours
 
 **By Phase:**
 
@@ -29,10 +29,10 @@ Progress: [██████░░░░] 28%
 |-------|-------|-------|----------|
 | 01-foundation | 3 | 8 min | 3 min |
 | 02-layout-chrome | 2 | 4 min | 2 min |
-| 03-homepage | 2 | 4 min | 2 min |
+| 03-homepage | 3 | 6 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-03 (1 min), 02-01 (2 min), 02-02 (2 min), 03-01 (2 min), 03-02 (2 min)
+- Last 5 plans: 02-01 (2 min), 02-02 (2 min), 03-01 (2 min), 03-02 (2 min), 03-03 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -66,6 +66,8 @@ Recent decisions affecting current work:
 - [03-01]: page.tsx replaced demo content with hero and comment placeholders for Plans 02/03
 - [03-02]: All three section components are Server Components — AnimatedSection handles client-side animation as a child boundary
 - [03-02]: Products banner uses GrainOverlay for consistent dark-section texture treatment
+- [03-03]: TestimonialCarousel receives data via props from server page.tsx — keeps data server-side
+- [03-03]: Only HeroParallax and TestimonialCarousel use 'use client' in sections/ — minimal client JS
 
 ### Pending Todos
 
@@ -80,5 +82,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 03-02-PLAN.md (Content sections: services, about, products)
+Stopped at: Completed 03-03-PLAN.md (Project showcase, testimonial carousel, CTA banner) — Phase 3 complete
 Resume file: None

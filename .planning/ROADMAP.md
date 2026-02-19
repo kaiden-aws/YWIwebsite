@@ -13,8 +13,8 @@ A premium multi-page marketing website for Yard Weasels Inc., built as a statica
 Decimal phases appear between their surrounding integers in numeric order.
 
 - [x] **Phase 1: Foundation and Design System** - Next.js 15 project with Tailwind v4, color tokens, typography, Framer Motion, AnimatedSection, and image placeholder system
-- [ ] **Phase 2: Layout Chrome** - Sticky nav with phone/CTA/hamburger drawer, multi-column footer with both addresses, back-to-top, and page transitions
-- [ ] **Phase 3: Homepage** - Full homepage with hero, services preview, about teaser, products banner, project showcase, testimonial carousel, and CTA banner — establishes the visual language for all subsequent pages
+- [x] **Phase 2: Layout Chrome** - Sticky nav with phone/CTA/hamburger drawer, multi-column footer with both addresses, back-to-top, and page transitions
+- [x] **Phase 3: Homepage** - Full homepage with hero, services preview, about teaser, products banner, project showcase, testimonial carousel, and CTA banner — establishes the visual language for all subsequent pages
 - [ ] **Phase 4: About Page** - Complete About page with company story, values grid, team section, and differentiator section
 - [ ] **Phase 5: Services Page** - Complete Services page with six detailed service cards, CTAs, and bottom contact prompt
 - [ ] **Phase 6: Products Page** - Complete Products page with category grid, interactive Material Calculator with validation, and retail yard callout
@@ -55,9 +55,9 @@ Plans:
 **Plans**: 3 plans in 3 waves
 
 Plans:
-- [ ] 02-01-PLAN.md — Complete header: navigation data, sticky scroll blur, desktop/mobile nav with drawer, active link indicator, placeholder pages
-- [ ] 02-02-PLAN.md — Multi-column footer, back-to-top button, page transition wrapper, and root layout integration
-- [ ] 02-03-PLAN.md — Human verification checkpoint for all Phase 2 success criteria
+- [x] 02-01-PLAN.md — Complete header: navigation data, sticky scroll blur, desktop/mobile nav with drawer, active link indicator, placeholder pages
+- [x] 02-02-PLAN.md — Multi-column footer, back-to-top button, page transition wrapper, and root layout integration
+- [x] 02-03-PLAN.md — Human verification checkpoint for all Phase 2 success criteria
 
 ### Phase 3: Homepage
 **Goal**: A visitor landing on the homepage immediately perceives a premium, agency-quality presentation of Yard Weasels Inc. — the hero communicates who they are and where they operate, services and past work are visible without scrolling far, social proof is present, and there is always a clear CTA within reach.
@@ -72,9 +72,9 @@ Plans:
 **Plans**: 3 plans in 3 waves
 
 Plans:
-- [ ] 03-01-PLAN.md — Hero section with parallax, grain overlay, headline, CTAs, scroll indicator, and all static data files
-- [ ] 03-02-PLAN.md — Services preview cards, about teaser split layout, and products banner with retail yard address
-- [ ] 03-03-PLAN.md — Project showcase grid, testimonial carousel with auto-advance, and CTA banner
+- [x] 03-01-PLAN.md — Hero section with parallax, grain overlay, headline, CTAs, scroll indicator, and all static data files
+- [x] 03-02-PLAN.md — Services preview cards, about teaser split layout, and products banner with retail yard address
+- [x] 03-03-PLAN.md — Project showcase grid, testimonial carousel with auto-advance, and CTA banner
 
 ### Phase 4: About Page
 **Goal**: A potential client visiting the About page can learn the company's story, understand its values, see who is on the team, and read the specific differentiators that make Yard Weasels Inc. worth hiring — building trust before they ever contact the company.
@@ -197,8 +197,8 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
 | 1. Foundation and Design System | 3/3 | Complete | 2026-02-19 |
-| 2. Layout Chrome | 0/3 | Not started | - |
-| 3. Homepage | 0/3 | Not started | - |
+| 2. Layout Chrome | 3/3 | Complete | 2026-02-19 |
+| 3. Homepage | 3/3 | Complete | 2026-02-19 |
 | 4. About Page | 0/2 | Not started | - |
 | 5. Services Page | 0/2 | Not started | - |
 | 6. Products Page | 0/3 | Not started | - |
