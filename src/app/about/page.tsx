@@ -1,8 +1,14 @@
+import AboutHero from '@/components/sections/about/AboutHero'
+import CompanyStory from '@/components/sections/about/CompanyStory'
+import ValuesGrid from '@/components/sections/about/ValuesGrid'
+
 export default function AboutPage() {
   return (
-    <div className="min-h-screen py-24 px-6">
-      <h1 className="font-display text-4xl text-forest">About</h1>
-      <p className="mt-4 text-charcoal/70">Coming soon.</p>
+    <div>
+      <AboutHero />
+      <CompanyStory />
+      <ValuesGrid />
+      {/* TeamSection and WhyChooseUs — added in Plan 04-02 */}
     </div>
   )
 }
