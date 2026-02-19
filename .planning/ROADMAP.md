@@ -35,12 +35,12 @@ Decimal phases appear between their surrounding integers in numeric order.
   3. An AnimatedSection wrapping test content triggers a visible fade-in/slide-up when scrolled into view, while the page itself remains server-rendered
   4. Wrapping an element with the ImagePlaceholder component shows a styled colored box with a descriptive label instead of a broken image
   5. The app deploys to Vercel without errors, and page source confirms server-rendered HTML (not a client-side shell)
-**Plans**: TBD
+**Plans**: 3 plans in 3 waves
 
 Plans:
-- [ ] 01-01: Next.js 15+ project initialization with TypeScript and Vercel deployment
-- [ ] 01-02: Tailwind v4 CSS-based configuration with brand design tokens
-- [ ] 01-03: Typography, Framer Motion, AnimatedSection, and shared utilities
+- [ ] 01-01-PLAN.md — Next.js 16 project scaffolding, Tailwind v4 @theme with brand color tokens, cn() utility
+- [ ] 01-02-PLAN.md — Editorial typography (DM Serif Display + Plus Jakarta Sans), LazyMotion provider, AnimatedSection, ImagePlaceholder, GrainOverlay, and test page
+- [ ] 01-03-PLAN.md — Human verification checkpoint for all Phase 1 success criteria
 
 ### Phase 2: Layout Chrome
 **Goal**: Every page in the site has a fully functional sticky navigation header and multi-column footer, so that users can always see the company phone number, navigate between pages, and find both business addresses — regardless of which page they land on.
