@@ -1,5 +1,20 @@
 import type { Metadata } from 'next'
+import { DM_Serif_Display, Plus_Jakarta_Sans } from 'next/font/google'
+import MotionProvider from '@/providers/MotionProvider'
 import './globals.css'
+
+const dmSerifDisplay = DM_Serif_Display({
+  weight: '400',
+  subsets: ['latin'],
+  variable: '--font-dm-serif-display',
+  display: 'swap',
+})
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ['latin'],
+  variable: '--font-plus-jakarta-sans',
+  display: 'swap',
+})
 
 export const metadata: Metadata = {
   title: 'Yard Weasels Inc. | Professional Landscaping in Fergus, Ontario',
@@ -12,9 +27,11 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" className={`${dmSerifDisplay.variable} ${plusJakartaSans.variable}`}>
       <body className="font-body text-charcoal bg-cream antialiased">
-        {children}
+        <MotionProvider>
+          {children}
+        </MotionProvider>
       </body>
     </html>
   )
