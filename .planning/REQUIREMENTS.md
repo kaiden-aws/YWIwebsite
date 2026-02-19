@@ -28,10 +28,10 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **NAV-04**: "Get a Quote" CTA button in nav (terracotta color)
 - [x] **NAV-05**: Mobile hamburger menu with smooth slide-in drawer animation
 - [x] **NAV-06**: Active page indicator on current nav link
-- [ ] **NAV-07**: Multi-column footer: company info, quick links, services, contact info
-- [ ] **NAV-08**: Footer shows both addresses (office + retail yard), phone, hours (Mon-Fri 8-5), social icons, copyright 2026
-- [ ] **NAV-09**: Back-to-top button appears after scrolling, smooth scroll to top
-- [ ] **NAV-10**: Smooth page transitions between routes via AnimatePresence
+- [x] **NAV-07**: Multi-column footer: company info, quick links, services, contact info
+- [x] **NAV-08**: Footer shows both addresses (office + retail yard), phone, hours (Mon-Fri 8-5), social icons, copyright 2026
+- [x] **NAV-09**: Back-to-top button appears after scrolling, smooth scroll to top
+- [x] **NAV-10**: Smooth page transitions between routes via AnimatePresence
 
 ### Homepage
 
@@ -182,10 +182,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | NAV-04 | Phase 2 | Complete |
 | NAV-05 | Phase 2 | Complete |
 | NAV-06 | Phase 2 | Complete |
-| NAV-07 | Phase 2 | Pending |
-| NAV-08 | Phase 2 | Pending |
-| NAV-09 | Phase 2 | Pending |
-| NAV-10 | Phase 2 | Pending |
+| NAV-07 | Phase 2 | Complete |
+| NAV-08 | Phase 2 | Complete |
+| NAV-09 | Phase 2 | Complete |
+| NAV-10 | Phase 2 | Complete |
 | HOME-01 | Phase 3 | Pending |
 | HOME-02 | Phase 3 | Pending |
 | HOME-03 | Phase 3 | Pending |

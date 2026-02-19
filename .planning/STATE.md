@@ -10,28 +10,28 @@ See: .planning/PROJECT.md (updated 2026-02-18)
 ## Current Position
 
 Phase: 2 of 10 (Layout Chrome)
-Plan: 2 of 3 in current phase
+Plan: 3 of 3 in current phase
 Status: In Progress
-Last activity: 2026-02-19 — Completed 02-01-PLAN.md (Navigation header with scroll blur and mobile drawer)
+Last activity: 2026-02-19 — Completed 02-02-PLAN.md (Footer, BackToTop, page transitions, root layout integration)
 
-Progress: [████░░░░░░] 16%
+Progress: [█████░░░░░] 20%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 4
-- Average duration: 3 min
-- Total execution time: 0.17 hours
+- Total plans completed: 5
+- Average duration: 2 min
+- Total execution time: 0.20 hours
 
 **By Phase:**
 
 | Phase | Plans | Total | Avg/Plan |
 |-------|-------|-------|----------|
 | 01-foundation | 3 | 8 min | 3 min |
-| 02-layout-chrome | 1 | 2 min | 2 min |
+| 02-layout-chrome | 2 | 4 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-01 (4 min), 01-02 (3 min), 01-03 (1 min), 02-01 (2 min)
+- Last 5 plans: 01-01 (4 min), 01-02 (3 min), 01-03 (1 min), 02-01 (2 min), 02-02 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -57,6 +57,9 @@ Recent decisions affecting current work:
 - [01-03]: Phase 1 complete — approved to proceed to Phase 2 (Layout Chrome)
 - [02-01]: Header integrated into root layout.tsx so it appears on all pages automatically
 - [02-01]: Used office address 8146 Sideroad 15 from PROJECT.md (not research file alternate)
+- [02-02]: Footer is a pure Server Component with inline SVGs instead of lucide-react (zero client JS)
+- [02-02]: FrozenRouter pattern uses Next.js internal LayoutRouterContext for exit animations
+- [02-02]: Root layout owns the single `<main>` element — all page components use `<div>` to avoid nesting
 
 ### Pending Todos
 
@@ -71,5 +74,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 02-01-PLAN.md (Navigation header with scroll blur, mobile drawer, placeholder pages)
+Stopped at: Completed 02-02-PLAN.md (Footer, BackToTop, page transitions, root layout integration)
 Resume file: None
