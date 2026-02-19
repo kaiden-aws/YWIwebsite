@@ -52,8 +52,8 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **ABOUT-01**: Hero with "Our Story" headline and background image placeholder
 - [x] **ABOUT-02**: Company story section — placeholder text about Fergus roots, community, and serving residential/commercial/municipal clients
 - [x] **ABOUT-03**: Values grid (Quality, Integrity, Community, Craftsmanship) with decorative icons
-- [ ] **ABOUT-04**: Team section with placeholder cards (photo, name, role)
-- [ ] **ABOUT-05**: "Why Choose Yard Weasels" differentiator section: knowledgeable crew, friendly team, top quality products, design-to-build, licensed backflow preventor testing
+- [x] **ABOUT-04**: Team section with placeholder cards (photo, name, role)
+- [x] **ABOUT-05**: "Why Choose Yard Weasels" differentiator section: knowledgeable crew, friendly team, top quality products, design-to-build, licensed backflow preventor testing
 
 ### Services Page
 
@@ -200,8 +200,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | ABOUT-01 | Phase 4 | Complete |
 | ABOUT-02 | Phase 4 | Complete |
 | ABOUT-03 | Phase 4 | Complete |
-| ABOUT-04 | Phase 4 | Pending |
-| ABOUT-05 | Phase 4 | Pending |
+| ABOUT-04 | Phase 4 | Complete |
+| ABOUT-05 | Phase 4 | Complete |
 | SERV-01 | Phase 5 | Pending |
 | SERV-02 | Phase 5 | Pending |
 | SERV-03 | Phase 5 | Pending |

@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 4 in progress — About Page (Plan 01 of 02 complete)
+**Current focus:** Phase 4 complete — About Page (all 2 plans done). Ready for Phase 5.
 
 ## Current Position
 
-Phase: 4 of 10 (About Page)
-Plan: 1 of 2 in current phase
-Status: In Progress
-Last activity: 2026-02-19 — Completed 04-01-PLAN.md (About page hero, company story, values grid)
+Phase: 4 of 10 (About Page) - COMPLETE
+Plan: 2 of 2 in current phase
+Status: Phase Complete
+Last activity: 2026-02-19 — Completed 04-02-PLAN.md (Team section and differentiators, About page complete)
 
-Progress: [████████░░] 36%
+Progress: [████████░░] 40%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 9
+- Total plans completed: 10
 - Average duration: 2 min
-- Total execution time: 0.32 hours
+- Total execution time: 0.34 hours
 
 **By Phase:**
 
@@ -30,10 +30,10 @@ Progress: [████████░░] 36%
 | 01-foundation | 3 | 8 min | 3 min |
 | 02-layout-chrome | 2 | 4 min | 2 min |
 | 03-homepage | 3 | 6 min | 2 min |
-| 04-about-page | 1 | 2 min | 2 min |
+| 04-about-page | 2 | 3 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 02-02 (2 min), 03-01 (2 min), 03-02 (2 min), 03-03 (2 min), 04-01 (2 min)
+- Last 5 plans: 03-01 (2 min), 03-02 (2 min), 03-03 (2 min), 04-01 (2 min), 04-02 (1 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -72,6 +72,8 @@ Recent decisions affecting current work:
 - [04-01]: Interior page hero uses simple banner (py-32 md:py-40) not parallax — preserves homepage uniqueness
 - [04-01]: All about section components are Server Components — zero new 'use client' boundaries
 - [04-01]: Data file includes all Plan 02 data (teamMembers, differentiators) upfront for single-source-of-truth
+- [04-02]: TeamSection uses cream default bg (no bg class) for alternation rhythm with white ValuesGrid above and forest WhyChooseUs below
+- [04-02]: WhyChooseUs uses CheckCircle from lucide-react with terracotta accent for contrast on forest background
 
 ### Pending Todos
 
@@ -86,5 +88,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 04-01-PLAN.md (About page hero, company story, values grid)
+Stopped at: Completed 04-02-PLAN.md (Team section, differentiators — Phase 4 complete)
 Resume file: None
