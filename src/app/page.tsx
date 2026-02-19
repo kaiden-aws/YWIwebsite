@@ -2,6 +2,10 @@ import HeroSection from '@/components/sections/HeroSection'
 import ServicesPreview from '@/components/sections/ServicesPreview'
 import AboutTeaser from '@/components/sections/AboutTeaser'
 import ProductsBanner from '@/components/sections/ProductsBanner'
+import ProjectShowcase from '@/components/sections/ProjectShowcase'
+import TestimonialCarousel from '@/components/sections/TestimonialCarousel'
+import CTABanner from '@/components/sections/CTABanner'
+import { testimonials } from '@/lib/data/testimonials'
 
 export default function Home() {
   return (
@@ -10,12 +14,9 @@ export default function Home() {
       <ServicesPreview />
       <AboutTeaser />
       <ProductsBanner />
-
-      {/* Project Showcase — Plan 03-03 */}
-
-      {/* Testimonials — Plan 03-03 */}
-
-      {/* CTA Banner — Plan 03-03 */}
+      <ProjectShowcase />
+      <TestimonialCarousel testimonials={testimonials} />
+      <CTABanner />
     </div>
   )
 }
