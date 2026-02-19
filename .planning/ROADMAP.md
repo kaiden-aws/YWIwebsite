@@ -52,12 +52,12 @@ Plans:
   3. The current page's nav link has a visible active indicator distinguishing it from other links
   4. The footer shows both business addresses (office and retail yard), phone number, business hours, social icon links, and copyright 2026
   5. After scrolling down, a back-to-top button appears and clicking it smoothly scrolls to the top; navigating between pages triggers the AnimatePresence page transition
-**Plans**: TBD
+**Plans**: 3 plans in 3 waves
 
 Plans:
-- [ ] 02-01: Sticky nav with scroll-blur, logo, phone number, CTA, and active link indicator
-- [ ] 02-02: Mobile hamburger drawer with AnimatePresence slide animation
-- [ ] 02-03: Multi-column footer, back-to-top button, and page transition wrapper
+- [ ] 02-01-PLAN.md — Complete header: navigation data, sticky scroll blur, desktop/mobile nav with drawer, active link indicator, placeholder pages
+- [ ] 02-02-PLAN.md — Multi-column footer, back-to-top button, page transition wrapper, and root layout integration
+- [ ] 02-03-PLAN.md — Human verification checkpoint for all Phase 2 success criteria
 
 ### Phase 3: Homepage
 **Goal**: A visitor landing on the homepage immediately perceives a premium, agency-quality presentation of Yard Weasels Inc. — the hero communicates who they are and where they operate, services and past work are visible without scrolling far, social proof is present, and there is always a clear CTA within reach.
