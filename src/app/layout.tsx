@@ -2,6 +2,9 @@ import type { Metadata } from 'next'
 import { DM_Serif_Display, Plus_Jakarta_Sans } from 'next/font/google'
 import MotionProvider from '@/providers/MotionProvider'
 import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import BackToTop from '@/components/layout/BackToTop'
+import PageTransitionWrapper from '@/components/layout/PageTransitionWrapper'
 import './globals.css'
 
 const dmSerifDisplay = DM_Serif_Display({
@@ -32,7 +35,11 @@ export default function RootLayout({
       <body className="font-body text-charcoal bg-cream antialiased">
         <MotionProvider>
           <Header />
-          {children}
+          <PageTransitionWrapper>
+            <main>{children}</main>
+          </PageTransitionWrapper>
+          <Footer />
+          <BackToTop />
         </MotionProvider>
       </body>
     </html>

@@ -4,7 +4,7 @@ import GrainOverlay from '@/components/ui/GrainOverlay'
 
 export default function Home() {
   return (
-    <main className="min-h-screen">
+    <div className="min-h-screen">
       {/* Hero section with grain overlay — tests FNDN-03 (colors), FNDN-04 (typography), FNDN-08 (grain) */}
       <section className="relative flex min-h-[60vh] items-center justify-center bg-forest overflow-hidden">
         <GrainOverlay />
@@ -156,6 +156,6 @@ export default function Home() {
           </div>
         </div>
       </AnimatedSection>
-    </main>
+    </div>
   )
 }
