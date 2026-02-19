@@ -86,11 +86,11 @@ Plans:
   3. A values grid displays four values (Quality, Integrity, Community, Craftsmanship) each with a decorative icon
   4. A team section shows placeholder cards with photo placeholder, name, and role for each team member
   5. A "Why Choose Yard Weasels" section prominently lists the five differentiators including the licensed backflow preventor testing credential
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 04-01: About page hero, company story section, and values grid
-- [ ] 04-02: Team section and "Why Choose YWI" differentiators
+- [ ] 04-01-PLAN.md — About page data layer, hero section, company story, and values grid
+- [ ] 04-02-PLAN.md — Team section and "Why Choose Yard Weasels" differentiators
 
 ### Phase 5: Services Page
 **Goal**: A visitor who wants to understand what Yard Weasels Inc. offers can browse all six service areas with enough detail to self-qualify — knowing what the service covers, seeing a relevant image, and finding a clear way to request a quote.
