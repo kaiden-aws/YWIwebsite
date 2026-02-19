@@ -102,11 +102,11 @@ Plans:
   3. Each service card shows an image placeholder, a detailed description specific to that service, and a "Get a Quote" CTA button
   4. The Snow Removal card specifically mentions contract, per-visit, and hourly pricing options; the Irrigation card mentions licensed backflow testing
   5. A bottom section prompts uncertain visitors to make contact with "Not sure what you need? Let's talk." and a link to the contact page
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 05-01: Services page hero and the first three service cards (Design & Build, Residential, Commercial)
-- [ ] 05-02: Last three service cards (Municipal, Irrigation, Snow Removal) and bottom CTA
+- [ ] 05-01-PLAN.md — Services data expansion (6 services), homepage ServicesPreview backward compat, and ServicesHero component
+- [ ] 05-02-PLAN.md — ServiceCardGrid (all 6 cards), ServicesContact bottom CTA, and page assembly
 
 ### Phase 6: Products Page
 **Goal**: A visitor interested in purchasing landscape materials can browse all product categories, calculate exactly how much material they need for their project, and easily request a delivery quote — reducing friction for the retail materials yard use case.
@@ -159,7 +159,7 @@ Plans:
 
 ### Phase 9: SEO and Performance
 **Goal**: Every page of the site has accurate, location-specific metadata and Open Graph tags that make it discoverable in local search, a sitemap and robots.txt are in place for crawler access, hero images load at maximum priority, and the site achieves a Lighthouse performance score of 90 or higher.
-**Depends on**: Phases 3–8 (all pages must exist)
+**Depends on**: Phases 3-8 (all pages must exist)
 **Requirements**: SEO-01, SEO-02, SEO-03, SEO-04, SEO-05, SEO-06, SEO-07, SEO-08
 **Success Criteria** (what must be TRUE):
   1. Viewing page source for each of the six pages shows a unique `<title>` and `<meta name="description">` containing the page topic, "Fergus, Ontario", and a relevant keyword
@@ -175,7 +175,7 @@ Plans:
 
 ### Phase 10: Accessibility, Responsiveness, and Launch Polish
 **Goal**: Every user, regardless of their device, connection, or ability, can use the site without barriers — interactive elements are keyboard-navigable with visible focus states, icon-only buttons are labelled for screen readers, color contrast meets WCAG AA, the gallery lightbox traps focus correctly, users who prefer reduced motion see no animations, and every layout is genuinely polished on phone screens.
-**Depends on**: Phases 3–9 (all pages and SEO must be complete)
+**Depends on**: Phases 3-9 (all pages and SEO must be complete)
 **Requirements**: A11Y-01, A11Y-02, A11Y-03, A11Y-04, A11Y-05, RESP-01, RESP-02, RESP-03, RESP-04
 **Success Criteria** (what must be TRUE):
   1. Pressing Tab through any page shows a clearly visible focus ring on every interactive element (buttons, links, inputs, carousel controls, filter tabs)
@@ -192,7 +192,7 @@ Plans:
 ## Progress
 
 **Execution Order:**
-Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 → 9 → 10
+Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
