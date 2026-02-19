@@ -35,10 +35,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Homepage
 
-- [ ] **HOME-01**: Full-viewport hero with parallax background image placeholder and grain texture overlay
-- [ ] **HOME-02**: Hero headline "Crafting Outdoor Spaces That Inspire" in bold serif, subtext about Fergus Ontario
-- [ ] **HOME-03**: Two hero CTAs: "Get a Free Quote" (terracotta) and "View Our Work" (outlined)
-- [ ] **HOME-04**: Subtle scroll-down indicator animation at bottom of hero
+- [x] **HOME-01**: Full-viewport hero with parallax background image placeholder and grain texture overlay
+- [x] **HOME-02**: Hero headline "Crafting Outdoor Spaces That Inspire" in bold serif, subtext about Fergus Ontario
+- [x] **HOME-03**: Two hero CTAs: "Get a Free Quote" (terracotta) and "View Our Work" (outlined)
+- [x] **HOME-04**: Subtle scroll-down indicator animation at bottom of hero
 - [ ] **HOME-05**: Services preview — 3-column card layout (Residential, Commercial, Municipal) with image placeholders, hover lift effect
 - [ ] **HOME-06**: About teaser — split layout with image placeholder left, "Rooted in Fergus" headline and intro text right
 - [ ] **HOME-07**: Featured products banner — horizontal scrolling or grid of 7 product categories with retail yard address
@@ -186,10 +186,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | NAV-08 | Phase 2 | Complete |
 | NAV-09 | Phase 2 | Complete |
 | NAV-10 | Phase 2 | Complete |
-| HOME-01 | Phase 3 | Pending |
-| HOME-02 | Phase 3 | Pending |
-| HOME-03 | Phase 3 | Pending |
-| HOME-04 | Phase 3 | Pending |
+| HOME-01 | Phase 3 | Complete |
+| HOME-02 | Phase 3 | Complete |
+| HOME-03 | Phase 3 | Complete |
+| HOME-04 | Phase 3 | Complete |
 | HOME-05 | Phase 3 | Pending |
 | HOME-06 | Phase 3 | Pending |
 | HOME-07 | Phase 3 | Pending |
