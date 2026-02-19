@@ -39,13 +39,13 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **HOME-02**: Hero headline "Crafting Outdoor Spaces That Inspire" in bold serif, subtext about Fergus Ontario
 - [x] **HOME-03**: Two hero CTAs: "Get a Free Quote" (terracotta) and "View Our Work" (outlined)
 - [x] **HOME-04**: Subtle scroll-down indicator animation at bottom of hero
-- [ ] **HOME-05**: Services preview — 3-column card layout (Residential, Commercial, Municipal) with image placeholders, hover lift effect
-- [ ] **HOME-06**: About teaser — split layout with image placeholder left, "Rooted in Fergus" headline and intro text right
-- [ ] **HOME-07**: Featured products banner — horizontal scrolling or grid of 7 product categories with retail yard address
+- [x] **HOME-05**: Services preview — 3-column card layout (Residential, Commercial, Municipal) with image placeholders, hover lift effect
+- [x] **HOME-06**: About teaser — split layout with image placeholder left, "Rooted in Fergus" headline and intro text right
+- [x] **HOME-07**: Featured products banner — horizontal scrolling or grid of 7 product categories with retail yard address
 - [ ] **HOME-08**: Project showcase — masonry/asymmetric grid of 4-6 image placeholders with hover overlay showing project name
 - [ ] **HOME-09**: Testimonials — carousel with 3 placeholder testimonials, quotation mark decoration, star ratings, auto-advance
 - [ ] **HOME-10**: CTA banner — full-width with background texture, "Ready to Transform Your Outdoor Space?", quote button + phone number
-- [ ] **HOME-11**: All homepage sections have staggered scroll-triggered fade-in/slide-up animations
+- [x] **HOME-11**: All homepage sections have staggered scroll-triggered fade-in/slide-up animations
 
 ### About Page
 
@@ -190,13 +190,13 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HOME-02 | Phase 3 | Complete |
 | HOME-03 | Phase 3 | Complete |
 | HOME-04 | Phase 3 | Complete |
-| HOME-05 | Phase 3 | Pending |
-| HOME-06 | Phase 3 | Pending |
-| HOME-07 | Phase 3 | Pending |
+| HOME-05 | Phase 3 | Complete |
+| HOME-06 | Phase 3 | Complete |
+| HOME-07 | Phase 3 | Complete |
 | HOME-08 | Phase 3 | Pending |
 | HOME-09 | Phase 3 | Pending |
 | HOME-10 | Phase 3 | Pending |
-| HOME-11 | Phase 3 | Pending |
+| HOME-11 | Phase 3 | Complete |
 | ABOUT-01 | Phase 4 | Pending |
 | ABOUT-02 | Phase 4 | Pending |
 | ABOUT-03 | Phase 4 | Pending |

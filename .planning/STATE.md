@@ -10,18 +10,18 @@ See: .planning/PROJECT.md (updated 2026-02-18)
 ## Current Position
 
 Phase: 3 of 10 (Homepage)
-Plan: 1 of 3 in current phase
+Plan: 2 of 3 in current phase
 Status: In Progress
-Last activity: 2026-02-19 — Completed 03-01-PLAN.md (Hero section with parallax, data files)
+Last activity: 2026-02-19 — Completed 03-02-PLAN.md (Content sections: services, about, products)
 
-Progress: [██████░░░░] 25%
+Progress: [██████░░░░] 28%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 6
+- Total plans completed: 7
 - Average duration: 2 min
-- Total execution time: 0.23 hours
+- Total execution time: 0.26 hours
 
 **By Phase:**
 
@@ -29,10 +29,10 @@ Progress: [██████░░░░] 25%
 |-------|-------|-------|----------|
 | 01-foundation | 3 | 8 min | 3 min |
 | 02-layout-chrome | 2 | 4 min | 2 min |
-| 03-homepage | 1 | 2 min | 2 min |
+| 03-homepage | 2 | 4 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 01-02 (3 min), 01-03 (1 min), 02-01 (2 min), 02-02 (2 min), 03-01 (2 min)
+- Last 5 plans: 01-03 (1 min), 02-01 (2 min), 02-02 (2 min), 03-01 (2 min), 03-02 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -64,6 +64,8 @@ Recent decisions affecting current work:
 - [03-01]: HeroParallax uses useReducedMotion to disable parallax for accessibility
 - [03-01]: ScrollIndicator is a Server Component using CSS animate-bounce (no client JS)
 - [03-01]: page.tsx replaced demo content with hero and comment placeholders for Plans 02/03
+- [03-02]: All three section components are Server Components — AnimatedSection handles client-side animation as a child boundary
+- [03-02]: Products banner uses GrainOverlay for consistent dark-section texture treatment
 
 ### Pending Todos
 
@@ -78,5 +80,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 03-01-PLAN.md (Hero section with parallax, data files)
+Stopped at: Completed 03-02-PLAN.md (Content sections: services, about, products)
 Resume file: None
