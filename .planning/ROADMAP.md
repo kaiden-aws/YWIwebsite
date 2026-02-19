@@ -12,7 +12,7 @@ A premium multi-page marketing website for Yard Weasels Inc., built as a statica
 
 Decimal phases appear between their surrounding integers in numeric order.
 
-- [ ] **Phase 1: Foundation and Design System** - Next.js 15 project with Tailwind v4, color tokens, typography, Framer Motion, AnimatedSection, and image placeholder system
+- [x] **Phase 1: Foundation and Design System** - Next.js 15 project with Tailwind v4, color tokens, typography, Framer Motion, AnimatedSection, and image placeholder system
 - [ ] **Phase 2: Layout Chrome** - Sticky nav with phone/CTA/hamburger drawer, multi-column footer with both addresses, back-to-top, and page transitions
 - [ ] **Phase 3: Homepage** - Full homepage with hero, services preview, about teaser, products banner, project showcase, testimonial carousel, and CTA banner — establishes the visual language for all subsequent pages
 - [ ] **Phase 4: About Page** - Complete About page with company story, values grid, team section, and differentiator section
@@ -38,9 +38,9 @@ Decimal phases appear between their surrounding integers in numeric order.
 **Plans**: 3 plans in 3 waves
 
 Plans:
-- [ ] 01-01-PLAN.md — Next.js 16 project scaffolding, Tailwind v4 @theme with brand color tokens, cn() utility
-- [ ] 01-02-PLAN.md — Editorial typography (DM Serif Display + Plus Jakarta Sans), LazyMotion provider, AnimatedSection, ImagePlaceholder, GrainOverlay, and test page
-- [ ] 01-03-PLAN.md — Human verification checkpoint for all Phase 1 success criteria
+- [x] 01-01-PLAN.md — Next.js 16 project scaffolding, Tailwind v4 @theme with brand color tokens, cn() utility
+- [x] 01-02-PLAN.md — Editorial typography (DM Serif Display + Plus Jakarta Sans), LazyMotion provider, AnimatedSection, ImagePlaceholder, GrainOverlay, and test page
+- [x] 01-03-PLAN.md — Human verification checkpoint for all Phase 1 success criteria
 
 ### Phase 2: Layout Chrome
 **Goal**: Every page in the site has a fully functional sticky navigation header and multi-column footer, so that users can always see the company phone number, navigate between pages, and find both business addresses — regardless of which page they land on.
@@ -196,7 +196,7 @@ Phases execute in numeric order: 1 → 2 → 3 → 4 → 5 → 6 → 7 → 8 →
 
 | Phase | Plans Complete | Status | Completed |
 |-------|----------------|--------|-----------|
-| 1. Foundation and Design System | 0/3 | Not started | - |
+| 1. Foundation and Design System | 3/3 | Complete | 2026-02-19 |
 | 2. Layout Chrome | 0/3 | Not started | - |
 | 3. Homepage | 0/3 | Not started | - |
 | 4. About Page | 0/2 | Not started | - |
