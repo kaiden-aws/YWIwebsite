@@ -17,7 +17,7 @@ export default function ServicesPreview() {
           </p>
 
           <div className="grid md:grid-cols-3 gap-8">
-            {services.map((service, index) => (
+            {services.filter(s => s.featured).map((service, index) => (
               <AnimatedSection key={service.id} delay={index * 0.15}>
                 <Link
                   href={service.href}
