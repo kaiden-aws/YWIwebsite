@@ -1,6 +1,8 @@
 import AboutHero from '@/components/sections/about/AboutHero'
 import CompanyStory from '@/components/sections/about/CompanyStory'
 import ValuesGrid from '@/components/sections/about/ValuesGrid'
+import TeamSection from '@/components/sections/about/TeamSection'
+import WhyChooseUs from '@/components/sections/about/WhyChooseUs'
 
 export default function AboutPage() {
   return (
@@ -8,7 +10,8 @@ export default function AboutPage() {
       <AboutHero />
       <CompanyStory />
       <ValuesGrid />
-      {/* TeamSection and WhyChooseUs — added in Plan 04-02 */}
+      <TeamSection />
+      <WhyChooseUs />
     </div>
   )
 }
