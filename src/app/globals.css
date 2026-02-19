@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+@theme {
+  /* Brand Colors */
+  --color-forest: #1a3a2a;
+  --color-forest-light: #2d5a42;
+  --color-cream: #f5f0e8;
+  --color-terracotta: #c4703f;
+  --color-terracotta-light: #d4884f;
+  --color-charcoal: #2a2a2a;
+  --color-sage: #8fa98a;
+
+  /* Typography — CSS variables injected by next/font in layout.tsx */
+  --font-display: var(--font-dm-serif-display), Georgia, serif;
+  --font-body: var(--font-plus-jakarta-sans), system-ui, sans-serif;
+}
+
+/* Grain texture overlay — used on hero sections via className="grain-overlay" */
+.grain-overlay {
+  position: relative;
+}
+
+.grain-overlay::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 256 256'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.65' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  pointer-events: none;
+  z-index: 1;
+}
