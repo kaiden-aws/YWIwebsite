@@ -21,7 +21,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 7: Gallery Page** - Filterable masonry gallery with lightbox, filter transitions, and keyboard navigation (completed 2026-02-20)
 - [x] **Phase 7.1: Integration Fixes** *(INSERTED — gap closure)* - Fix 3 integration issues from v1.0 audit: GalleryLightbox 'use client', Footer services import, ProductsBanner CTA link
 - [ ] **Phase 8: Contact Page** - Split-layout contact page with validated UI-only form, info panel, and map placeholder
-- [ ] **Phase 9: SEO and Performance** - Per-page metadata, Open Graph, sitemap, robots.txt, hero image priority, and Lighthouse 90+ target
+- [x] **Phase 9: SEO and Performance** - Per-page metadata, Open Graph, sitemap, robots.txt, hero image priority, and Lighthouse 90+ target
 - [ ] **Phase 10: Accessibility, Responsiveness, and Launch Polish** - WCAG AA audit, focus states, ARIA labels, reduced motion, mobile polish across all breakpoints
 
 ## Phase Details
@@ -185,8 +185,8 @@ Plans:
 **Plans**: 2 plans in 1 wave
 
 Plans:
-- [ ] 09-01-PLAN.md — Shared metadata constants, root layout metadata upgrade, per-page metadata exports with Open Graph tags for all six pages
-- [ ] 09-02-PLAN.md — Sitemap.ts, robots.ts, hero image priority comments, ImagePlaceholder migration guide, and Lighthouse performance verification
+- [x] 09-01-PLAN.md — Shared metadata constants, root layout metadata upgrade, per-page metadata exports with Open Graph tags for all six pages
+- [x] 09-02-PLAN.md — Sitemap.ts, robots.ts, hero image priority comments, ImagePlaceholder migration guide, and Lighthouse performance verification
 
 ### Phase 10: Accessibility, Responsiveness, and Launch Polish
 **Goal**: Every user, regardless of their device, connection, or ability, can use the site without barriers — interactive elements are keyboard-navigable with visible focus states, icon-only buttons are labelled for screen readers, color contrast meets WCAG AA, the gallery lightbox traps focus correctly, users who prefer reduced motion see no animations, and every layout is genuinely polished on phone screens.
@@ -220,5 +220,5 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 7. Gallery Page | 0/2 | Complete    | 2026-02-20 |
 | 7.1 Integration Fixes | 1/1 | Complete | 2026-02-20 |
 | 8. Contact Page | 0/2 | Not started | - |
-| 9. SEO and Performance | 0/2 | Not started | - |
+| 9. SEO and Performance | 2/2 | Complete | 2026-02-20 |
 | 10. Accessibility, Responsiveness, and Launch Polish | 0/2 | Not started | - |

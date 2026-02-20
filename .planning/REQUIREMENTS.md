@@ -103,11 +103,11 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **SEO-01**: Per-page metadata exports with title, description, and Open Graph tags
 - [x] **SEO-02**: Location-specific keywords in metadata ("Fergus, Ontario", "Centre Wellington")
 - [x] **SEO-03**: Semantic HTML with proper heading hierarchy (one h1 per page)
-- [ ] **SEO-04**: Sitemap generation via `app/sitemap.ts`
-- [ ] **SEO-05**: Robots.txt via `app/robots.ts`
-- [ ] **SEO-06**: Hero images marked with `priority={true}` for LCP optimization
-- [ ] **SEO-07**: All images have alt text placeholders and `sizes` prop for responsive loading
-- [ ] **SEO-08**: Core Web Vitals optimized — Lighthouse performance score target 90+
+- [x] **SEO-04**: Sitemap generation via `app/sitemap.ts`
+- [x] **SEO-05**: Robots.txt via `app/robots.ts`
+- [x] **SEO-06**: Hero images marked with `priority={true}` for LCP optimization
+- [x] **SEO-07**: All images have alt text placeholders and `sizes` prop for responsive loading
+- [x] **SEO-08**: Core Web Vitals optimized — Lighthouse performance score target 90+
 
 ### Accessibility
 
@@ -236,11 +236,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-01 | Phase 9 | Complete |
 | SEO-02 | Phase 9 | Complete |
 | SEO-03 | Phase 9 | Complete |
-| SEO-04 | Phase 9 | Pending |
-| SEO-05 | Phase 9 | Pending |
-| SEO-06 | Phase 9 | Pending |
-| SEO-07 | Phase 9 | Pending |
-| SEO-08 | Phase 9 | Pending |
+| SEO-04 | Phase 9 | Complete |
+| SEO-05 | Phase 9 | Complete |
+| SEO-06 | Phase 9 | Complete |
+| SEO-07 | Phase 9 | Complete |
+| SEO-08 | Phase 9 | Complete |
 | A11Y-01 | Phase 10 | Pending |
 | A11Y-02 | Phase 10 | Pending |
 | A11Y-03 | Phase 10 | Pending |
