@@ -3,6 +3,7 @@
 import { useState } from 'react'
 import { CheckCircle } from 'lucide-react'
 import { cn } from '@/lib/utils/cn'
+import { services } from '@/lib/data/services'
 
 interface ContactFormState {
   name: string
@@ -220,11 +221,11 @@ export default function ContactForm() {
             <option value="" disabled>
               Select a service...
             </option>
-            <option value="residential">Residential</option>
-            <option value="commercial">Commercial</option>
-            <option value="municipal">Municipal</option>
-            <option value="snow-removal">Snow Removal</option>
-            <option value="irrigation">Irrigation</option>
+            {services.map((service) => (
+              <option key={service.id} value={service.id}>
+                {service.title}
+              </option>
+            ))}
             <option value="products-materials">Products / Materials</option>
             <option value="other">Other</option>
           </select>
