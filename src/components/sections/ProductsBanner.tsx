@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { products } from '@/lib/data/products'
 import { companyInfo } from '@/lib/data/navigation'
 import AnimatedSection from '@/components/ui/AnimatedSection'
@@ -41,6 +42,12 @@ export default function ProductsBanner() {
               {companyInfo.retailYardAddress.street},{' '}
               {companyInfo.retailYardAddress.city}
             </p>
+            <Link
+              href="/products"
+              className="inline-block mt-6 px-8 py-3 bg-terracotta text-cream rounded-lg font-medium hover:bg-terracotta/90 transition-colors"
+            >
+              View All Products
+            </Link>
           </div>
         </div>
       </AnimatedSection>
