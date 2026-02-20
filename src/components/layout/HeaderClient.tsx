@@ -130,7 +130,7 @@ export default function HeaderClient() {
               {/* CTA button -- visible at all breakpoints */}
               <Link
                 href="/contact"
-                className="bg-terracotta hover:bg-terracotta-light text-cream text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
+                className="bg-terracotta hover:bg-terracotta-light text-cream text-sm font-medium px-4 py-2.5 min-h-[44px] inline-flex items-center rounded-lg transition-colors"
               >
                 Get a Quote
               </Link>
