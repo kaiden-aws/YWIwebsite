@@ -19,7 +19,7 @@ Decimal phases appear between their surrounding integers in numeric order.
 - [x] **Phase 5: Services Page** - Complete Services page with six detailed service cards, CTAs, and bottom contact prompt
 - [ ] **Phase 6: Products Page** - Complete Products page with category grid, interactive Material Calculator with validation, and retail yard callout
 - [x] **Phase 7: Gallery Page** - Filterable masonry gallery with lightbox, filter transitions, and keyboard navigation (completed 2026-02-20)
-- [ ] **Phase 7.1: Integration Fixes** *(INSERTED — gap closure)* - Fix 3 integration issues from v1.0 audit: GalleryLightbox 'use client', Footer services import, ProductsBanner CTA link
+- [x] **Phase 7.1: Integration Fixes** *(INSERTED — gap closure)* - Fix 3 integration issues from v1.0 audit: GalleryLightbox 'use client', Footer services import, ProductsBanner CTA link
 - [ ] **Phase 8: Contact Page** - Split-layout contact page with validated UI-only form, info panel, and map placeholder
 - [ ] **Phase 9: SEO and Performance** - Per-page metadata, Open Graph, sitemap, robots.txt, hero image priority, and Lighthouse 90+ target
 - [ ] **Phase 10: Accessibility, Responsiveness, and Launch Polish** - WCAG AA audit, focus states, ARIA labels, reduced motion, mobile polish across all breakpoints
@@ -154,7 +154,7 @@ Plans:
 **Plans**: 1 plan in 1 wave
 
 Plans:
-- [ ] 07.1-01-PLAN.md — Fix GalleryLightbox 'use client', Footer services import, and ProductsBanner CTA link
+- [x] 07.1-01-PLAN.md — Fix GalleryLightbox 'use client', Footer services import, and ProductsBanner CTA link
 
 ### Phase 8: Contact Page
 **Goal**: A visitor ready to reach out to Yard Weasels Inc. can submit an inquiry with all relevant details, receive clear validation feedback if they miss anything, find both addresses and business hours at a glance, and locate the business on a map — all without any backend submission required.
@@ -218,7 +218,7 @@ Phases execute in numeric order: 1 -> 2 -> 3 -> 4 -> 5 -> 6 -> 7 -> 8 -> 9 -> 10
 | 5. Services Page | 0/2 | Not started | - |
 | 6. Products Page | 0/2 | Not started | - |
 | 7. Gallery Page | 0/2 | Complete    | 2026-02-20 |
-| 7.1 Integration Fixes | 0/1 | Not started | - |
+| 7.1 Integration Fixes | 1/1 | Complete | 2026-02-20 |
 | 8. Contact Page | 0/2 | Not started | - |
 | 9. SEO and Performance | 0/2 | Not started | - |
 | 10. Accessibility, Responsiveness, and Launch Polish | 0/2 | Not started | - |

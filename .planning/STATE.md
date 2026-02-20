@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 7 complete — Gallery Page with lightbox. Ready for Phase 8.
+**Current focus:** Phase 7.1 complete — Integration fixes. Ready for Phase 8.
 
 ## Current Position
 
-Phase: 7 of 10 (Gallery Page)
-Plan: 2 of 2 in current phase
+Phase: 7.1 of 10 (Integration Fixes)
+Plan: 1 of 1 in current phase
 Status: Phase Complete
-Last activity: 2026-02-20 — Completed 07-02-PLAN.md (Gallery lightbox)
+Last activity: 2026-02-20 — Completed 07.1-01-PLAN.md (Integration fixes)
 
-Progress: [██████████████░░░░░░] 70%
+Progress: [███████████████░░░░░] 75%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 16
+- Total plans completed: 17
 - Average duration: 2 min
-- Total execution time: 0.51 hours
+- Total execution time: 0.53 hours
 
 **By Phase:**
 
@@ -34,9 +34,10 @@ Progress: [██████████████░░░░░░] 70%
 | 05-services-page | 2 | 3 min | 2 min |
 | 06-products-page | 2 | 4 min | 2 min |
 | 07-gallery-page | 2 | 4 min | 2 min |
+| 07.1-integration-fixes | 1 | 1 min | 1 min |
 
 **Recent Trend:**
-- Last 5 plans: 05-02 (1 min), 06-01 (2 min), 06-02 (2 min), 07-01 (2 min), 07-02 (2 min)
+- Last 5 plans: 06-01 (2 min), 06-02 (2 min), 07-01 (2 min), 07-02 (2 min), 07.1-01 (1 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -94,6 +95,9 @@ Recent decisions affecting current work:
 - [07-02]: GalleryLightbox omits 'use client' -- imported only by client component GalleryGrid
 - [07-02]: Circular navigation via modular arithmetic in useCallback handlers
 - [07-02]: Lightbox navigates within filtered array, not full projects array -- prev/next respects active filter
+- [07.1-01]: GalleryLightbox now has explicit 'use client' -- no longer relying on parent client boundary
+- [07.1-01]: Footer imports services from canonical services.ts -- no more hardcoded label drift
+- [07.1-01]: ProductsBanner uses Link (not button+router.push) for /products CTA -- stays Server Component
 
 ### Pending Todos
 
@@ -108,5 +112,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 07-02-PLAN.md (Gallery lightbox) — Phase 07 complete
+Stopped at: Completed 07.1-01-PLAN.md (Integration fixes) — Phase 07.1 complete
 Resume file: None
