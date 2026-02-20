@@ -117,6 +117,6 @@ Plans:
 | 12. Component Fixes | v1.1 | Complete    | 2026-02-20 | 2026-02-20 |
 | 13. Launch Assets and Touch Targets | 1/1 | Complete    | 2026-02-20 | - |
 | 14. Google Maps Embed | v1.1 | Complete    | 2026-02-20 | 2026-02-20 |
-| 15. Lighthouse Verification | 1/1 | Complete   | 2026-02-20 | - |
+| 15. Lighthouse Verification | 1/1 | Complete    | 2026-02-20 | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
