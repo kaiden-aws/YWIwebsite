@@ -21,7 +21,7 @@ export default function ServicesPreview() {
               <AnimatedSection key={service.id} delay={index * 0.15}>
                 <Link
                   href={service.href}
-                  className="group rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg hover:-translate-y-2 transition-all duration-300 block"
+                  className="group rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg hover:-translate-y-2 motion-reduce:hover:translate-y-0 transition-all duration-300 block"
                 >
                   <ImagePlaceholder
                     label={service.image}
@@ -34,7 +34,7 @@ export default function ServicesPreview() {
                     <p className="text-charcoal/70 text-sm leading-relaxed">
                       {service.description}
                     </p>
-                    <span className="text-terracotta-dark font-medium text-sm group-hover:translate-x-1 transition-transform inline-block mt-4">
+                    <span className="text-terracotta-dark font-medium text-sm group-hover:translate-x-1 motion-reduce:group-hover:translate-x-0 transition-transform inline-block mt-4">
                       Learn More &rarr;
                     </span>
                   </div>
