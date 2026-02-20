@@ -42,7 +42,9 @@
   1. Pages transition with exit/enter animations when navigating between routes
   2. No imports of internal Next.js modules (LayoutRouterContext or similar private APIs)
   3. Page transitions continue working after a clean `next build` with zero warnings about internal APIs
-**Plans**: TBD
+**Plans**: 1 plan
+Plans:
+- [ ] 11-01-PLAN.md — Replace FrozenRouter with template.tsx-based page transitions
 
 ### Phase 12: Component Fixes
 **Goal**: Three interactive components behave correctly with proper data sourcing, validation, and state management
@@ -103,7 +105,7 @@
 | 8. Contact Page | v1.0 | 2/2 | Complete | 2026-02-20 |
 | 9. SEO and Performance | v1.0 | 2/2 | Complete | 2026-02-20 |
 | 10. Accessibility and Responsiveness | v1.0 | 2/2 | Complete | 2026-02-20 |
-| 11. Page Transition Stabilization | v1.1 | 0/? | Not started | - |
+| 11. Page Transition Stabilization | v1.1 | 0/1 | Planned | - |
 | 12. Component Fixes | v1.1 | 0/? | Not started | - |
 | 13. Launch Assets and Touch Targets | v1.1 | 0/? | Not started | - |
 | 14. Google Maps Embed | v1.1 | 0/? | Not started | - |
