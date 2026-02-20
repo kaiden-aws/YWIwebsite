@@ -11,14 +11,6 @@ export const metadata: Metadata = {
     ...sharedOpenGraph,
     title: 'Project Gallery — Yard Weasels Inc., Fergus, Ontario',
     url: '/gallery',
-    images: [
-      {
-        url: '/og-gallery.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Completed landscaping projects by Yard Weasels Inc.',
-      },
-    ],
   },
 }
 

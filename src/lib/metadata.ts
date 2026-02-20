@@ -5,7 +5,6 @@ export const siteConfig = {
     : 'https://yardweasels.ca',
   description:
     'Premium landscaping design, build, maintenance, irrigation, snow removal, and quality materials serving Fergus, Ontario and Centre Wellington.',
-  ogImage: '/og-default.jpg',
 } as const
 
 export const sharedOpenGraph = {

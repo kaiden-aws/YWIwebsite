@@ -36,14 +36,6 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     ...sharedOpenGraph,
-    images: [
-      {
-        url: siteConfig.ogImage,
-        width: 1200,
-        height: 630,
-        alt: 'Yard Weasels Inc. — Professional Landscaping',
-      },
-    ],
   },
 }
 

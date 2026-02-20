@@ -13,14 +13,6 @@ export const metadata: Metadata = {
     ...sharedOpenGraph,
     title: 'Landscaping Materials — Yard Weasels Inc., Fergus, Ontario',
     url: '/products',
-    images: [
-      {
-        url: '/og-products.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Quality landscaping materials from Yard Weasels Inc.',
-      },
-    ],
   },
 }
 

@@ -23,14 +23,6 @@ export const metadata: Metadata = {
     description:
       'Premium landscaping design, build, maintenance, irrigation, snow removal, and quality materials serving Fergus, Ontario and Centre Wellington.',
     url: '/',
-    images: [
-      {
-        url: '/og-default.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Yard Weasels Inc. — Professional Landscaping in Fergus, Ontario',
-      },
-    ],
   },
 }
 

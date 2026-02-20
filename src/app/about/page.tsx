@@ -14,14 +14,6 @@ export const metadata: Metadata = {
     ...sharedOpenGraph,
     title: 'About Yard Weasels Inc. — Fergus, Ontario',
     url: '/about',
-    images: [
-      {
-        url: '/og-about.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Yard Weasels Inc. team in Fergus, Ontario',
-      },
-    ],
   },
 }
 
