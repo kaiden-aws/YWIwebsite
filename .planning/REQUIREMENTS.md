@@ -90,10 +90,10 @@ Requirements for initial release. Each maps to roadmap phases.
 ### Contact Page
 
 - [x] **CONT-01**: Split layout — contact form left, info panel right
-- [ ] **CONT-02**: Form fields: Name, Email, Phone, Service Interest dropdown (Residential, Commercial, Municipal, Snow Removal, Irrigation, Products/Materials, Other), Message
-- [ ] **CONT-03**: Polished form styling with floating labels or clean input design
-- [ ] **CONT-04**: Client-side form validation with inline error messages
-- [ ] **CONT-05**: Form is UI-only (no backend submission) with success state
+- [x] **CONT-02**: Form fields: Name, Email, Phone, Service Interest dropdown (Residential, Commercial, Municipal, Snow Removal, Irrigation, Products/Materials, Other), Message
+- [x] **CONT-03**: Polished form styling with floating labels or clean input design
+- [x] **CONT-04**: Client-side form validation with inline error messages
+- [x] **CONT-05**: Form is UI-only (no backend submission) with success state
 - [x] **CONT-06**: Contact info panel: both addresses, phone, hours
 - [x] **CONT-07**: Google Maps placeholder (styled map area or iframe placeholder)
 - [x] **CONT-08**: Bottom section: "Prefer to talk? Call us directly at 519-843-5489"
@@ -226,10 +226,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | GALL-04 | Phase 7 | Complete |
 | GALL-05 | Phase 7 | Complete |
 | CONT-01 | Phase 8 | Complete |
-| CONT-02 | Phase 8 | Pending |
-| CONT-03 | Phase 8 | Pending |
-| CONT-04 | Phase 8 | Pending |
-| CONT-05 | Phase 8 | Pending |
+| CONT-02 | Phase 8 | Complete |
+| CONT-03 | Phase 8 | Complete |
+| CONT-04 | Phase 8 | Complete |
+| CONT-05 | Phase 8 | Complete |
 | CONT-06 | Phase 8 | Complete |
 | CONT-07 | Phase 8 | Complete |
 | CONT-08 | Phase 8 | Complete |
