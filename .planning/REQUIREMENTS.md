@@ -84,7 +84,7 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **GALL-01**: Filterable masonry grid of 8-12 project image placeholders
 - [x] **GALL-02**: Filter tabs: All, Residential, Commercial, Hardscaping, Irrigation
 - [x] **GALL-03**: Hover overlay on images showing project name and category
-- [ ] **GALL-04**: Lightbox modal on click with prev/next navigation and keyboard support (ESC, arrows)
+- [x] **GALL-04**: Lightbox modal on click with prev/next navigation and keyboard support (ESC, arrows)
 - [x] **GALL-05**: Smooth filter transitions (AnimatePresence, no flicker on filter change)
 
 ### Contact Page
@@ -223,7 +223,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | GALL-01 | Phase 7 | Complete |
 | GALL-02 | Phase 7 | Complete |
 | GALL-03 | Phase 7 | Complete |
-| GALL-04 | Phase 7 | Pending |
+| GALL-04 | Phase 7 | Complete |
 | GALL-05 | Phase 7 | Complete |
 | CONT-01 | Phase 8 | Pending |
 | CONT-02 | Phase 8 | Pending |
