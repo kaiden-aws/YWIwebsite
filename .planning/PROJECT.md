@@ -35,7 +35,19 @@ When someone lands on this site, they immediately think "these people are seriou
 
 ### Active
 
-(None yet — define with `/gsd:new-milestone`)
+**Current Milestone: v1.1 Polish & Maps**
+
+**Goal:** Fix all carried tech debt from v1.0 and add a Google Maps embed for the retail yard location.
+
+**Target features:**
+- Fix PageTransitionWrapper internal API fragility
+- Generate/add OG images for all 6 pages
+- Sync contact form service dropdown with services.ts
+- Fix header CTA touch target to 44px+
+- Add JS validation to MaterialCalculator depth field
+- Reset lightbox selectedIndex on filter change
+- Verify Lighthouse 90+ on deployed preview
+- Embed Google Map for retail yard (6470 Beatty Line N) on Contact page
 
 ### Out of Scope
 
@@ -88,4 +100,4 @@ Image placeholders in place — real project photos from owner needed before lau
 | Canonical data files (services.ts, products.ts, etc.) | Single source of truth, consumed by multiple components | ✓ Good — Phase 7.1 proved value |
 
 ---
-*Last updated: 2026-02-20 after v1.0 milestone*
+*Last updated: 2026-02-20 after v1.1 milestone started*
