@@ -130,7 +130,7 @@ export default function HeaderClient() {
               {/* CTA button -- visible at all breakpoints */}
               <Link
                 href="/contact"
-                className="bg-terracotta hover:bg-terracotta-light text-cream text-sm font-medium px-4 py-2 rounded-lg transition-colors"
+                className="bg-terracotta hover:bg-terracotta-light text-cream text-sm font-medium px-4 py-2.5 rounded-lg transition-colors"
               >
                 Get a Quote
               </Link>
@@ -138,7 +138,7 @@ export default function HeaderClient() {
               {/* Hamburger -- mobile only */}
               <button
                 onClick={() => setIsOpen(true)}
-                className="md:hidden p-2 text-cream"
+                className="md:hidden p-3 text-cream"
                 aria-label="Open menu"
               >
                 <Menu className="h-6 w-6" />

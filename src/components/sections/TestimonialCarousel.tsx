@@ -87,7 +87,7 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
             </m.div>
           </AnimatePresence>
 
-          <div className="flex justify-center gap-3 mt-8">
+          <div className="flex justify-center gap-1 mt-8">
             {testimonials.map((_, i) => (
               <button
                 key={i}
@@ -95,14 +95,18 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
                   setCurrent(i)
                   setIsPaused(false)
                 }}
-                className={cn(
-                  'w-3 h-3 rounded-full transition-colors',
-                  current === i
-                    ? 'bg-terracotta'
-                    : 'bg-charcoal/20 hover:bg-charcoal/40'
-                )}
+                className="min-w-[44px] min-h-[44px] flex items-center justify-center"
                 aria-label={`Go to testimonial ${i + 1}`}
-              />
+              >
+                <span
+                  className={cn(
+                    'w-3 h-3 rounded-full transition-colors',
+                    current === i
+                      ? 'bg-terracotta'
+                      : 'bg-charcoal/20 hover:bg-charcoal/40'
+                  )}
+                />
+              </button>
             ))}
           </div>
         </div>

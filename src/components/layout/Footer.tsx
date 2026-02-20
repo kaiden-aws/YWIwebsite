@@ -116,7 +116,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Facebook"
-              className="text-cream/60 hover:text-cream transition-colors"
+              className="inline-flex items-center justify-center min-w-[44px] min-h-[44px] text-cream/60 hover:text-cream transition-colors"
             >
               <svg
                 className="h-5 w-5"
@@ -132,7 +132,7 @@ export default function Footer() {
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
-              className="text-cream/60 hover:text-cream transition-colors"
+              className="inline-flex items-center justify-center min-w-[44px] min-h-[44px] text-cream/60 hover:text-cream transition-colors"
             >
               <svg
                 className="h-5 w-5"

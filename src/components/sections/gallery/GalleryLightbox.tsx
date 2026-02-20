@@ -111,7 +111,7 @@ export default function GalleryLightbox({
           >
             {/* Close button */}
             <button
-              className="absolute -top-12 right-0 text-cream/80 hover:text-cream p-2"
+              className="absolute -top-12 right-0 text-cream/80 hover:text-cream p-3"
               onClick={onClose}
               aria-label="Close lightbox"
             >
@@ -140,7 +140,7 @@ export default function GalleryLightbox({
 
             {/* Prev button */}
             <button
-              className="absolute left-0 top-1/2 -translate-y-1/2 -translate-x-12 md:-translate-x-14 text-cream/80 hover:text-cream p-2"
+              className="absolute left-2 md:left-0 top-1/2 -translate-y-1/2 -translate-x-0 md:-translate-x-14 text-cream/80 hover:text-cream p-3"
               onClick={onPrev}
               aria-label="Previous image"
             >
@@ -149,7 +149,7 @@ export default function GalleryLightbox({
 
             {/* Next button */}
             <button
-              className="absolute right-0 top-1/2 -translate-y-1/2 translate-x-12 md:translate-x-14 text-cream/80 hover:text-cream p-2"
+              className="absolute right-2 md:right-0 top-1/2 -translate-y-1/2 translate-x-0 md:translate-x-14 text-cream/80 hover:text-cream p-3"
               onClick={onNext}
               aria-label="Next image"
             >

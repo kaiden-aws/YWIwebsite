@@ -38,7 +38,7 @@ export default function MobileDrawer({ isOpen, onClose, children }: MobileDrawer
             <button
               onClick={onClose}
               aria-label="Close menu"
-              className="absolute right-4 top-4 p-2"
+              className="absolute right-4 top-4 p-3"
             >
               <X className="h-6 w-6 text-charcoal" />
             </button>
