@@ -43,20 +43,20 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| STAB-01 | — | Pending |
-| STAB-02 | — | Pending |
-| STAB-03 | — | Pending |
-| STAB-04 | — | Pending |
-| LNCH-01 | — | Pending |
-| LNCH-02 | — | Pending |
-| LNCH-03 | — | Pending |
-| MAPS-01 | — | Pending |
+| STAB-01 | Phase 11 | Pending |
+| STAB-02 | Phase 12 | Pending |
+| STAB-03 | Phase 12 | Pending |
+| STAB-04 | Phase 12 | Pending |
+| LNCH-01 | Phase 13 | Pending |
+| LNCH-02 | Phase 13 | Pending |
+| LNCH-03 | Phase 15 | Pending |
+| MAPS-01 | Phase 14 | Pending |
 
 **Coverage:**
 - v1.1 requirements: 8 total
-- Mapped to phases: 0
-- Unmapped: 8 (awaiting roadmap)
+- Mapped to phases: 8
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-20*
-*Last updated: 2026-02-20 after initial definition*
+*Last updated: 2026-02-20 after roadmap creation*
