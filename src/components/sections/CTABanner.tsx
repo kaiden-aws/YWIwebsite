@@ -12,7 +12,7 @@ export default function CTABanner() {
           <h2 className="font-display text-3xl md:text-4xl lg:text-5xl text-cream mb-6">
             Ready to Transform Your Outdoor Space?
           </h2>
-          <p className="text-cream/80 text-lg mb-10 max-w-2xl mx-auto">
+          <p className="text-cream text-lg font-semibold mb-10 max-w-2xl mx-auto">
             Let&apos;s discuss your vision. Get a free consultation and quote for your project.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">

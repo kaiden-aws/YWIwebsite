@@ -8,7 +8,7 @@ export default function ValuesGrid() {
         <h2 className="font-display text-3xl md:text-4xl text-forest mb-4 text-center">
           What We Stand For
         </h2>
-        <p className="text-charcoal/60 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-charcoal/70 text-center mb-12 max-w-2xl mx-auto">
           These values guide every project we take on — from the first
           consultation to the final walkthrough.
         </p>

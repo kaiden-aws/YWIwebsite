@@ -9,7 +9,7 @@ export default function TeamSection() {
         <h2 className="font-display text-3xl md:text-4xl text-forest mb-4 text-center">
           Meet the Team
         </h2>
-        <p className="text-charcoal/60 text-center mb-12 max-w-2xl mx-auto">
+        <p className="text-charcoal/70 text-center mb-12 max-w-2xl mx-auto">
           The people behind every project — bringing experience, care, and
           craftsmanship to your outdoor space.
         </p>
@@ -25,7 +25,7 @@ export default function TeamSection() {
                 <h3 className="font-display text-lg text-forest">
                   {member.name}
                 </h3>
-                <p className="text-charcoal/60 text-sm">{member.role}</p>
+                <p className="text-charcoal/70 text-sm">{member.role}</p>
               </div>
             </AnimatedSection>
           ))}

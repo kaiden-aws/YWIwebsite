@@ -45,7 +45,7 @@ export default function ProjectShowcase() {
           <div className="text-center mt-10">
             <Link
               href="/gallery"
-              className="inline-flex items-center text-terracotta font-medium hover:text-terracotta-light transition-colors"
+              className="inline-flex items-center text-terracotta-dark font-medium hover:text-terracotta transition-colors"
             >
               View All Projects &rarr;
             </Link>

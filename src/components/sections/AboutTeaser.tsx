@@ -35,7 +35,7 @@ export default function AboutTeaser() {
               </p>
               <Link
                 href="/about"
-                className="inline-flex items-center text-terracotta font-medium hover:text-terracotta-light transition-colors"
+                className="inline-flex items-center text-terracotta-dark font-medium hover:text-terracotta transition-colors"
               >
                 Our Story &rarr;
               </Link>

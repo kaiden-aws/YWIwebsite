@@ -98,6 +98,7 @@ export default function GalleryLightbox({
           <div
             className="absolute inset-0 bg-charcoal/90"
             onClick={onClose}
+            aria-hidden="true"
           />
 
           {/* Content */}

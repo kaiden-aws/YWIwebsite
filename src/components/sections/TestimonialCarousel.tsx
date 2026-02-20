@@ -81,7 +81,7 @@ export default function TestimonialCarousel({ testimonials }: TestimonialCarouse
               <p className="font-display text-forest mt-4">
                 {testimonial.author}
               </p>
-              <p className="text-charcoal/60 text-sm">
+              <p className="text-charcoal/70 text-sm">
                 {testimonial.role}
               </p>
             </m.div>

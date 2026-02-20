@@ -34,7 +34,7 @@ export default function ServicesPreview() {
                     <p className="text-charcoal/70 text-sm leading-relaxed">
                       {service.description}
                     </p>
-                    <span className="text-terracotta font-medium text-sm group-hover:translate-x-1 transition-transform inline-block mt-4">
+                    <span className="text-terracotta-dark font-medium text-sm group-hover:translate-x-1 transition-transform inline-block mt-4">
                       Learn More &rarr;
                     </span>
                   </div>

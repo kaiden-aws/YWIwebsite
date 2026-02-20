@@ -123,9 +123,9 @@ export default function MaterialCalculator() {
               }
               aria-invalid={!!errors.length}
               className={cn(
-                'w-full px-4 py-3 rounded-lg border transition-colors focus:outline-none focus:ring-2 focus:ring-forest/30',
+                'w-full px-4 py-3 rounded-lg border transition-colors focus-visible:ring-2 focus-visible:ring-forest focus-visible:outline-2 focus-visible:outline-forest',
                 errors.length
-                  ? 'border-red-500'
+                  ? 'border-red-700'
                   : 'border-charcoal/20 focus:border-forest'
               )}
             />
@@ -133,7 +133,7 @@ export default function MaterialCalculator() {
               <p
                 id="calc-length-error"
                 role="alert"
-                className="text-sm text-red-600 mt-1"
+                className="text-sm text-red-700 mt-1"
               >
                 {errors.length}
               </p>
@@ -162,9 +162,9 @@ export default function MaterialCalculator() {
               aria-describedby={errors.width ? 'calc-width-error' : undefined}
               aria-invalid={!!errors.width}
               className={cn(
-                'w-full px-4 py-3 rounded-lg border transition-colors focus:outline-none focus:ring-2 focus:ring-forest/30',
+                'w-full px-4 py-3 rounded-lg border transition-colors focus-visible:ring-2 focus-visible:ring-forest focus-visible:outline-2 focus-visible:outline-forest',
                 errors.width
-                  ? 'border-red-500'
+                  ? 'border-red-700'
                   : 'border-charcoal/20 focus:border-forest'
               )}
             />
@@ -172,7 +172,7 @@ export default function MaterialCalculator() {
               <p
                 id="calc-width-error"
                 role="alert"
-                className="text-sm text-red-600 mt-1"
+                className="text-sm text-red-700 mt-1"
               >
                 {errors.width}
               </p>
@@ -201,9 +201,9 @@ export default function MaterialCalculator() {
               aria-describedby={errors.depth ? 'calc-depth-error' : undefined}
               aria-invalid={!!errors.depth}
               className={cn(
-                'w-full px-4 py-3 rounded-lg border transition-colors focus:outline-none focus:ring-2 focus:ring-forest/30',
+                'w-full px-4 py-3 rounded-lg border transition-colors focus-visible:ring-2 focus-visible:ring-forest focus-visible:outline-2 focus-visible:outline-forest',
                 errors.depth
-                  ? 'border-red-500'
+                  ? 'border-red-700'
                   : 'border-charcoal/20 focus:border-forest'
               )}
             />
@@ -211,7 +211,7 @@ export default function MaterialCalculator() {
               <p
                 id="calc-depth-error"
                 role="alert"
-                className="text-sm text-red-600 mt-1"
+                className="text-sm text-red-700 mt-1"
               >
                 {errors.depth}
               </p>
@@ -232,7 +232,7 @@ export default function MaterialCalculator() {
             onChange={(e) =>
               setForm((prev) => ({ ...prev, productType: e.target.value }))
             }
-            className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-forest focus:outline-none focus:ring-2 focus:ring-forest/30 transition-colors bg-white"
+            className="w-full px-4 py-3 rounded-lg border border-charcoal/20 focus:border-forest focus-visible:ring-2 focus-visible:ring-forest focus-visible:outline-2 focus-visible:outline-forest transition-colors bg-white"
           >
             {products.map((p) => (
               <option key={p.id} value={p.id}>
@@ -255,7 +255,7 @@ export default function MaterialCalculator() {
             <p className="font-display text-3xl md:text-4xl text-forest mt-2">
               {result} cubic yards
             </p>
-            <p className="text-charcoal/60 mt-1">
+            <p className="text-charcoal/70 mt-1">
               of {selectedProduct?.name}
             </p>
             <Link

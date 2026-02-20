@@ -94,7 +94,7 @@ export default function ContactForm() {
   }
 
   const inputClasses =
-    'w-full px-4 py-3 rounded-lg border transition-colors focus:outline-none focus:ring-2 focus:ring-forest/30'
+    'w-full px-4 py-3 rounded-lg border transition-colors focus-visible:ring-2 focus-visible:ring-forest focus-visible:outline-2 focus-visible:outline-forest'
 
   return (
     <div>
@@ -109,7 +109,7 @@ export default function ContactForm() {
             htmlFor="contact-name"
             className="block text-sm font-medium text-charcoal mb-1"
           >
-            Name <span className="text-red-500">*</span>
+            Name <span className="text-red-700">*</span>
           </label>
           <input
             id="contact-name"
@@ -123,7 +123,7 @@ export default function ContactForm() {
             className={cn(
               inputClasses,
               errors.name
-                ? 'border-red-500'
+                ? 'border-red-700'
                 : 'border-charcoal/20 focus:border-forest'
             )}
           />
@@ -131,7 +131,7 @@ export default function ContactForm() {
             <p
               id="contact-name-error"
               role="alert"
-              className="text-sm text-red-600 mt-1"
+              className="text-sm text-red-700 mt-1"
             >
               {errors.name}
             </p>
@@ -144,7 +144,7 @@ export default function ContactForm() {
             htmlFor="contact-email"
             className="block text-sm font-medium text-charcoal mb-1"
           >
-            Email <span className="text-red-500">*</span>
+            Email <span className="text-red-700">*</span>
           </label>
           <input
             id="contact-email"
@@ -158,7 +158,7 @@ export default function ContactForm() {
             className={cn(
               inputClasses,
               errors.email
-                ? 'border-red-500'
+                ? 'border-red-700'
                 : 'border-charcoal/20 focus:border-forest'
             )}
           />
@@ -166,7 +166,7 @@ export default function ContactForm() {
             <p
               id="contact-email-error"
               role="alert"
-              className="text-sm text-red-600 mt-1"
+              className="text-sm text-red-700 mt-1"
             >
               {errors.email}
             </p>
@@ -236,7 +236,7 @@ export default function ContactForm() {
             htmlFor="contact-message"
             className="block text-sm font-medium text-charcoal mb-1"
           >
-            Message <span className="text-red-500">*</span>
+            Message <span className="text-red-700">*</span>
           </label>
           <textarea
             id="contact-message"
@@ -253,7 +253,7 @@ export default function ContactForm() {
               inputClasses,
               'resize-y',
               errors.message
-                ? 'border-red-500'
+                ? 'border-red-700'
                 : 'border-charcoal/20 focus:border-forest'
             )}
           />
@@ -261,7 +261,7 @@ export default function ContactForm() {
             <p
               id="contact-message-error"
               role="alert"
-              className="text-sm text-red-600 mt-1"
+              className="text-sm text-red-700 mt-1"
             >
               {errors.message}
             </p>
