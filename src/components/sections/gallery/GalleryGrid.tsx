@@ -42,7 +42,10 @@ export default function GalleryGrid() {
           {FILTERS.map((filter) => (
             <button
               key={filter}
-              onClick={() => setActiveFilter(filter)}
+              onClick={() => {
+                setActiveFilter(filter)
+                setLightboxIndex(null)
+              }}
               className={cn(
                 'px-5 py-2.5 rounded-full text-sm font-medium transition-colors',
                 activeFilter === filter
