@@ -62,6 +62,8 @@ export default function MaterialCalculator() {
       const num = parseFloat(depthVal)
       if (isNaN(num) || num <= 0) {
         newErrors.depth = 'Enter a valid positive number'
+      } else if (num < 0.5) {
+        newErrors.depth = 'Minimum depth is 0.5 inches'
       } else if (num > 36) {
         newErrors.depth = 'Maximum depth is 36 inches'
       }
