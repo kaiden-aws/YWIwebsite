@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 6 complete — Products Page all plans done. Ready for Phase 7.
+**Current focus:** Phase 7 in progress — Gallery Page plan 01 complete. Plan 02 (lightbox) next.
 
 ## Current Position
 
-Phase: 6 of 10 (Products Page)
-Plan: 2 of 2 in current phase
-Status: Phase Complete
-Last activity: 2026-02-19 — Completed 06-02-PLAN.md (Material calculator and retail yard callout)
+Phase: 7 of 10 (Gallery Page)
+Plan: 1 of 2 in current phase
+Status: In Progress
+Last activity: 2026-02-20 — Completed 07-01-PLAN.md (Gallery hero, grid, and filters)
 
-Progress: [████████████░░░░░░░░] 60%
+Progress: [█████████████░░░░░░░] 65%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 14
+- Total plans completed: 15
 - Average duration: 2 min
-- Total execution time: 0.45 hours
+- Total execution time: 0.48 hours
 
 **By Phase:**
 
@@ -33,9 +33,10 @@ Progress: [████████████░░░░░░░░] 60%
 | 04-about-page | 2 | 3 min | 2 min |
 | 05-services-page | 2 | 3 min | 2 min |
 | 06-products-page | 2 | 4 min | 2 min |
+| 07-gallery-page | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 04-02 (1 min), 05-01 (2 min), 05-02 (1 min), 06-01 (2 min), 06-02 (2 min)
+- Last 5 plans: 05-01 (2 min), 05-02 (1 min), 06-01 (2 min), 06-02 (2 min), 07-01 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -86,6 +87,10 @@ Recent decisions affecting current work:
 - [06-01]: Added subtitle to ProductCategoryGrid for additional context about pickup/delivery availability
 - [06-02]: Inputs stored as strings to avoid NaN/0 display issues when user clears fields -- parsed to float only during validation/calculation
 - [06-02]: Only MaterialCalculator uses 'use client' -- RetailYardCallout remains Server Component for zero client JS overhead
+- [07-01]: CSS Grid with auto-rows and row-span-2 for featured items creates masonry-like visual variety without JS layout libraries
+- [07-01]: AnimatePresence mode=sync for simultaneous enter/exit during filter changes -- snappiest feel
+- [07-01]: layout={false} explicitly set on m.div to prevent silent failures with domAnimation feature set
+- [07-01]: Lightbox state wired in GalleryGrid but component deferred to Plan 02
 
 ### Pending Todos
 
@@ -99,6 +104,6 @@ None yet.
 
 ## Session Continuity
 
-Last session: 2026-02-19
-Stopped at: Completed 06-02-PLAN.md (Material calculator and retail yard callout)
+Last session: 2026-02-20
+Stopped at: Completed 07-01-PLAN.md (Gallery hero, grid, and filters)
 Resume file: None
