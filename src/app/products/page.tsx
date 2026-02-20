@@ -1,8 +1,13 @@
+import ProductsHero from '@/components/sections/products/ProductsHero'
+import ProductCategoryGrid from '@/components/sections/products/ProductCategoryGrid'
+
 export default function ProductsPage() {
   return (
-    <div className="min-h-screen py-24 px-6">
-      <h1 className="font-display text-4xl text-forest">Products</h1>
-      <p className="mt-4 text-charcoal/70">Coming soon.</p>
+    <div>
+      <ProductsHero />
+      <ProductCategoryGrid />
+      {/* Material Calculator — Plan 02 */}
+      {/* Retail Yard Callout — Plan 02 */}
     </div>
   )
 }
