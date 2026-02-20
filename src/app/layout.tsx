@@ -5,7 +5,6 @@ import MotionProvider from '@/providers/MotionProvider'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import BackToTop from '@/components/layout/BackToTop'
-import PageTransitionWrapper from '@/components/layout/PageTransitionWrapper'
 import './globals.css'
 
 const dmSerifDisplay = DM_Serif_Display({
@@ -58,9 +57,7 @@ export default function RootLayout({
       <body className="font-body text-charcoal bg-cream antialiased">
         <MotionProvider>
           <Header />
-          <PageTransitionWrapper>
-            <main>{children}</main>
-          </PageTransitionWrapper>
+          <main>{children}</main>
           <Footer />
           <BackToTop />
         </MotionProvider>
