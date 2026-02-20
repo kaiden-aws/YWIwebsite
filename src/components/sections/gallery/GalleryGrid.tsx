@@ -1,10 +1,11 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useCallback } from 'react'
 import { AnimatePresence, m } from 'motion/react'
 import { projects } from '@/lib/data/projects'
 import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 import { cn } from '@/lib/utils/cn'
+import GalleryLightbox from './GalleryLightbox'
 
 const FILTERS = ['All', 'Residential', 'Commercial', 'Hardscaping', 'Irrigation'] as const
 
@@ -16,6 +17,22 @@ export default function GalleryGrid() {
     activeFilter === 'All'
       ? projects
       : projects.filter((p) => p.category === activeFilter)
+
+  const handleClose = useCallback(() => setLightboxIndex(null), [])
+  const handlePrev = useCallback(
+    () =>
+      setLightboxIndex((i) =>
+        i !== null ? (i - 1 + filtered.length) % filtered.length : null
+      ),
+    [filtered.length]
+  )
+  const handleNext = useCallback(
+    () =>
+      setLightboxIndex((i) =>
+        i !== null ? (i + 1) % filtered.length : null
+      ),
+    [filtered.length]
+  )
 
   return (
     <section className="py-20 md:py-28 px-6">
@@ -75,7 +92,13 @@ export default function GalleryGrid() {
           </AnimatePresence>
         </div>
 
-        {/* Lightbox — Plan 02 */}
+        <GalleryLightbox
+          images={filtered}
+          selectedIndex={lightboxIndex}
+          onClose={handleClose}
+          onPrev={handlePrev}
+          onNext={handleNext}
+        />
       </div>
     </section>
   )
