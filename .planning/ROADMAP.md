@@ -64,9 +64,11 @@ Plans:
 **Requirements**: LNCH-01, LNCH-02
 **Success Criteria** (what must be TRUE):
   1. Sharing any of the 6 pages on social media (Twitter, Facebook, LinkedIn) shows a branded OG preview image instead of a blank/generic preview
-  2. OG image files exist in public/ and are referenced in each page's metadata
+  2. OG images are generated via Next.js opengraph-image.tsx convention and automatically referenced in each page's metadata
   3. Header CTA button measures 44px or taller on mobile viewports
-**Plans**: TBD
+**Plans**: 1 plan
+Plans:
+- [ ] 13-01-PLAN.md — Generate branded OG images for all 6 pages and fix header CTA touch target
 
 ### Phase 14: Google Maps Embed
 **Goal**: Visitors can see and interact with a map showing the retail yard location directly on the Contact page
@@ -109,7 +111,7 @@ Plans:
 | 10. Accessibility and Responsiveness | v1.0 | 2/2 | Complete | 2026-02-20 |
 | 11. Page Transition Stabilization | 1/1 | Complete    | 2026-02-20 | - |
 | 12. Component Fixes | v1.1 | Complete    | 2026-02-20 | 2026-02-20 |
-| 13. Launch Assets and Touch Targets | v1.1 | 0/? | Not started | - |
+| 13. Launch Assets and Touch Targets | v1.1 | 0/1 | Not started | - |
 | 14. Google Maps Embed | v1.1 | 0/? | Not started | - |
 | 15. Lighthouse Verification | v1.1 | 0/? | Not started | - |
 
