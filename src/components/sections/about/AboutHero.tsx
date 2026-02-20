@@ -8,6 +8,7 @@ export default function AboutHero() {
       <div className="absolute inset-0">
         <ImagePlaceholder
           label="About — YWI team working on a landscaping project"
+          priority={true}
           className="!aspect-auto h-full w-full !rounded-none !bg-forest-light/30"
         />
       </div>

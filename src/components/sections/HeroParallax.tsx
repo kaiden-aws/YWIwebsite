@@ -30,6 +30,7 @@ export default function HeroParallax({
         <div className="h-full w-full">
           <ImagePlaceholder
             label="Hero — Completed landscape project"
+            priority={true}
             className="!aspect-auto h-full w-full !rounded-none"
           />
         </div>

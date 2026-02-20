@@ -8,6 +8,7 @@ export default function GalleryHero() {
       <div className="absolute inset-0">
         <ImagePlaceholder
           label="Gallery — Completed landscape project showcase"
+          priority={true}
           className="!aspect-auto h-full w-full !rounded-none !bg-forest-light/30"
         />
       </div>

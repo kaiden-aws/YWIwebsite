@@ -8,6 +8,7 @@ export default function ServicesHero() {
       <div className="absolute inset-0">
         <ImagePlaceholder
           label="Services — YWI crew working on a landscape project"
+          priority={true}
           className="!aspect-auto h-full w-full !rounded-none !bg-forest-light/30"
         />
       </div>

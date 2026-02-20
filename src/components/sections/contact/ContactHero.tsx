@@ -8,6 +8,7 @@ export default function ContactHero() {
       <div className="absolute inset-0">
         <ImagePlaceholder
           label="Contact — Yard Weasels office and team"
+          priority={true}
           className="!aspect-auto h-full w-full !rounded-none !bg-forest-light/30"
         />
       </div>
