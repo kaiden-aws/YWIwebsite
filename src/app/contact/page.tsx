@@ -1,8 +1,29 @@
+import type { Metadata } from 'next'
+import { sharedOpenGraph } from '@/lib/metadata'
 import ContactHero from '@/components/sections/contact/ContactHero'
 import ContactForm from '@/components/sections/contact/ContactForm'
 import ContactInfoPanel from '@/components/sections/contact/ContactInfoPanel'
 import ContactCallout from '@/components/sections/contact/ContactCallout'
 import AnimatedSection from '@/components/ui/AnimatedSection'
+
+export const metadata: Metadata = {
+  title: 'Contact Us — Get a Free Landscaping Quote in Fergus, Ontario',
+  description:
+    'Contact Yard Weasels Inc. for a free landscaping quote. Serving Fergus, Ontario and Centre Wellington — call 519-843-5489 or fill out our contact form.',
+  openGraph: {
+    ...sharedOpenGraph,
+    title: 'Contact Yard Weasels Inc. — Fergus, Ontario',
+    url: '/contact',
+    images: [
+      {
+        url: '/og-contact.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Contact Yard Weasels Inc. in Fergus, Ontario',
+      },
+    ],
+  },
+}
 
 export default function ContactPage() {
   return (
