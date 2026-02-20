@@ -7,6 +7,7 @@
   --color-cream: #f5f0e8;
   --color-terracotta: #c4703f;
   --color-terracotta-light: #d4884f;
+  --color-terracotta-dark: #9d5428;
   --color-charcoal: #2a2a2a;
   --color-sage: #8fa98a;
 
@@ -29,4 +30,26 @@
   mix-blend-mode: overlay;
   pointer-events: none;
   z-index: 1;
+}
+
+/* Global keyboard focus indicator — terracotta outline visible in all color modes */
+*:focus-visible {
+  outline: 2px solid var(--color-terracotta);
+  outline-offset: 2px;
+}
+
+/* Suppress outline on mouse click (preserves keyboard-only ring) */
+:focus:not(:focus-visible) {
+  outline: none;
+}
+
+/* Reduced motion: disable CSS animations and smooth scroll */
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto !important;
+  }
+
+  .animate-bounce {
+    animation: none;
+  }
 }
