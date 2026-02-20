@@ -198,11 +198,11 @@ Plans:
   3. Checking foreground-to-background color contrast for all text on the site shows a minimum 4.5:1 ratio for normal text and 3:1 for large/bold text
   4. Setting the OS or browser to "Reduce Motion" causes all scroll animations and page transitions to be skipped or reduced to opacity-only fades — no movement
   5. Viewing the site on a 375px-wide phone screen shows every section looking intentionally designed: no horizontal scroll, no overflowing content, no tiny tap targets — touch targets measure at least 44px
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 10-01: Focus states, ARIA labels, and color contrast audit across all pages
-- [ ] 10-02: Reduced motion support, mobile polish audit, and touch target verification
+- [ ] 10-01-PLAN.md — Global focus-visible styles, color contrast fixes, MotionConfig reducedMotion provider, ARIA polish, and form focus improvements
+- [ ] 10-02-PLAN.md — CSS reduced motion for non-Framer animations, touch target expansion to 44px, and mobile responsiveness polish at 375px
 
 ## Progress
 
