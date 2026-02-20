@@ -69,9 +69,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Products Page
 
-- [ ] **PROD-01**: Hero with "Quality Materials, Delivered" headline
-- [ ] **PROD-02**: Product category grid — visually rich cards for: Aggregates, Mulch, Fertilizer, Natural Stone, Topsoil, Interlock, Seed
-- [ ] **PROD-03**: Each product card has image placeholder, name, brief description, hover reveals "Contact for Pricing"
+- [x] **PROD-01**: Hero with "Quality Materials, Delivered" headline
+- [x] **PROD-02**: Product category grid — visually rich cards for: Aggregates, Mulch, Fertilizer, Natural Stone, Topsoil, Interlock, Seed
+- [x] **PROD-03**: Each product card has image placeholder, name, brief description, hover reveals "Contact for Pricing"
 - [ ] **PROD-04**: Interactive Material Calculator — inputs: Length (ft), Width (ft), Depth (in); output: cubic yards needed
 - [ ] **PROD-05**: Calculator has product type dropdown adjusting calculation display
 - [ ] **PROD-06**: Calculator has input validation (min/max limits, inline error messages)
@@ -211,9 +211,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SERV-07 | Phase 5 | Complete |
 | SERV-08 | Phase 5 | Complete |
 | SERV-09 | Phase 5 | Complete |
-| PROD-01 | Phase 6 | Pending |
-| PROD-02 | Phase 6 | Pending |
-| PROD-03 | Phase 6 | Pending |
+| PROD-01 | Phase 6 | Complete |
+| PROD-02 | Phase 6 | Complete |
+| PROD-03 | Phase 6 | Complete |
 | PROD-04 | Phase 6 | Pending |
 | PROD-05 | Phase 6 | Pending |
 | PROD-06 | Phase 6 | Pending |

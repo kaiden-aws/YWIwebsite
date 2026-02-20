@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 5 complete — Services Page done. Ready for Phase 6 (Products Page).
+**Current focus:** Phase 6 in progress — Products Page Plan 01 complete. Ready for Plan 02.
 
 ## Current Position
 
-Phase: 5 of 10 (Services Page) -- COMPLETE
-Plan: 2 of 2 in current phase
-Status: Phase Complete
-Last activity: 2026-02-19 — Completed 05-02-PLAN.md (Service cards, contact CTA, page assembly)
+Phase: 6 of 10 (Products Page)
+Plan: 1 of 2 in current phase
+Status: In Progress
+Last activity: 2026-02-19 — Completed 06-01-PLAN.md (Products hero and category grid)
 
-Progress: [██████████░░░░░░░░░░] 50%
+Progress: [███████████░░░░░░░░░] 55%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 12
+- Total plans completed: 13
 - Average duration: 2 min
-- Total execution time: 0.39 hours
+- Total execution time: 0.42 hours
 
 **By Phase:**
 
@@ -32,9 +32,10 @@ Progress: [██████████░░░░░░░░░░] 50%
 | 03-homepage | 3 | 6 min | 2 min |
 | 04-about-page | 2 | 3 min | 2 min |
 | 05-services-page | 2 | 3 min | 2 min |
+| 06-products-page | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 03-03 (2 min), 04-01 (2 min), 04-02 (1 min), 05-01 (2 min), 05-02 (1 min)
+- Last 5 plans: 04-01 (2 min), 04-02 (1 min), 05-01 (2 min), 05-02 (1 min), 06-01 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -81,6 +82,8 @@ Recent decisions affecting current work:
 - [05-02]: Service cards are non-clickable containers -- only Get a Quote button links to /contact
 - [05-02]: Used service.details (long description) for services page, not service.description (short homepage version)
 - [05-02]: ServicesContact uses forest background to bookend with ServicesHero for visual closure
+- [06-01]: CSS-only hover overlay: md:opacity-0 md:group-hover:opacity-100 keeps 'Contact for Pricing' always visible on mobile for touch accessibility
+- [06-01]: Added subtitle to ProductCategoryGrid for additional context about pickup/delivery availability
 
 ### Pending Todos
 
@@ -95,5 +98,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-19
-Stopped at: Completed 05-02-PLAN.md (Service cards, contact CTA, page assembly) -- Phase 5 complete
+Stopped at: Completed 06-01-PLAN.md (Products hero and category grid)
 Resume file: None
