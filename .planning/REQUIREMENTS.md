@@ -72,12 +72,12 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **PROD-01**: Hero with "Quality Materials, Delivered" headline
 - [x] **PROD-02**: Product category grid — visually rich cards for: Aggregates, Mulch, Fertilizer, Natural Stone, Topsoil, Interlock, Seed
 - [x] **PROD-03**: Each product card has image placeholder, name, brief description, hover reveals "Contact for Pricing"
-- [ ] **PROD-04**: Interactive Material Calculator — inputs: Length (ft), Width (ft), Depth (in); output: cubic yards needed
-- [ ] **PROD-05**: Calculator has product type dropdown adjusting calculation display
-- [ ] **PROD-06**: Calculator has input validation (min/max limits, inline error messages)
-- [ ] **PROD-07**: "Request Delivery Quote" CTA below calculator results
-- [ ] **PROD-08**: Info section: "Can't find what you're looking for? We source hard-to-find materials."
-- [ ] **PROD-09**: Retail yard callout with address (6470 Beatty Line N) and hours
+- [x] **PROD-04**: Interactive Material Calculator — inputs: Length (ft), Width (ft), Depth (in); output: cubic yards needed
+- [x] **PROD-05**: Calculator has product type dropdown adjusting calculation display
+- [x] **PROD-06**: Calculator has input validation (min/max limits, inline error messages)
+- [x] **PROD-07**: "Request Delivery Quote" CTA below calculator results
+- [x] **PROD-08**: Info section: "Can't find what you're looking for? We source hard-to-find materials."
+- [x] **PROD-09**: Retail yard callout with address (6470 Beatty Line N) and hours
 
 ### Gallery Page
 
@@ -214,12 +214,12 @@ Which phases cover which requirements. Updated during roadmap creation.
 | PROD-01 | Phase 6 | Complete |
 | PROD-02 | Phase 6 | Complete |
 | PROD-03 | Phase 6 | Complete |
-| PROD-04 | Phase 6 | Pending |
-| PROD-05 | Phase 6 | Pending |
-| PROD-06 | Phase 6 | Pending |
-| PROD-07 | Phase 6 | Pending |
-| PROD-08 | Phase 6 | Pending |
-| PROD-09 | Phase 6 | Pending |
+| PROD-04 | Phase 6 | Complete |
+| PROD-05 | Phase 6 | Complete |
+| PROD-06 | Phase 6 | Complete |
+| PROD-07 | Phase 6 | Complete |
+| PROD-08 | Phase 6 | Complete |
+| PROD-09 | Phase 6 | Complete |
 | GALL-01 | Phase 7 | Pending |
 | GALL-02 | Phase 7 | Pending |
 | GALL-03 | Phase 7 | Pending |
