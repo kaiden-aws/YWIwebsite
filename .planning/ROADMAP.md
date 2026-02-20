@@ -79,7 +79,9 @@ Plans:
   2. Map is interactive (pan, zoom) and shows a pin/marker at the retail yard address
   3. Map renders responsively at appropriate dimensions on both mobile and desktop
   4. Map does not degrade Lighthouse performance score (lazy-loaded or deferred)
-**Plans**: TBD
+**Plans**: 1 plan
+Plans:
+- [ ] 14-01-PLAN.md — Replace map placeholder with Google Maps iframe embed for retail yard
 
 ### Phase 15: Lighthouse Verification
 **Goal**: Deployed site meets quality bar of 90+ across all Lighthouse categories, confirming all v1.1 changes maintain production standards
@@ -112,7 +114,7 @@ Plans:
 | 11. Page Transition Stabilization | 1/1 | Complete    | 2026-02-20 | - |
 | 12. Component Fixes | v1.1 | Complete    | 2026-02-20 | 2026-02-20 |
 | 13. Launch Assets and Touch Targets | 1/1 | Complete    | 2026-02-20 | - |
-| 14. Google Maps Embed | v1.1 | 0/? | Not started | - |
+| 14. Google Maps Embed | v1.1 | 0/1 | Not started | - |
 | 15. Lighthouse Verification | v1.1 | 0/? | Not started | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
