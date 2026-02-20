@@ -1,8 +1,11 @@
+import GalleryHero from '@/components/sections/gallery/GalleryHero'
+import GalleryGrid from '@/components/sections/gallery/GalleryGrid'
+
 export default function GalleryPage() {
   return (
-    <div className="min-h-screen py-24 px-6">
-      <h1 className="font-display text-4xl text-forest">Gallery</h1>
-      <p className="mt-4 text-charcoal/70">Coming soon.</p>
+    <div>
+      <GalleryHero />
+      <GalleryGrid />
     </div>
   )
 }
