@@ -166,11 +166,11 @@ Plans:
   3. Submitting the form with any required field empty or with an invalid email shows an inline error message next to the relevant field without clearing other fields
   4. Submitting a fully valid form shows a success state (confirmation message) without navigating away or making a network request
   5. The info panel displays both addresses, the phone number, business hours, and a styled map placeholder area
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 08-01: Split-layout page structure, contact info panel, and map placeholder
-- [ ] 08-02: Contact form with validation, success state, and "Prefer to talk?" callout
+- [ ] 08-01-PLAN.md — Contact hero, info panel (addresses, phone, hours, map placeholder), and "Prefer to talk?" callout
+- [ ] 08-02-PLAN.md — Contact form with validation, success state, and page assembly with split layout
 
 ### Phase 9: SEO and Performance
 **Goal**: Every page of the site has accurate, location-specific metadata and Open Graph tags that make it discoverable in local search, a sitemap and robots.txt are in place for crawler access, hero images load at maximum priority, and the site achieves a Lighthouse performance score of 90 or higher.
