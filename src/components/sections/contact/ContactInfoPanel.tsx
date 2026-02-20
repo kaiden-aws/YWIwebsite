@@ -65,18 +65,18 @@ export default function ContactInfoPanel() {
         </div>
       </div>
 
-      {/* Map Placeholder */}
-      <div className="mt-10 rounded-lg overflow-hidden bg-sage/20 aspect-[4/3] flex flex-col items-center justify-center gap-3">
-        <MapPin className="w-8 h-8 text-forest/50" />
-        <div className="text-center px-4">
-          <p className="text-sm font-medium text-forest/70">
-            {companyInfo.officeAddress.street},{' '}
-            {companyInfo.officeAddress.city}
-          </p>
-          <p className="text-xs text-forest/40 mt-1">
-            Interactive map coming soon
-          </p>
-        </div>
+      {/* Google Maps Embed */}
+      <div className="mt-10 rounded-lg overflow-hidden aspect-[4/3]">
+        <iframe
+          src="https://maps.google.com/maps?q=6470+Beatty+Line+N,+Fergus,+Ontario,+Canada&t=&z=14&ie=UTF8&iwloc=&output=embed"
+          width="100%"
+          height="100%"
+          style={{ border: 0 }}
+          loading="lazy"
+          allowFullScreen
+          referrerPolicy="no-referrer-when-downgrade"
+          title="Yard Weasels Inc. Retail Yard Location"
+        />
       </div>
     </div>
   )
