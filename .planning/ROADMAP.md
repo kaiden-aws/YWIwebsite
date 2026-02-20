@@ -54,7 +54,9 @@ Plans:
   1. Contact form service dropdown lists all services from services.ts and stays in sync if services data changes
   2. MaterialCalculator depth field rejects values below 0.5 inches via JavaScript validation with user-visible error feedback (not just HTML min attribute)
   3. Switching gallery filter category resets lightbox to the first image of the new filtered set (no stale index from previous category)
-**Plans**: TBD
+**Plans**: 1 plan
+Plans:
+- [ ] 12-01-PLAN.md — Fix contact form data sourcing, calculator depth validation, and gallery lightbox stale index
 
 ### Phase 13: Launch Assets and Touch Targets
 **Goal**: Social sharing previews display branded images and all interactive elements meet accessibility touch target standards
