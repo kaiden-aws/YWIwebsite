@@ -16,8 +16,8 @@ Requirements for v1.1 Polish & Maps. Each maps to roadmap phases.
 
 ### Launch Readiness
 
-- [ ] **LNCH-01**: All 6 pages have OG image files in public/ for social sharing previews
-- [ ] **LNCH-02**: Header CTA button meets 44px minimum touch target height
+- [x] **LNCH-01**: All 6 pages have OG image files in public/ for social sharing previews
+- [x] **LNCH-02**: Header CTA button meets 44px minimum touch target height
 - [ ] **LNCH-03**: Lighthouse scores verified at 90+ across all categories on deployed preview
 
 ### Maps
@@ -47,8 +47,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | STAB-02 | Phase 12 | Complete |
 | STAB-03 | Phase 12 | Complete |
 | STAB-04 | Phase 12 | Complete |
-| LNCH-01 | Phase 13 | Pending |
-| LNCH-02 | Phase 13 | Pending |
+| LNCH-01 | Phase 13 | Complete |
+| LNCH-02 | Phase 13 | Complete |
 | LNCH-03 | Phase 15 | Pending |
 | MAPS-01 | Phase 14 | Pending |
 
