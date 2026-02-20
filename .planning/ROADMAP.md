@@ -134,11 +134,11 @@ Plans:
   3. Hovering over any gallery image shows an overlay with the project name and category
   4. Clicking a gallery image opens a lightbox modal displaying the full image with previous/next navigation arrows
   5. While the lightbox is open, pressing ESC closes it, pressing the left/right arrow keys navigates between images, and focus is trapped inside the modal
-**Plans**: TBD
+**Plans**: 2 plans in 2 waves
 
 Plans:
-- [ ] 07-01: Masonry gallery grid with hover overlays and filter tabs
-- [ ] 07-02: Lightbox modal with AnimatePresence, keyboard navigation, and focus trap
+- [ ] 07-01-PLAN.md — Gallery hero, projects data expansion (6→10), filterable masonry grid with AnimatePresence transitions and hover overlays
+- [ ] 07-02-PLAN.md — Lightbox modal with AnimatePresence, keyboard navigation (ESC, arrows), focus trap, and body scroll lock
 
 ### Phase 8: Contact Page
 **Goal**: A visitor ready to reach out to Yard Weasels Inc. can submit an inquiry with all relevant details, receive clear validation feedback if they miss anything, find both addresses and business hours at a glance, and locate the business on a map — all without any backend submission required.
