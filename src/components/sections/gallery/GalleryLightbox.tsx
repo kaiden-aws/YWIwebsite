@@ -1,3 +1,5 @@
+'use client'
+
 import { useEffect, useRef, useCallback } from 'react'
 import { AnimatePresence, m } from 'motion/react'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'

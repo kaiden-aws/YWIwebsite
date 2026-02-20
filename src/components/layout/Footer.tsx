@@ -1,14 +1,6 @@
 import Link from 'next/link'
 import { navLinks, companyInfo } from '@/lib/data/navigation'
-
-const services = [
-  'Landscape Design & Build',
-  'Residential Maintenance',
-  'Commercial Landscaping',
-  'Municipal Projects',
-  'Irrigation & Lighting',
-  'Snow Removal',
-]
+import { services } from '@/lib/data/services'
 
 export default function Footer() {
   return (
@@ -46,12 +38,12 @@ export default function Footer() {
             <h3 className="font-display text-lg mb-4">Services</h3>
             <ul className="flex flex-col gap-3">
               {services.map((service) => (
-                <li key={service}>
+                <li key={service.id}>
                   <Link
                     href="/services"
                     className="text-cream/70 hover:text-cream transition-colors"
                   >
-                    {service}
+                    {service.title}
                   </Link>
                 </li>
               ))}
