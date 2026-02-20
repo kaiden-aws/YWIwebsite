@@ -22,7 +22,7 @@ Requirements for v1.1 Polish & Maps. Each maps to roadmap phases.
 
 ### Maps
 
-- [ ] **MAPS-01**: Contact page embeds a Google Map showing the retail yard location (6470 Beatty Line N, Fergus)
+- [x] **MAPS-01**: Contact page embeds a Google Map showing the retail yard location (6470 Beatty Line N, Fergus)
 
 ## Future Requirements
 
@@ -50,7 +50,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | LNCH-01 | Phase 13 | Complete |
 | LNCH-02 | Phase 13 | Complete |
 | LNCH-03 | Phase 15 | Pending |
-| MAPS-01 | Phase 14 | Pending |
+| MAPS-01 | Phase 14 | Complete |
 
 **Coverage:**
 - v1.1 requirements: 8 total

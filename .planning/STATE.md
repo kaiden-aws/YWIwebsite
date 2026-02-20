@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** v1.1 Polish & Maps — Phase 13 (Launch Assets & Touch Targets) complete, ready for Phase 14
+**Current focus:** v1.1 Polish & Maps — Phase 14 (Google Maps Embed) complete, ready for Phase 15
 
 ## Current Position
 
-Phase: 13 of 15 (Launch Assets & Touch Targets)
+Phase: 14 of 15 (Google Maps Embed)
 Plan: 1 of 1 in current phase (COMPLETE)
-Status: Phase 13 complete
-Last activity: 2026-02-20 — Completed 13-01 Launch Assets & Touch Targets
+Status: Phase 14 complete
+Last activity: 2026-02-20 — Completed 14-01 Google Maps Embed
 
-Progress: [############################] 27/? plans (v1.0 complete, v1.1 phases 11-13 done)
+Progress: [#############################] 28/? plans (v1.0 complete, v1.1 phases 11-14 done)
 
 ## Performance Metrics
 
@@ -27,6 +27,7 @@ Progress: [############################] 27/? plans (v1.0 complete, v1.1 phases 
 - Phase 11: 1 plan, 2 tasks, 2min
 - Phase 12: 1 plan, 3 tasks, 2min
 - Phase 13: 1 plan, 2 tasks, 2min
+- Phase 14: 1 plan, 1 task, 1min
 
 ## Accumulated Context
 
@@ -41,6 +42,7 @@ Recent decisions affecting current work:
 - [v1.1-P12]: Kept "Products / Materials" and "Other" as static dropdown options since they are not in services.ts but are valid contact reasons
 - [v1.1-P13]: Used Next.js opengraph-image.tsx convention for auto-generated OG images instead of static files
 - [v1.1-P13]: Used system serif/sans-serif fonts in Satori renderer to approximate site fonts without font file loading
+- [v1.1-P14]: Used keyless Google Maps embed URL instead of Embed API v1 key for simplicity and no API key management
 
 ### Pending Todos
 
@@ -54,5 +56,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 13-01-PLAN.md (Phase 13 complete, ready for Phase 14)
+Stopped at: Completed 14-01-PLAN.md (Phase 14 complete, ready for Phase 15)
 Resume file: None

@@ -29,7 +29,7 @@
 - [x] **Phase 11: Page Transition Stabilization** - Replace fragile internal Next.js API with stable page transition approach (completed 2026-02-20)
 - [x] **Phase 12: Component Fixes** - Fix data sync, validation, and state bugs across three components (completed 2026-02-20)
 - [x] **Phase 13: Launch Assets and Touch Targets** - Generate OG images and fix header CTA sizing (completed 2026-02-20)
-- [ ] **Phase 14: Google Maps Embed** - Add interactive map to Contact page for retail yard location
+- [x] **Phase 14: Google Maps Embed** - Add interactive map to Contact page for retail yard location (completed 2026-02-20)
 - [ ] **Phase 15: Lighthouse Verification** - Verify 90+ scores across all categories on deployed preview
 
 ## Phase Details
@@ -81,7 +81,7 @@ Plans:
   4. Map does not degrade Lighthouse performance score (lazy-loaded or deferred)
 **Plans**: 1 plan
 Plans:
-- [ ] 14-01-PLAN.md — Replace map placeholder with Google Maps iframe embed for retail yard
+- [x] 14-01-PLAN.md — Replace map placeholder with Google Maps iframe embed for retail yard
 
 ### Phase 15: Lighthouse Verification
 **Goal**: Deployed site meets quality bar of 90+ across all Lighthouse categories, confirming all v1.1 changes maintain production standards
@@ -114,7 +114,7 @@ Plans:
 | 11. Page Transition Stabilization | 1/1 | Complete    | 2026-02-20 | - |
 | 12. Component Fixes | v1.1 | Complete    | 2026-02-20 | 2026-02-20 |
 | 13. Launch Assets and Touch Targets | 1/1 | Complete    | 2026-02-20 | - |
-| 14. Google Maps Embed | v1.1 | 0/1 | Not started | - |
+| 14. Google Maps Embed | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 15. Lighthouse Verification | v1.1 | 0/? | Not started | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
