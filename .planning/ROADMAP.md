@@ -27,7 +27,7 @@
 ### v1.1 Polish & Maps
 
 - [x] **Phase 11: Page Transition Stabilization** - Replace fragile internal Next.js API with stable page transition approach (completed 2026-02-20)
-- [ ] **Phase 12: Component Fixes** - Fix data sync, validation, and state bugs across three components
+- [x] **Phase 12: Component Fixes** - Fix data sync, validation, and state bugs across three components (completed 2026-02-20)
 - [ ] **Phase 13: Launch Assets and Touch Targets** - Generate OG images and fix header CTA sizing
 - [ ] **Phase 14: Google Maps Embed** - Add interactive map to Contact page for retail yard location
 - [ ] **Phase 15: Lighthouse Verification** - Verify 90+ scores across all categories on deployed preview
@@ -56,7 +56,7 @@ Plans:
   3. Switching gallery filter category resets lightbox to the first image of the new filtered set (no stale index from previous category)
 **Plans**: 1 plan
 Plans:
-- [ ] 12-01-PLAN.md — Fix contact form data sourcing, calculator depth validation, and gallery lightbox stale index
+- [x] 12-01-PLAN.md — Fix contact form data sourcing, calculator depth validation, and gallery lightbox stale index
 
 ### Phase 13: Launch Assets and Touch Targets
 **Goal**: Social sharing previews display branded images and all interactive elements meet accessibility touch target standards
@@ -108,7 +108,7 @@ Plans:
 | 9. SEO and Performance | v1.0 | 2/2 | Complete | 2026-02-20 |
 | 10. Accessibility and Responsiveness | v1.0 | 2/2 | Complete | 2026-02-20 |
 | 11. Page Transition Stabilization | 1/1 | Complete    | 2026-02-20 | - |
-| 12. Component Fixes | v1.1 | 0/? | Not started | - |
+| 12. Component Fixes | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 13. Launch Assets and Touch Targets | v1.1 | 0/? | Not started | - |
 | 14. Google Maps Embed | v1.1 | 0/? | Not started | - |
 | 15. Lighthouse Verification | v1.1 | 0/? | Not started | - |

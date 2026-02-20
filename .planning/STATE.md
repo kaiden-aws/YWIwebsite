@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** v1.1 Polish & Maps — Phase 11 (Page Transition Stabilization)
+**Current focus:** v1.1 Polish & Maps — Phase 12 (Component Fixes) complete, ready for Phase 13
 
 ## Current Position
 
-Phase: 11 of 15 (Page Transition Stabilization)
+Phase: 12 of 15 (Component Fixes)
 Plan: 1 of 1 in current phase (COMPLETE)
-Status: Phase 11 complete
-Last activity: 2026-02-20 — Completed 11-01 Page Transition Stabilization
+Status: Phase 12 complete
+Last activity: 2026-02-20 — Completed 12-01 Component Fixes
 
-Progress: [#########################.] 25/? plans (v1.0 complete, v1.1 phase 11 done)
+Progress: [##########################] 26/? plans (v1.0 complete, v1.1 phases 11-12 done)
 
 ## Performance Metrics
 
@@ -25,6 +25,7 @@ Progress: [#########################.] 25/? plans (v1.0 complete, v1.1 phase 11 
 
 **v1.1:**
 - Phase 11: 1 plan, 2 tasks, 2min
+- Phase 12: 1 plan, 3 tasks, 2min
 
 ## Accumulated Context
 
@@ -36,6 +37,7 @@ Recent decisions affecting current work:
 - [v1.0]: FrozenRouter uses internal Next.js API (LayoutRouterContext) — RESOLVED in Phase 11
 - [v1.0]: Canonical data files (services.ts, products.ts) are single source of truth — Phase 12 enforces this for contact form
 - [v1.1-P11]: Used template.tsx remount boundary + usePathname (public API) to replace FrozenRouter + LayoutRouterContext (internal API)
+- [v1.1-P12]: Kept "Products / Materials" and "Other" as static dropdown options since they are not in services.ts but are valid contact reasons
 
 ### Pending Todos
 
@@ -49,5 +51,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 11-01-PLAN.md (Phase 11 complete, ready for Phase 12)
+Stopped at: Completed 12-01-PLAN.md (Phase 12 complete, ready for Phase 13)
 Resume file: None
