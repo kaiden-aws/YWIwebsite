@@ -49,4 +49,32 @@ export const projects: Project[] = [
     image: 'Project — Backyard retreat with stone fire pit',
     featured: false,
   },
+  {
+    id: 'fergus-garden-redesign',
+    name: 'Fergus Garden Redesign',
+    category: 'Residential',
+    image: 'Project — Full garden redesign with native plantings',
+    featured: false,
+  },
+  {
+    id: 'elora-plaza-maintenance',
+    name: 'Elora Plaza Grounds',
+    category: 'Commercial',
+    image: 'Project — Commercial plaza landscape maintenance',
+    featured: false,
+  },
+  {
+    id: 'outdoor-kitchen-patio',
+    name: 'Outdoor Kitchen & Patio',
+    category: 'Hardscaping',
+    image: 'Project — Outdoor kitchen with stone patio',
+    featured: false,
+  },
+  {
+    id: 'sports-field-irrigation',
+    name: 'Sports Field Irrigation System',
+    category: 'Irrigation',
+    image: 'Project — Sports field sprinkler system installation',
+    featured: false,
+  },
 ]
