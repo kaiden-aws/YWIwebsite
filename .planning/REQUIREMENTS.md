@@ -100,9 +100,9 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### SEO & Performance
 
-- [ ] **SEO-01**: Per-page metadata exports with title, description, and Open Graph tags
-- [ ] **SEO-02**: Location-specific keywords in metadata ("Fergus, Ontario", "Centre Wellington")
-- [ ] **SEO-03**: Semantic HTML with proper heading hierarchy (one h1 per page)
+- [x] **SEO-01**: Per-page metadata exports with title, description, and Open Graph tags
+- [x] **SEO-02**: Location-specific keywords in metadata ("Fergus, Ontario", "Centre Wellington")
+- [x] **SEO-03**: Semantic HTML with proper heading hierarchy (one h1 per page)
 - [ ] **SEO-04**: Sitemap generation via `app/sitemap.ts`
 - [ ] **SEO-05**: Robots.txt via `app/robots.ts`
 - [ ] **SEO-06**: Hero images marked with `priority={true}` for LCP optimization
@@ -233,9 +233,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | CONT-06 | Phase 8 | Complete |
 | CONT-07 | Phase 8 | Complete |
 | CONT-08 | Phase 8 | Complete |
-| SEO-01 | Phase 9 | Pending |
-| SEO-02 | Phase 9 | Pending |
-| SEO-03 | Phase 9 | Pending |
+| SEO-01 | Phase 9 | Complete |
+| SEO-02 | Phase 9 | Complete |
+| SEO-03 | Phase 9 | Complete |
 | SEO-04 | Phase 9 | Pending |
 | SEO-05 | Phase 9 | Pending |
 | SEO-06 | Phase 9 | Pending |

@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 8 complete — Contact page. Ready for Phase 9 (SEO and Meta).
+**Current focus:** Phase 9 in progress — SEO and Performance. Plan 01 complete (per-page metadata).
 
 ## Current Position
 
-Phase: 8 of 10 (Contact Page)
-Plan: 2 of 2 in current phase
-Status: Phase Complete
-Last activity: 2026-02-20 — Completed 08-02-PLAN.md (Contact form and page assembly)
+Phase: 9 of 10 (SEO and Performance)
+Plan: 1 of 2 in current phase
+Status: In Progress
+Last activity: 2026-02-20 — Completed 09-01-PLAN.md (SEO metadata exports)
 
-Progress: [█████████████████░░░] 85%
+Progress: [██████████████████░░] 90%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 19
+- Total plans completed: 20
 - Average duration: 2 min
-- Total execution time: 0.57 hours
+- Total execution time: 0.60 hours
 
 **By Phase:**
 
@@ -36,9 +36,10 @@ Progress: [█████████████████░░░] 85%
 | 07-gallery-page | 2 | 4 min | 2 min |
 | 07.1-integration-fixes | 1 | 1 min | 1 min |
 | 08-contact-page | 2 | 2 min | 1 min |
+| 09-seo-and-performance | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 07-01 (2 min), 07-02 (2 min), 07.1-01 (1 min), 08-01 (1 min), 08-02 (1 min)
+- Last 5 plans: 07-02 (2 min), 07.1-01 (1 min), 08-01 (1 min), 08-02 (1 min), 09-01 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -103,6 +104,9 @@ Recent decisions affecting current work:
 - [08-01]: Map placeholder uses sage/20 bg with MapPin icon and address text -- clearly reads as future map area
 - [08-02]: ContactForm follows MaterialCalculator useState pattern for consistency across project forms
 - [08-02]: Success state uses min-h-[400px] to prevent layout shift when form is replaced
+- [09-01]: Used title.absolute for homepage to avoid double branding from template pattern
+- [09-01]: Spread sharedOpenGraph in every page to prevent OG shallow merge losing siteName/locale
+- [09-01]: Used VERCEL_PROJECT_PRODUCTION_URL env var with yardweasels.ca fallback for siteConfig.url
 
 ### Pending Todos
 
@@ -117,5 +121,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 08-02-PLAN.md (Contact form and page assembly)
+Stopped at: Completed 09-01-PLAN.md (SEO metadata exports)
 Resume file: None
