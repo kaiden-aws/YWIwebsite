@@ -115,14 +115,14 @@ Requirements for initial release. Each maps to roadmap phases.
 - [x] **A11Y-02**: Icon-only buttons have `aria-label` (hamburger, close, social icons, back-to-top)
 - [x] **A11Y-03**: Color contrast meets WCAG AA (4.5:1 normal text, 3:1 large text)
 - [x] **A11Y-04**: Gallery lightbox has focus trap and keyboard navigation
-- [ ] **A11Y-05**: Reduced motion support via `prefers-reduced-motion` media query
+- [x] **A11Y-05**: Reduced motion support via `prefers-reduced-motion` media query
 
 ### Responsiveness
 
-- [ ] **RESP-01**: Mobile-first design — genuinely polished on phone, not just "it works"
-- [ ] **RESP-02**: All layouts adapt gracefully across mobile, tablet, and desktop breakpoints
-- [ ] **RESP-03**: Touch targets minimum 44px on mobile
-- [ ] **RESP-04**: Gallery masonry adjusts column count by viewport width
+- [x] **RESP-01**: Mobile-first design — genuinely polished on phone, not just "it works"
+- [x] **RESP-02**: All layouts adapt gracefully across mobile, tablet, and desktop breakpoints
+- [x] **RESP-03**: Touch targets minimum 44px on mobile
+- [x] **RESP-04**: Gallery masonry adjusts column count by viewport width
 
 ## v2 Requirements
 
@@ -245,11 +245,11 @@ Which phases cover which requirements. Updated during roadmap creation.
 | A11Y-02 | Phase 10 | Complete |
 | A11Y-03 | Phase 10 | Complete |
 | A11Y-04 | Phase 10 | Complete |
-| A11Y-05 | Phase 10 | Pending |
-| RESP-01 | Phase 10 | Pending |
-| RESP-02 | Phase 10 | Pending |
-| RESP-03 | Phase 10 | Pending |
-| RESP-04 | Phase 10 | Pending |
+| A11Y-05 | Phase 10 | Complete |
+| RESP-01 | Phase 10 | Complete |
+| RESP-02 | Phase 10 | Complete |
+| RESP-03 | Phase 10 | Complete |
+| RESP-04 | Phase 10 | Complete |
 
 **Coverage:**
 - v1 requirements: 84 total (note: initial count of 62 in traceability header was incorrect; actual count is 84)

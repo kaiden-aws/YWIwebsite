@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 10 in progress — Accessibility and Responsiveness. Plan 01 complete.
+**Current focus:** Phase 10 complete — Accessibility and Responsiveness. All plans complete. Project finished.
 
 ## Current Position
 
 Phase: 10 of 10 (Accessibility and Responsiveness)
-Plan: 1 of 2 in current phase
-Status: In Progress
-Last activity: 2026-02-20 — Completed 10-01-PLAN.md (Accessibility infrastructure, WCAG AA contrast, focus-visible, MotionConfig)
+Plan: 2 of 2 in current phase
+Status: Complete
+Last activity: 2026-02-20 — Completed 10-02-PLAN.md (Reduced motion, touch targets, mobile polish)
 
-Progress: [████████████████████] 97%
+Progress: [████████████████████] 100%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 22
+- Total plans completed: 23
 - Average duration: 2 min
-- Total execution time: 0.70 hours
+- Total execution time: 0.75 hours
 
 **By Phase:**
 
@@ -37,10 +37,10 @@ Progress: [████████████████████] 97%
 | 07.1-integration-fixes | 1 | 1 min | 1 min |
 | 08-contact-page | 2 | 2 min | 1 min |
 | 09-seo-and-performance | 2 | 6 min | 3 min |
-| 10-accessibility-responsiveness | 1 | 2 min | 2 min |
+| 10-accessibility-responsiveness | 2 | 5 min | 3 min |
 
 **Recent Trend:**
-- Last 5 plans: 08-01 (1 min), 08-02 (1 min), 09-01 (2 min), 09-02 (4 min), 10-01 (2 min)
+- Last 5 plans: 08-02 (1 min), 09-01 (2 min), 09-02 (4 min), 10-01 (2 min), 10-02 (3 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -116,6 +116,10 @@ Recent decisions affecting current work:
 - [10-01]: focus-visible with full-opacity forest ring replaces focus:ring-forest/30 for stronger keyboard indication
 - [10-01]: A11Y-02 confirmed already satisfied -- all icon-only buttons have aria-labels in existing codebase
 - [10-01]: outline (not box-shadow) used for global focus indicator because outline is preserved in Windows High Contrast Mode
+- [10-02]: motion-reduce Tailwind variant used alongside globals.css @media rule for defense-in-depth on animate-bounce
+- [10-02]: Carousel dot buttons use 44px flex wrapper with inner visual span to expand hit area without changing dot appearance
+- [10-02]: Lightbox prev/next use left-2/right-2 on mobile with translate-x-0 to stay inside viewport at 375px
+- [10-02]: Footer social icons use inline-flex min-w/min-h 44px pattern keeping icon visually at 20px
 
 ### Pending Todos
 
@@ -130,5 +134,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 10-01-PLAN.md (Accessibility infrastructure, WCAG AA contrast, focus-visible, MotionConfig)
+Stopped at: Completed 10-02-PLAN.md (Reduced motion, touch targets, mobile polish) -- All phases complete
 Resume file: None
