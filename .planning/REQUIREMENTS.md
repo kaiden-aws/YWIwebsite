@@ -111,10 +111,10 @@ Requirements for initial release. Each maps to roadmap phases.
 
 ### Accessibility
 
-- [ ] **A11Y-01**: All interactive elements have visible focus states
-- [ ] **A11Y-02**: Icon-only buttons have `aria-label` (hamburger, close, social icons, back-to-top)
-- [ ] **A11Y-03**: Color contrast meets WCAG AA (4.5:1 normal text, 3:1 large text)
-- [ ] **A11Y-04**: Gallery lightbox has focus trap and keyboard navigation
+- [x] **A11Y-01**: All interactive elements have visible focus states
+- [x] **A11Y-02**: Icon-only buttons have `aria-label` (hamburger, close, social icons, back-to-top)
+- [x] **A11Y-03**: Color contrast meets WCAG AA (4.5:1 normal text, 3:1 large text)
+- [x] **A11Y-04**: Gallery lightbox has focus trap and keyboard navigation
 - [ ] **A11Y-05**: Reduced motion support via `prefers-reduced-motion` media query
 
 ### Responsiveness
@@ -241,10 +241,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | SEO-06 | Phase 9 | Complete |
 | SEO-07 | Phase 9 | Complete |
 | SEO-08 | Phase 9 | Complete |
-| A11Y-01 | Phase 10 | Pending |
-| A11Y-02 | Phase 10 | Pending |
-| A11Y-03 | Phase 10 | Pending |
-| A11Y-04 | Phase 10 | Pending |
+| A11Y-01 | Phase 10 | Complete |
+| A11Y-02 | Phase 10 | Complete |
+| A11Y-03 | Phase 10 | Complete |
+| A11Y-04 | Phase 10 | Complete |
 | A11Y-05 | Phase 10 | Pending |
 | RESP-01 | Phase 10 | Pending |
 | RESP-02 | Phase 10 | Pending |

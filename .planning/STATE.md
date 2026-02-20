@@ -5,23 +5,23 @@
 See: .planning/PROJECT.md (updated 2026-02-18)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Phase 9 complete — SEO and Performance. All plans done. Ready for Phase 10.
+**Current focus:** Phase 10 in progress — Accessibility and Responsiveness. Plan 01 complete.
 
 ## Current Position
 
-Phase: 9 of 10 (SEO and Performance)
-Plan: 2 of 2 in current phase
-Status: Phase Complete
-Last activity: 2026-02-20 — Completed 09-02-PLAN.md (Sitemap, robots, hero priority, Lighthouse verified)
+Phase: 10 of 10 (Accessibility and Responsiveness)
+Plan: 1 of 2 in current phase
+Status: In Progress
+Last activity: 2026-02-20 — Completed 10-01-PLAN.md (Accessibility infrastructure, WCAG AA contrast, focus-visible, MotionConfig)
 
-Progress: [███████████████████░] 95%
+Progress: [████████████████████] 97%
 
 ## Performance Metrics
 
 **Velocity:**
-- Total plans completed: 21
+- Total plans completed: 22
 - Average duration: 2 min
-- Total execution time: 0.67 hours
+- Total execution time: 0.70 hours
 
 **By Phase:**
 
@@ -37,9 +37,10 @@ Progress: [███████████████████░] 95%
 | 07.1-integration-fixes | 1 | 1 min | 1 min |
 | 08-contact-page | 2 | 2 min | 1 min |
 | 09-seo-and-performance | 2 | 6 min | 3 min |
+| 10-accessibility-responsiveness | 1 | 2 min | 2 min |
 
 **Recent Trend:**
-- Last 5 plans: 07.1-01 (1 min), 08-01 (1 min), 08-02 (1 min), 09-01 (2 min), 09-02 (4 min)
+- Last 5 plans: 08-01 (1 min), 08-02 (1 min), 09-01 (2 min), 09-02 (4 min), 10-01 (2 min)
 - Trend: stable
 
 *Updated after each plan completion*
@@ -110,6 +111,11 @@ Recent decisions affecting current work:
 - [09-02]: Used Next.js MetadataRoute types for type-safe sitemap and robots generation
 - [09-02]: Added data-priority attribute to ImagePlaceholder for migration tracking without runtime impact
 - [09-02]: Documented sizes patterns per component context (hero 100vw, grid 33vw) in migration guide JSDoc
+- [10-01]: terracotta-dark (#9d5428) gives 4.96:1 on cream and 5.6:1 on white -- meets WCAG AA for normal text
+- [10-01]: CTABanner subtitle uses font-semibold to qualify as bold large text (3:1 WCAG threshold) rather than changing color
+- [10-01]: focus-visible with full-opacity forest ring replaces focus:ring-forest/30 for stronger keyboard indication
+- [10-01]: A11Y-02 confirmed already satisfied -- all icon-only buttons have aria-labels in existing codebase
+- [10-01]: outline (not box-shadow) used for global focus indicator because outline is preserved in Windows High Contrast Mode
 
 ### Pending Todos
 
@@ -124,5 +130,5 @@ None yet.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 09-02-PLAN.md (Sitemap, robots, hero priority, Lighthouse verified)
+Stopped at: Completed 10-01-PLAN.md (Accessibility infrastructure, WCAG AA contrast, focus-visible, MotionConfig)
 Resume file: None
