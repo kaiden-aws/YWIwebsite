@@ -182,11 +182,11 @@ Plans:
   3. Visiting `/sitemap.xml` returns a valid XML sitemap listing all six pages with their canonical URLs
   4. Visiting `/robots.txt` returns a valid robots file allowing all crawlers and referencing the sitemap
   5. Running Lighthouse on the deployed production URL returns a Performance score of 90 or higher on desktop and 80 or higher on mobile
-**Plans**: TBD
+**Plans**: 2 plans in 1 wave
 
 Plans:
-- [ ] 09-01: Per-page metadata exports and Open Graph tags for all six pages
-- [ ] 09-02: Sitemap.ts, robots.ts, hero image priority flags, image sizes props, and Lighthouse audit
+- [ ] 09-01-PLAN.md — Shared metadata constants, root layout metadata upgrade, per-page metadata exports with Open Graph tags for all six pages
+- [ ] 09-02-PLAN.md — Sitemap.ts, robots.ts, hero image priority comments, ImagePlaceholder migration guide, and Lighthouse performance verification
 
 ### Phase 10: Accessibility, Responsiveness, and Launch Polish
 **Goal**: Every user, regardless of their device, connection, or ability, can use the site without barriers — interactive elements are keyboard-navigable with visible focus states, icon-only buttons are labelled for screen readers, color contrast meets WCAG AA, the gallery lightbox traps focus correctly, users who prefer reduced motion see no animations, and every layout is genuinely polished on phone screens.
