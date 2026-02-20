@@ -64,7 +64,7 @@ Each task was committed atomically:
 1. **Task 1: Replace FrozenRouter with template.tsx page transitions** - `64b67f5` (feat)
 2. **Task 2: Verify page transitions and clean build** - verification-only, no code changes
 
-**Plan metadata:** (pending) (docs: complete plan)
+**Plan metadata:** `4cd3e8f` (docs: complete plan)
 
 ## Files Created/Modified
 - `src/app/template.tsx` - Route-level transition wrapper that remounts on every navigation

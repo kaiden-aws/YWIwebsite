@@ -60,7 +60,7 @@ Each task was committed atomically:
 
 1. **Task 1: Replace map placeholder with Google Maps iframe embed** - `adc48ab` (feat)
 
-**Plan metadata:** (pending)
+**Plan metadata:** `2880481` (docs: complete plan)
 
 ## Files Created/Modified
 - `src/components/sections/contact/ContactInfoPanel.tsx` - Replaced map placeholder div with Google Maps iframe embed
