@@ -9,7 +9,7 @@ Requirements for v1.1 Polish & Maps. Each maps to roadmap phases.
 
 ### Stability & Correctness
 
-- [ ] **STAB-01**: Page transitions use a stable API instead of internal Next.js LayoutRouterContext
+- [x] **STAB-01**: Page transitions use a stable API instead of internal Next.js LayoutRouterContext
 - [ ] **STAB-02**: Contact form service dropdown is populated from services.ts canonical data
 - [ ] **STAB-03**: MaterialCalculator depth field validates minimum via JavaScript (not just HTML min attribute)
 - [ ] **STAB-04**: Gallery lightbox resets selectedIndex when filter category changes
@@ -43,7 +43,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| STAB-01 | Phase 11 | Pending |
+| STAB-01 | Phase 11 | Complete |
 | STAB-02 | Phase 12 | Pending |
 | STAB-03 | Phase 12 | Pending |
 | STAB-04 | Phase 12 | Pending |
