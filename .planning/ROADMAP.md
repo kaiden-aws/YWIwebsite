@@ -136,7 +136,7 @@ Plans:
 | 16. Image Infrastructure | v1.2 | 1/1 | Complete | 2026-02-21 |
 | 17. Hero Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
 | 18. Content Section Images | 3/3 | Complete    | 2026-02-21 | - |
-| 19. Gallery Project Images | v1.2 | 1/1 | Complete | 2026-02-21 |
+| 19. Gallery Project Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
 | 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
