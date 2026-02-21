@@ -1,8 +1,8 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { products } from '@/lib/data/products'
 import { companyInfo } from '@/lib/data/navigation'
 import AnimatedSection from '@/components/ui/AnimatedSection'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 import GrainOverlay from '@/components/ui/GrainOverlay'
 
 export default function ProductsBanner() {
@@ -23,11 +23,15 @@ export default function ProductsBanner() {
             {products.map((product, index) => (
               <AnimatedSection key={product.id} delay={index * 0.1}>
                 <div className="group rounded-lg overflow-hidden bg-cream/10 backdrop-blur-sm hover:bg-cream/20 transition-colors">
-                  <ImagePlaceholder
-                    label={product.image}
-                    aspectRatio="square"
-                    className="!bg-sage/20"
-                  />
+                  <div className="relative aspect-square">
+                    <Image
+                      src={product.image}
+                      alt={product.name}
+                      fill
+                      sizes="(max-width: 640px) 50vw, (max-width: 1024px) 33vw, 25vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <p className="p-3 text-center text-cream font-medium text-sm">
                     {product.name}
                   </p>

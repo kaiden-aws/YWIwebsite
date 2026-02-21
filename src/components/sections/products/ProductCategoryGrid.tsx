@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import { products } from '@/lib/data/products'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 import AnimatedSection from '@/components/ui/AnimatedSection'
 
 export default function ProductCategoryGrid() {
@@ -19,10 +19,13 @@ export default function ProductCategoryGrid() {
             <AnimatedSection key={product.id} delay={index * 0.1}>
               <div className="group relative rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-md transition-shadow">
                 {/* Image area */}
-                <div className="relative">
-                  <ImagePlaceholder
-                    label={product.image}
-                    aspectRatio="square"
+                <div className="relative aspect-square">
+                  <Image
+                    src={product.image}
+                    alt={product.name}
+                    fill
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 25vw"
+                    className="object-cover"
                   />
                   {/* Hover overlay — always visible on mobile, hover-reveal on desktop */}
                   <div className="absolute inset-0 flex items-center justify-center bg-forest/80 transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100">
