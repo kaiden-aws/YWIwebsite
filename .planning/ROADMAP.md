@@ -69,7 +69,10 @@ Plans:
   2. About, Services, Products, Gallery, and Contact page heroes each display a real contextually relevant photo as full-width background
   3. All hero images load without layout shift (proper width/height or fill mode)
   4. Above-fold hero on the Home page loads with priority (no lazy loading delay)
-**Plans**: TBD
+**Plans**: 2 plans
+Plans:
+- [ ] 17-01-PLAN.md — Home page parallax hero with next/image
+- [ ] 17-02-PLAN.md — Five interior page heroes with next/image
 
 ### Phase 18: Content Section Images
 **Goal**: Service cards, product cards, and team portraits all show real photographs instead of placeholder boxes
@@ -125,7 +128,7 @@ Plans:
 | 14. Google Maps Embed | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 15. Lighthouse Verification | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 16. Image Infrastructure | 1/1 | Complete    | 2026-02-21 | - |
-| 17. Hero Images | v1.2 | 0/? | Not started | - |
+| 17. Hero Images | v1.2 | 0/2 | Not started | - |
 | 18. Content Section Images | v1.2 | 0/? | Not started | - |
 | 19. Gallery Project Images | v1.2 | 0/? | Not started | - |
 | 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |
