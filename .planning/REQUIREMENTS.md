@@ -9,7 +9,7 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 ### Hero Images
 
-- [ ] **HERO-01**: Home page hero displays a real landscaping project photo as full-viewport parallax background
+- [x] **HERO-01**: Home page hero displays a real landscaping project photo as full-viewport parallax background
 - [ ] **HERO-02**: About page hero displays a real team/project photo as full-width background
 - [ ] **HERO-03**: Services page hero displays a real crew/project photo as full-width background
 - [ ] **HERO-04**: Products page hero displays a real retail yard/materials photo as full-width background
@@ -61,7 +61,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HERO-01 | Phase 17 | Pending |
+| HERO-01 | Phase 17 | Complete |
 | HERO-02 | Phase 17 | Pending |
 | HERO-03 | Phase 17 | Pending |
 | HERO-04 | Phase 17 | Pending |
