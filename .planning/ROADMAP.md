@@ -58,7 +58,7 @@
   3. TypeScript types for all data models include the image field with no type errors
 **Plans**: 1 plan
 Plans:
-- [ ] 16-01-PLAN.md — Directory structure and data model path updates
+- [x] 16-01-PLAN.md — Directory structure and data model path updates
 
 ### Phase 17: Hero Images
 **Goal**: Every page opens with a real landscaping photograph as the hero background instead of a colored placeholder box
@@ -72,7 +72,7 @@ Plans:
 **Plans**: 2 plans
 Plans:
 - [x] 17-01-PLAN.md — Home page parallax hero with next/image
-- [ ] 17-02-PLAN.md — Five interior page heroes with next/image
+- [x] 17-02-PLAN.md — Five interior page heroes with next/image
 
 ### Phase 18: Content Section Images
 **Goal**: Service cards, product cards, and team portraits all show real photographs instead of placeholder boxes
@@ -127,8 +127,8 @@ Plans:
 | 13. Launch Assets and Touch Targets | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 14. Google Maps Embed | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 15. Lighthouse Verification | v1.1 | 1/1 | Complete | 2026-02-20 |
-| 16. Image Infrastructure | 1/1 | Complete    | 2026-02-21 | - |
-| 17. Hero Images | 2/2 | Complete   | 2026-02-21 | - |
+| 16. Image Infrastructure | v1.2 | 1/1 | Complete | 2026-02-21 |
+| 17. Hero Images | v1.2 | 2/2 | Complete | 2026-02-21 |
 | 18. Content Section Images | v1.2 | 0/? | Not started | - |
 | 19. Gallery Project Images | v1.2 | 0/? | Not started | - |
 | 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |

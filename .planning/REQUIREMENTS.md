@@ -10,11 +10,11 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 ### Hero Images
 
 - [x] **HERO-01**: Home page hero displays a real landscaping project photo as full-viewport parallax background
-- [ ] **HERO-02**: About page hero displays a real team/project photo as full-width background
-- [ ] **HERO-03**: Services page hero displays a real crew/project photo as full-width background
-- [ ] **HERO-04**: Products page hero displays a real retail yard/materials photo as full-width background
-- [ ] **HERO-05**: Gallery page hero displays a real completed project photo as full-width background
-- [ ] **HERO-06**: Contact page hero displays a real office/team photo as full-width background
+- [x] **HERO-02**: About page hero displays a real team/project photo as full-width background
+- [x] **HERO-03**: Services page hero displays a real crew/project photo as full-width background
+- [x] **HERO-04**: Products page hero displays a real retail yard/materials photo as full-width background
+- [x] **HERO-05**: Gallery page hero displays a real completed project photo as full-width background
+- [x] **HERO-06**: Contact page hero displays a real office/team photo as full-width background
 
 ### Service Images
 
@@ -35,8 +35,8 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 ### Infrastructure
 
-- [ ] **INFRA-01**: All images stored locally in `public/images/` organized by type (heroes/, services/, products/, projects/, team/)
-- [ ] **INFRA-02**: Data files (services.ts, products.ts, projects.ts, about.ts) updated with real image paths replacing label strings
+- [x] **INFRA-01**: All images stored locally in `public/images/` organized by type (heroes/, services/, products/, projects/, team/)
+- [x] **INFRA-02**: Data files (services.ts, products.ts, projects.ts, about.ts) updated with real image paths replacing label strings
 - [ ] **INFRA-03**: All 15 components use `next/image` instead of ImagePlaceholder
 - [ ] **INFRA-04**: ImagePlaceholder component removed from codebase
 - [ ] **INFRA-05**: All images use appropriate `next/image` props (sizes, priority, fill, alt text from current labels)
@@ -62,18 +62,18 @@ Which phases cover which requirements. Updated during roadmap creation.
 | Requirement | Phase | Status |
 |-------------|-------|--------|
 | HERO-01 | Phase 17 | Complete |
-| HERO-02 | Phase 17 | Pending |
-| HERO-03 | Phase 17 | Pending |
-| HERO-04 | Phase 17 | Pending |
-| HERO-05 | Phase 17 | Pending |
-| HERO-06 | Phase 17 | Pending |
+| HERO-02 | Phase 17 | Complete |
+| HERO-03 | Phase 17 | Complete |
+| HERO-04 | Phase 17 | Complete |
+| HERO-05 | Phase 17 | Complete |
+| HERO-06 | Phase 17 | Complete |
 | SERV-01 | Phase 18 | Pending |
 | PROD-01 | Phase 18 | Pending |
 | PROJ-01 | Phase 19 | Pending |
 | PROJ-02 | Phase 19 | Pending |
 | TEAM-01 | Phase 18 | Pending |
-| INFRA-01 | Phase 16 | Pending |
-| INFRA-02 | Phase 16 | Pending |
+| INFRA-01 | Phase 16 | Complete |
+| INFRA-02 | Phase 16 | Complete |
 | INFRA-03 | Phase 20 | Pending |
 | INFRA-04 | Phase 20 | Pending |
 | INFRA-05 | Phase 20 | Pending |
