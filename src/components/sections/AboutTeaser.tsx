@@ -25,7 +25,7 @@ export default function AboutTeaser() {
                 Rooted in Fergus
               </h2>
               <p className="text-charcoal/70 leading-relaxed mb-4">
-                For over a decade, Yard Weasels Inc. has been shaping outdoor
+                For over two decades, Yard Weasels Inc. has been shaping outdoor
                 spaces across Centre Wellington and the surrounding communities.
                 What started as a small residential operation has grown into a
                 trusted name serving homeowners, businesses, and municipalities

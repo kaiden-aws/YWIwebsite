@@ -6,6 +6,7 @@ import AboutTeaser from '@/components/sections/AboutTeaser'
 import ProductsBanner from '@/components/sections/ProductsBanner'
 import ProjectShowcase from '@/components/sections/ProjectShowcase'
 import TestimonialCarousel from '@/components/sections/TestimonialCarousel'
+import StatsBar from '@/components/sections/StatsBar'
 import CTABanner from '@/components/sections/CTABanner'
 import { testimonials } from '@/lib/data/testimonials'
 
@@ -32,6 +33,7 @@ export default function Home() {
       <HeroSection />
       <ServicesPreview />
       <AboutTeaser />
+      <StatsBar />
       <ProductsBanner />
       <ProjectShowcase />
       <TestimonialCarousel testimonials={testimonials} />
