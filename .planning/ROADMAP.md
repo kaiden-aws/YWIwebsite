@@ -83,7 +83,11 @@ Plans:
   2. Each of the 7 product category cards displays a photo of that material type (e.g., mulch card shows mulch)
   3. Each of the 4 team member cards displays a professional portrait-style photo
   4. All card images render at correct aspect ratios without distortion or overflow
-**Plans**: TBD
+**Plans**: 3 plans
+Plans:
+- [ ] 18-01-PLAN.md — Service card images (6 service photos + ServiceCardGrid + ServicesPreview)
+- [ ] 18-02-PLAN.md — Product card images (7 product photos + ProductCategoryGrid + ProductsBanner)
+- [ ] 18-03-PLAN.md — Team portrait images (4 team portraits + TeamSection + AboutTeaser)
 
 ### Phase 19: Gallery Project Images
 **Goal**: The gallery page displays real landscaping project photos in both the masonry grid and the lightbox viewer
@@ -129,7 +133,7 @@ Plans:
 | 15. Lighthouse Verification | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 16. Image Infrastructure | v1.2 | 1/1 | Complete | 2026-02-21 |
 | 17. Hero Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
-| 18. Content Section Images | v1.2 | 0/? | Not started | - |
+| 18. Content Section Images | v1.2 | 0/3 | Not started | - |
 | 19. Gallery Project Images | v1.2 | 0/? | Not started | - |
 | 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |
 
