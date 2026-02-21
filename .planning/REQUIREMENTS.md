@@ -18,7 +18,7 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 ### Service Images
 
-- [ ] **SERV-01**: Each of the 6 service cards displays a relevant photo matching its service type (Design & Build, Residential, Commercial, Municipal, Irrigation, Snow Removal)
+- [x] **SERV-01**: Each of the 6 service cards displays a relevant photo matching its service type (Design & Build, Residential, Commercial, Municipal, Irrigation, Snow Removal)
 
 ### Product Images
 
@@ -67,7 +67,7 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HERO-04 | Phase 17 | Complete |
 | HERO-05 | Phase 17 | Complete |
 | HERO-06 | Phase 17 | Complete |
-| SERV-01 | Phase 18 | Pending |
+| SERV-01 | Phase 18 | Complete |
 | PROD-01 | Phase 18 | Complete |
 | PROJ-01 | Phase 19 | Pending |
 | PROJ-02 | Phase 19 | Pending |

@@ -72,7 +72,7 @@ Each task was committed atomically:
 1. **Task 1: Download 4 sample team portrait images and 1 team project photo** - `5c352db` (feat)
 2. **Task 2: Replace ImagePlaceholder with next/image in TeamSection and AboutTeaser** - `3fc3b70` (feat)
 
-**Plan metadata:** TBD (docs: complete plan)
+**Plan metadata:** `195392d` (docs: complete plan)
 
 ## Files Created/Modified
 - `public/images/team/member-1.jpg` - Portrait photo placeholder for Owner / Lead Designer
