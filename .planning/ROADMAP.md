@@ -42,7 +42,7 @@
 
 - [x] **Phase 16: Image Infrastructure** - Directory structure and data model updates to support real image paths (completed 2026-02-21)
 - [x] **Phase 17: Hero Images** - Real full-viewport hero photos for all 6 pages (completed 2026-02-21)
-- [ ] **Phase 18: Content Section Images** - Real photos for service cards, product cards, and team portraits
+- [x] **Phase 18: Content Section Images** - Real photos for service cards, product cards, and team portraits (completed 2026-02-21)
 - [ ] **Phase 19: Gallery Project Images** - Real photos for all 10 gallery projects with lightbox optimization
 - [ ] **Phase 20: Component Migration and Cleanup** - Swap all ImagePlaceholder usages to next/image and remove the component
 
@@ -86,7 +86,7 @@ Plans:
 **Plans**: 3 plans
 Plans:
 - [ ] 18-01-PLAN.md — Service card images (6 service photos + ServiceCardGrid + ServicesPreview)
-- [ ] 18-02-PLAN.md — Product card images (7 product photos + ProductCategoryGrid + ProductsBanner)
+- [x] 18-02-PLAN.md — Product card images (7 product photos + ProductCategoryGrid + ProductsBanner)
 - [ ] 18-03-PLAN.md — Team portrait images (4 team portraits + TeamSection + AboutTeaser)
 
 ### Phase 19: Gallery Project Images
@@ -133,7 +133,7 @@ Plans:
 | 15. Lighthouse Verification | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 16. Image Infrastructure | v1.2 | 1/1 | Complete | 2026-02-21 |
 | 17. Hero Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
-| 18. Content Section Images | v1.2 | 0/3 | Not started | - |
+| 18. Content Section Images | 3/3 | Complete   | 2026-02-21 | - |
 | 19. Gallery Project Images | v1.2 | 0/? | Not started | - |
 | 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |
 

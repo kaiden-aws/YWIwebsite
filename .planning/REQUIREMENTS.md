@@ -22,7 +22,7 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 ### Product Images
 
-- [ ] **PROD-01**: Each of the 7 product category cards displays a relevant photo for its material type (Aggregates, Mulch, Fertilizer, Natural Stone, Topsoil, Interlock, Seed)
+- [x] **PROD-01**: Each of the 7 product category cards displays a relevant photo for its material type (Aggregates, Mulch, Fertilizer, Natural Stone, Topsoil, Interlock, Seed)
 
 ### Project/Gallery Images
 
@@ -31,7 +31,7 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 ### Team Images
 
-- [ ] **TEAM-01**: Each of the 4 team member cards displays a professional portrait-style photo
+- [x] **TEAM-01**: Each of the 4 team member cards displays a professional portrait-style photo
 
 ### Infrastructure
 
@@ -68,10 +68,10 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HERO-05 | Phase 17 | Complete |
 | HERO-06 | Phase 17 | Complete |
 | SERV-01 | Phase 18 | Pending |
-| PROD-01 | Phase 18 | Pending |
+| PROD-01 | Phase 18 | Complete |
 | PROJ-01 | Phase 19 | Pending |
 | PROJ-02 | Phase 19 | Pending |
-| TEAM-01 | Phase 18 | Pending |
+| TEAM-01 | Phase 18 | Complete |
 | INFRA-01 | Phase 16 | Complete |
 | INFRA-02 | Phase 16 | Complete |
 | INFRA-03 | Phase 20 | Pending |
