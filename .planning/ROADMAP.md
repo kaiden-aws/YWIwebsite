@@ -56,7 +56,9 @@
   1. A `public/images/` directory exists with subdirectories for each image type (heroes/, services/, products/, projects/, team/)
   2. Data files (services.ts, products.ts, projects.ts, about.ts) export an `image` field for each entry containing a valid path under `public/images/`
   3. TypeScript types for all data models include the image field with no type errors
-**Plans**: TBD
+**Plans**: 1 plan
+Plans:
+- [ ] 16-01-PLAN.md — Directory structure and data model path updates
 
 ### Phase 17: Hero Images
 **Goal**: Every page opens with a real landscaping photograph as the hero background instead of a colored placeholder box
@@ -122,7 +124,7 @@
 | 13. Launch Assets and Touch Targets | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 14. Google Maps Embed | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 15. Lighthouse Verification | v1.1 | 1/1 | Complete | 2026-02-20 |
-| 16. Image Infrastructure | v1.2 | 0/? | Not started | - |
+| 16. Image Infrastructure | v1.2 | 0/1 | Planned | - |
 | 17. Hero Images | v1.2 | 0/? | Not started | - |
 | 18. Content Section Images | v1.2 | 0/? | Not started | - |
 | 19. Gallery Project Images | v1.2 | 0/? | Not started | - |
