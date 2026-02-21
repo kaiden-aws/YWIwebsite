@@ -14,7 +14,7 @@ Plan: 18-01 complete (3/3)
 Status: Phase 18 execution complete — all content section images done
 Last activity: 2026-02-20 — Phase 18 plan 01 executed (final plan)
 
-Progress: [████░░░░░░] 40% (2/5 phases complete)
+Progress: [██████░░░░] 60% (3/5 phases complete)
 
 ## Performance Metrics
 
@@ -30,8 +30,8 @@ Progress: [████░░░░░░] 40% (2/5 phases complete)
 - Timeline: 1 day (2026-02-20)
 
 **Velocity (v1.2):**
-- Total plans completed: 4
-- Total phases completed: 2
+- Total plans completed: 5
+- Total phases completed: 3
 
 ## Accumulated Context
 
@@ -43,6 +43,8 @@ Decisions are logged in PROJECT.md Key Decisions table.
 - 17-01: next/image fill mode inside parallax m.div with priority loading pattern
 - 17-02: bg-forest/60 dark overlay for text readability over hero photos (60% opacity)
 - 17-02: All interior hero images use quality={80} for visual quality vs file size balance
+- 18-01: Sample images from picsum.photos as interim service card images; owner replaces before launch
+- 18-01: aspect-video wrapper div for fill-mode next/image in card layouts (below-fold, no priority)
 - 18-02: Sample photos from picsum.photos as interim product images; owner replaces before launch
 - 18-02: product.name used as alt text instead of product.image path string
 - 18-03: Used picsum.photos random images as interim team portraits; owner replaces before launch
@@ -60,5 +62,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 18-03-PLAN.md
+Stopped at: Phase 18 complete — all 3 plans executed (18-01, 18-02, 18-03)
 Resume file: None

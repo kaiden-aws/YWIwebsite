@@ -85,9 +85,9 @@ Plans:
   4. All card images render at correct aspect ratios without distortion or overflow
 **Plans**: 3 plans
 Plans:
-- [ ] 18-01-PLAN.md — Service card images (6 service photos + ServiceCardGrid + ServicesPreview)
+- [x] 18-01-PLAN.md — Service card images (6 service photos + ServiceCardGrid + ServicesPreview)
 - [x] 18-02-PLAN.md — Product card images (7 product photos + ProductCategoryGrid + ProductsBanner)
-- [ ] 18-03-PLAN.md — Team portrait images (4 team portraits + TeamSection + AboutTeaser)
+- [x] 18-03-PLAN.md — Team portrait images (4 team portraits + TeamSection + AboutTeaser)
 
 ### Phase 19: Gallery Project Images
 **Goal**: The gallery page displays real landscaping project photos in both the masonry grid and the lightbox viewer
