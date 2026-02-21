@@ -26,8 +26,8 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 ### Project/Gallery Images
 
-- [ ] **PROJ-01**: Each of the 10 gallery projects displays a relevant landscaping photo matching its category and description
-- [ ] **PROJ-02**: Gallery lightbox displays the full-size project image with next/image optimization
+- [x] **PROJ-01**: Each of the 10 gallery projects displays a relevant landscaping photo matching its category and description
+- [x] **PROJ-02**: Gallery lightbox displays the full-size project image with next/image optimization
 
 ### Team Images
 
@@ -69,8 +69,8 @@ Which phases cover which requirements. Updated during roadmap creation.
 | HERO-06 | Phase 17 | Complete |
 | SERV-01 | Phase 18 | Complete |
 | PROD-01 | Phase 18 | Complete |
-| PROJ-01 | Phase 19 | Pending |
-| PROJ-02 | Phase 19 | Pending |
+| PROJ-01 | Phase 19 | Complete |
+| PROJ-02 | Phase 19 | Complete |
 | TEAM-01 | Phase 18 | Complete |
 | INFRA-01 | Phase 16 | Complete |
 | INFRA-02 | Phase 16 | Complete |

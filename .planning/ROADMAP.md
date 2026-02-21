@@ -43,7 +43,7 @@
 - [x] **Phase 16: Image Infrastructure** - Directory structure and data model updates to support real image paths (completed 2026-02-21)
 - [x] **Phase 17: Hero Images** - Real full-viewport hero photos for all 6 pages (completed 2026-02-21)
 - [x] **Phase 18: Content Section Images** - Real photos for service cards, product cards, and team portraits (completed 2026-02-21)
-- [ ] **Phase 19: Gallery Project Images** - Real photos for all 10 gallery projects with lightbox optimization
+- [x] **Phase 19: Gallery Project Images** - Real photos for all 10 gallery projects with lightbox optimization (completed 2026-02-21)
 - [ ] **Phase 20: Component Migration and Cleanup** - Swap all ImagePlaceholder usages to next/image and remove the component
 
 ## Phase Details
@@ -99,7 +99,7 @@ Plans:
   3. Gallery filtering still works correctly with real images (no broken references on category switch)
 **Plans**: 1 plan
 Plans:
-- [ ] 19-01-PLAN.md — Gallery project images (10 project photos + GalleryGrid + GalleryLightbox + ProjectShowcase)
+- [x] 19-01-PLAN.md — Gallery project images (10 project photos + GalleryGrid + GalleryLightbox + ProjectShowcase)
 
 ### Phase 20: Component Migration and Cleanup
 **Goal**: Every ImagePlaceholder usage is replaced with next/image, all images use proper optimization props, and the placeholder component is deleted
@@ -136,7 +136,7 @@ Plans:
 | 16. Image Infrastructure | v1.2 | 1/1 | Complete | 2026-02-21 |
 | 17. Hero Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
 | 18. Content Section Images | 3/3 | Complete    | 2026-02-21 | - |
-| 19. Gallery Project Images | v1.2 | 0/1 | Not started | - |
+| 19. Gallery Project Images | v1.2 | 1/1 | Complete | 2026-02-21 |
 | 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
