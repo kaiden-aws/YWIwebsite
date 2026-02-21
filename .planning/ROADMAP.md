@@ -44,7 +44,7 @@
 - [x] **Phase 17: Hero Images** - Real full-viewport hero photos for all 6 pages (completed 2026-02-21)
 - [x] **Phase 18: Content Section Images** - Real photos for service cards, product cards, and team portraits (completed 2026-02-21)
 - [x] **Phase 19: Gallery Project Images** - Real photos for all 10 gallery projects with lightbox optimization (completed 2026-02-21)
-- [ ] **Phase 20: Component Migration and Cleanup** - Swap all ImagePlaceholder usages to next/image and remove the component
+- [x] **Phase 20: Component Migration and Cleanup** - Swap all ImagePlaceholder usages to next/image and remove the component (completed 2026-02-21)
 
 ## Phase Details
 
@@ -139,7 +139,7 @@ Plans:
 | 17. Hero Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
 | 18. Content Section Images | 3/3 | Complete    | 2026-02-21 | - |
 | 19. Gallery Project Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
-| 20. Component Migration and Cleanup | v1.2 | 0/1 | Not started | - |
+| 20. Component Migration and Cleanup | 1/1 | Complete   | 2026-02-21 | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
 _Full v1.1 details archived to `.planning/milestones/v1.1-ROADMAP.md`_

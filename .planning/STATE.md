@@ -5,16 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** v1.2 Real Images — Phase 19: Gallery Project Images
+**Current focus:** v1.2 Real Images — Phase 20: Component Migration Cleanup (COMPLETE)
 
 ## Current Position
 
-Phase: 19 of 20 (Gallery Project Images)
-Plan: 19-01 complete (1/1)
-Status: Phase 19 execution complete — all gallery project images done
-Last activity: 2026-02-20 — Phase 19 plan 01 executed (final plan)
+Phase: 20 of 20 (Component Migration Cleanup)
+Plan: 20-01 complete (1/1)
+Status: Phase 20 execution complete — ImagePlaceholder deleted, all images audited
+Last activity: 2026-02-20 — Phase 20 plan 01 executed (final plan)
 
-Progress: [████████░░] 80% (4/5 phases complete)
+Progress: [██████████] 100% (5/5 phases complete)
 
 ## Performance Metrics
 
@@ -30,8 +30,9 @@ Progress: [████████░░] 80% (4/5 phases complete)
 - Timeline: 1 day (2026-02-20)
 
 **Velocity (v1.2):**
-- Total plans completed: 6
-- Total phases completed: 4
+- Total plans completed: 7
+- Total phases completed: 5
+- Phase 20-01: 1min, 2 tasks, 1 file
 
 ## Accumulated Context
 
@@ -54,6 +55,7 @@ Decisions are logged in PROJECT.md Key Decisions table.
 - 19-01: GalleryGrid fill-mode Image relies on parent m.div relative+overflow-hidden with fixed auto-rows
 - 19-01: GalleryLightbox needs aspect-video wrapper div; ProjectShowcase uses aspect-square wrapper
 - 19-01: No priority prop on gallery/showcase images (below-fold content)
+- 20-01: No code changes needed for audit — all 15 components already had correct props from phases 17-19
 
 ### Pending Todos
 
@@ -66,5 +68,5 @@ None.
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Phase 19 complete — plan 19-01 executed (gallery project images)
+Stopped at: Phase 20 complete — plan 20-01 executed (component migration cleanup). v1.2 Real Images milestone COMPLETE.
 Resume file: None

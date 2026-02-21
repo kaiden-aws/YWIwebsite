@@ -37,9 +37,9 @@ Requirements for milestone v1.2 Real Images. Each maps to roadmap phases.
 
 - [x] **INFRA-01**: All images stored locally in `public/images/` organized by type (heroes/, services/, products/, projects/, team/)
 - [x] **INFRA-02**: Data files (services.ts, products.ts, projects.ts, about.ts) updated with real image paths replacing label strings
-- [ ] **INFRA-03**: All 15 components use `next/image` instead of ImagePlaceholder
-- [ ] **INFRA-04**: ImagePlaceholder component removed from codebase
-- [ ] **INFRA-05**: All images use appropriate `next/image` props (sizes, priority, fill, alt text from current labels)
+- [x] **INFRA-03**: All 15 components use `next/image` instead of ImagePlaceholder
+- [x] **INFRA-04**: ImagePlaceholder component removed from codebase
+- [x] **INFRA-05**: All images use appropriate `next/image` props (sizes, priority, fill, alt text from current labels)
 
 ## Future Requirements
 
@@ -74,9 +74,9 @@ Which phases cover which requirements. Updated during roadmap creation.
 | TEAM-01 | Phase 18 | Complete |
 | INFRA-01 | Phase 16 | Complete |
 | INFRA-02 | Phase 16 | Complete |
-| INFRA-03 | Phase 20 | Pending |
-| INFRA-04 | Phase 20 | Pending |
-| INFRA-05 | Phase 20 | Pending |
+| INFRA-03 | Phase 20 | Complete |
+| INFRA-04 | Phase 20 | Complete |
+| INFRA-05 | Phase 20 | Complete |
 
 **Coverage:**
 - v1.2 requirements: 16 total
