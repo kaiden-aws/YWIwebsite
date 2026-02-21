@@ -5,14 +5,13 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** v1.1 Polish & Maps — All phases complete. Milestone finished.
+**Current focus:** Planning next milestone
 
 ## Current Position
 
-Phase: 15 of 15 (Lighthouse Verification)
-Plan: 1 of 1 in current phase (COMPLETE)
-Status: Phase 15 complete — v1.1 milestone finished
-Last activity: 2026-02-20 — Completed 15-01 Lighthouse Verification
+Phase: All complete (v1.0 + v1.1 shipped)
+Status: Between milestones
+Last activity: 2026-02-20 — Completed v1.1 milestone
 
 Progress: [##############################] 29/29 plans (v1.0 + v1.1 complete)
 
@@ -23,28 +22,17 @@ Progress: [##############################] 29/29 plans (v1.0 + v1.1 complete)
 - Total phases completed: 11 (including 7.1)
 - Timeline: 2 days (2026-02-18 to 2026-02-20)
 
-**v1.1:**
-- Phase 11: 1 plan, 2 tasks, 2min
-- Phase 12: 1 plan, 3 tasks, 2min
-- Phase 13: 1 plan, 2 tasks, 2min
-- Phase 14: 1 plan, 1 task, 1min
-- Phase 15: 1 plan, 2 tasks, 5min
+**Velocity (v1.1):**
+- Total plans completed: 5
+- Total phases completed: 5
+- Total tasks: 10
+- Timeline: 1 day (2026-02-20)
 
 ## Accumulated Context
 
 ### Decisions
 
 Decisions are logged in PROJECT.md Key Decisions table.
-Recent decisions affecting current work:
-
-- [v1.0]: FrozenRouter uses internal Next.js API (LayoutRouterContext) — RESOLVED in Phase 11
-- [v1.0]: Canonical data files (services.ts, products.ts) are single source of truth — Phase 12 enforces this for contact form
-- [v1.1-P11]: Used template.tsx remount boundary + usePathname (public API) to replace FrozenRouter + LayoutRouterContext (internal API)
-- [v1.1-P12]: Kept "Products / Materials" and "Other" as static dropdown options since they are not in services.ts but are valid contact reasons
-- [v1.1-P13]: Used Next.js opengraph-image.tsx convention for auto-generated OG images instead of static files
-- [v1.1-P13]: Used system serif/sans-serif fonts in Satori renderer to approximate site fonts without font file loading
-- [v1.1-P14]: Used keyless Google Maps embed URL instead of Embed API v1 key for simplicity and no API key management
-- [Phase 15]: No Lighthouse remediation needed -- all 24 scores were 90+ on first audit
 
 ### Pending Todos
 
@@ -53,10 +41,9 @@ None.
 ### Blockers/Concerns
 
 - [Pre-launch]: Real project photos from owner needed to replace placeholders before site goes live
-- [Phase 15]: Lighthouse verification requires deployed Vercel preview — RESOLVED, all scores 90+
 
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: Completed 15-01-PLAN.md (Phase 15 complete, v1.1 milestone finished)
+Stopped at: v1.1 milestone completed and archived
 Resume file: None

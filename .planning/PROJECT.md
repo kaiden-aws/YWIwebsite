@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A premium, production-ready 6-page marketing website for Yard Weasels Inc., a landscaping company based in Fergus, Ontario. Built with Next.js 16, Tailwind v4, and Framer Motion — featuring earthy luxury design (forest green, cream, terracotta), editorial typography, cinematic scroll animations, an interactive Material Calculator, filterable gallery with keyboard-navigable lightbox, validated contact form, per-page SEO with Open Graph, and WCAG AA accessibility. The site serves residential, commercial, and municipal clients and showcases their full range of services.
+A premium, production-ready 6-page marketing website for Yard Weasels Inc., a landscaping company based in Fergus, Ontario. Built with Next.js 16, Tailwind v4, and Framer Motion — featuring earthy luxury design (forest green, cream, terracotta), editorial typography, cinematic scroll animations, an interactive Material Calculator, filterable gallery with keyboard-navigable lightbox, validated contact form, Google Maps embed for the retail yard, auto-generated OG images for social sharing, per-page SEO, and WCAG AA accessibility. Deployed on Vercel with 90+ Lighthouse scores across all pages.
 
 ## Core Value
 
@@ -32,22 +32,18 @@ When someone lands on this site, they immediately think "these people are seriou
 - ✓ SEO: per-page metadata, Open Graph, sitemap, robots.txt — v1.0
 - ✓ Performance: server-rendered pages, minimal client JS, Core Web Vitals optimized — v1.0
 - ✓ Deploys to Vercel — v1.0
+- ✓ Page transitions use stable public APIs (template.tsx + usePathname) — v1.1
+- ✓ Contact form dropdown synced with services.ts canonical data — v1.1
+- ✓ MaterialCalculator JS depth validation (min 0.5 inches) — v1.1
+- ✓ Gallery lightbox resets on filter category change — v1.1
+- ✓ Auto-generated OG images for all 6 pages (Next.js ImageResponse) — v1.1
+- ✓ Header CTA meets 44px+ touch target — v1.1
+- ✓ Google Maps embed for retail yard on Contact page — v1.1
+- ✓ Lighthouse 90+ across all categories on all pages (avg 97.1) — v1.1
 
 ### Active
 
-**Current Milestone: v1.1 Polish & Maps**
-
-**Goal:** Fix all carried tech debt from v1.0 and add a Google Maps embed for the retail yard location.
-
-**Target features:**
-- Fix PageTransitionWrapper internal API fragility
-- Generate/add OG images for all 6 pages
-- Sync contact form service dropdown with services.ts
-- Fix header CTA touch target to 44px+
-- Add JS validation to MaterialCalculator depth field
-- Reset lightbox selectedIndex on filter change
-- Verify Lighthouse 90+ on deployed preview
-- Embed Google Map for retail yard (6470 Beatty Line N) on Contact page
+(No active milestone — use `/gsd:new-milestone` to start next)
 
 ### Out of Scope
 
@@ -63,10 +59,11 @@ When someone lands on this site, they immediately think "these people are seriou
 
 ## Context
 
-Shipped v1.0 with 3,287 LOC TypeScript/CSS across 151 files.
+Shipped v1.1 after resolving all 7 v1.0 tech debt items and adding Google Maps.
 Tech stack: Next.js 16 (App Router), Tailwind CSS v4, Framer Motion 12, TypeScript.
-All 84 requirements satisfied across 11 phases. 7 tech debt items deferred (see MILESTONES.md).
-Image placeholders in place — real project photos from owner needed before launch.
+Total: 16 phases (1-15 + 7.1), 29 plans, across 2 milestones (v1.0 + v1.1).
+Lighthouse verified: avg 97.1 across all 24 scores (6 pages x 4 categories).
+Zero tech debt remaining. Image placeholders still in place — real photos from owner needed before launch.
 
 - YWI is an established landscaping company in Fergus, Ontario
 - Two locations: office (8146 Sideroad 15) and retail yard (6470 Beatty Line N)
@@ -95,9 +92,13 @@ Image placeholders in place — real project photos from owner needed before lau
 | Google Fonts (DM Serif + Plus Jakarta Sans) | Free, performant, editorial feel | ✓ Good — zero layout shift with next/font |
 | src/ directory structure | Cleaner separation (create-next-app default) | ✓ Good |
 | Server Components by default | Minimal client JS, only interactive leaves use 'use client' | ✓ Good — only 4 client components |
-| FrozenRouter for page transitions | AnimatePresence exit animations need frozen route | ⚠️ Revisit — uses internal Next.js API |
+| FrozenRouter for page transitions | AnimatePresence exit animations need frozen route | ✓ Resolved v1.1 — replaced with template.tsx + usePathname |
 | CSS-only hover overlays (products, gallery) | No client JS for hover effects, always-visible on mobile | ✓ Good |
-| Canonical data files (services.ts, products.ts, etc.) | Single source of truth, consumed by multiple components | ✓ Good — Phase 7.1 proved value |
+| Canonical data files (services.ts, products.ts, etc.) | Single source of truth, consumed by multiple components | ✓ Good — Phase 7.1 proved value, Phase 12 enforced |
+| template.tsx remount boundary | Stable Next.js API for page transition animations | ✓ Good — replaced FrozenRouter hack |
+| Next.js opengraph-image.tsx convention | Auto-generated OG images, zero maintenance | ✓ Good — 6 routes, branded design |
+| Satori system fonts for OG images | Avoids font file loading complexity in ImageResponse | ✓ Good — approximates site typography |
+| Keyless Google Maps embed | No API key management, same interactive result | ✓ Good — simpler, no quota concerns |
 
 ---
-*Last updated: 2026-02-20 after v1.1 milestone started*
+*Last updated: 2026-02-20 after v1.1 milestone*

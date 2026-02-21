@@ -29,3 +29,32 @@
 
 ---
 
+
+## v1.1 Polish & Maps (Shipped: 2026-02-20)
+
+**Delivered:** Resolved all v1.0 tech debt (page transition fragility, data sync bugs, missing OG images, touch target compliance), added Google Maps embed for the retail yard, and verified 90+ Lighthouse scores across all pages.
+
+**Phases completed:** 5 phases (11-15), 5 plans, 10 tasks
+**Files modified:** 22
+**Lines changed:** +213 / -116
+**Timeline:** 1 day (2026-02-20)
+**Git range:** feat(11-01) → docs(v1.1)
+
+**Key accomplishments:**
+1. Replaced internal Next.js API (FrozenRouter/LayoutRouterContext) with stable template.tsx + usePathname page transitions
+2. Fixed contact form data sourcing from services.ts, calculator JS depth validation, and gallery lightbox stale index
+3. Generated branded OG images for all 6 pages via Next.js opengraph-image.tsx convention (Satori renderer)
+4. Embedded interactive Google Maps on Contact page for retail yard at 6470 Beatty Line N, Fergus
+5. Verified 90+ Lighthouse scores across Performance, Accessibility, Best Practices, and SEO on all 6 deployed pages (avg 97.1)
+
+**v1.0 tech debt resolved:**
+- ~~PageTransitionWrapper uses internal Next.js API~~ → Replaced with template.tsx (Phase 11)
+- ~~Six OG image files missing~~ → Auto-generated via ImageResponse convention (Phase 13)
+- ~~Contact form dropdown not synced with services.ts~~ → Dynamic import from canonical data (Phase 12)
+- ~~Header CTA below 44px touch target~~ → Fixed to 44px+ (Phase 13)
+- ~~MaterialCalculator HTML-only validation~~ → Added JS validation (Phase 12)
+- ~~Lightbox selectedIndex not reset on filter change~~ → Reset to null on category switch (Phase 12)
+- ~~Lighthouse 90+ needs verification~~ → All 24 scores 90+ confirmed (Phase 15)
+
+---
+
