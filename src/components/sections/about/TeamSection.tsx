@@ -1,5 +1,5 @@
+import Image from 'next/image'
 import AnimatedSection from '@/components/ui/AnimatedSection'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 import { teamMembers } from '@/lib/data/about'
 
 export default function TeamSection() {
@@ -17,11 +17,15 @@ export default function TeamSection() {
           {teamMembers.map((member, index) => (
             <AnimatedSection key={member.id} delay={index * 0.1}>
               <div className="text-center">
-                <ImagePlaceholder
-                  label={member.image}
-                  aspectRatio="portrait"
-                  className="rounded-xl mb-4"
-                />
+                <div className="relative aspect-[3/4] rounded-xl overflow-hidden mb-4">
+                  <Image
+                    src={member.image}
+                    alt={`${member.name} — ${member.role}`}
+                    fill
+                    sizes="(max-width: 768px) 50vw, 25vw"
+                    className="object-cover"
+                  />
+                </div>
                 <h3 className="font-display text-lg text-forest">
                   {member.name}
                 </h3>

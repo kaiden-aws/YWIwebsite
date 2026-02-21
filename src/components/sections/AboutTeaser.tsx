@@ -1,6 +1,6 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import AnimatedSection from '@/components/ui/AnimatedSection'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 
 export default function AboutTeaser() {
   return (
@@ -9,11 +9,15 @@ export default function AboutTeaser() {
         <div className="max-w-7xl mx-auto">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <AnimatedSection delay={0}>
-              <ImagePlaceholder
-                label="YWI team on a residential project site"
-                aspectRatio="square"
-                className="rounded-xl"
-              />
+              <div className="relative aspect-square rounded-xl overflow-hidden">
+                <Image
+                  src="/images/team/team-project.jpg"
+                  alt="YWI team on a residential project site"
+                  fill
+                  sizes="(max-width: 768px) 100vw, 50vw"
+                  className="object-cover"
+                />
+              </div>
             </AnimatedSection>
 
             <AnimatedSection delay={0.2}>
