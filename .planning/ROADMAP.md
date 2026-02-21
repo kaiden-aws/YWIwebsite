@@ -111,7 +111,9 @@ Plans:
   3. Every next/image instance uses appropriate `sizes` prop (100vw for heroes, responsive breakpoints for grid cards)
   4. Every next/image instance has a descriptive `alt` attribute (derived from the former label prop)
   5. The site builds with zero TypeScript errors and zero broken images on any page
-**Plans**: TBD
+**Plans**: 1 plan
+Plans:
+- [ ] 20-01-PLAN.md — Audit next/image props, delete ImagePlaceholder, verify clean build
 
 ## Progress
 
@@ -137,7 +139,7 @@ Plans:
 | 17. Hero Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
 | 18. Content Section Images | 3/3 | Complete    | 2026-02-21 | - |
 | 19. Gallery Project Images | v1.2 | Complete    | 2026-02-21 | 2026-02-21 |
-| 20. Component Migration and Cleanup | v1.2 | 0/? | Not started | - |
+| 20. Component Migration and Cleanup | v1.2 | 0/1 | Not started | - |
 
 _Full v1.0 details archived to `.planning/milestones/v1.0-ROADMAP.md`_
 _Full v1.1 details archived to `.planning/milestones/v1.1-ROADMAP.md`_
