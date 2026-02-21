@@ -58,3 +58,28 @@
 
 ---
 
+
+## v1.2 Real Images (Shipped: 2026-02-21)
+
+**Delivered:** Replaced all colored-box image placeholders across every page with real sample photographs optimized via next/image, then removed the ImagePlaceholder component entirely.
+
+**Phases completed:** 5 phases (16-20), 8 plans, 15 tasks
+**Files modified:** 81
+**Lines changed:** +3,301 / -219
+**Lines of code:** 3,348 TypeScript
+**Timeline:** 3 days (2026-02-18 → 2026-02-20)
+**Git range:** feat(16-01) → chore(20-01)
+
+**Key accomplishments:**
+1. Built image infrastructure with public/images/ directory tree (heroes/, services/, products/, projects/, team/) and updated 27 data entries with real image paths
+2. Replaced all 6 hero page backgrounds with real photographs using next/image fill mode with priority loading and parallax preservation
+3. Migrated 6 service cards, 7 product cards, and 4 team portraits to real photos with responsive next/image fill mode and breakpoint-aware sizes props
+4. Added 10 gallery project photos with optimized masonry grid, lightbox, and homepage showcase rendering
+5. Deleted ImagePlaceholder component — all 15 image components now use next/image with correct optimization props (sizes, priority, fill, alt text)
+
+**Tech debt carried forward:**
+- team-project.jpg hardcoded in AboutTeaser.tsx rather than sourced from data file (consistent with hero image pattern)
+- All images are sample stock photos from picsum.photos — owner must replace with real business photos before launch
+
+---
+

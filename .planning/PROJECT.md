@@ -2,7 +2,7 @@
 
 ## What This Is
 
-A premium, production-ready 6-page marketing website for Yard Weasels Inc., a landscaping company based in Fergus, Ontario. Built with Next.js 16, Tailwind v4, and Framer Motion — featuring earthy luxury design (forest green, cream, terracotta), editorial typography, cinematic scroll animations, an interactive Material Calculator, filterable gallery with keyboard-navigable lightbox, validated contact form, Google Maps embed for the retail yard, auto-generated OG images for social sharing, per-page SEO, and WCAG AA accessibility. Deployed on Vercel with 90+ Lighthouse scores across all pages.
+A premium, production-ready 6-page marketing website for Yard Weasels Inc., a landscaping company based in Fergus, Ontario. Built with Next.js 16, Tailwind v4, and Framer Motion — featuring earthy luxury design (forest green, cream, terracotta), editorial typography, cinematic scroll animations, real optimized photographs via next/image across all heroes/cards/gallery, an interactive Material Calculator, filterable gallery with keyboard-navigable lightbox, validated contact form, Google Maps embed for the retail yard, auto-generated OG images for social sharing, per-page SEO, and WCAG AA accessibility. Deployed on Vercel with 90+ Lighthouse scores across all pages.
 
 ## Core Value
 
@@ -26,7 +26,7 @@ When someone lands on this site, they immediately think "these people are seriou
 - ✓ Multi-column footer with office + retail yard addresses, phone, hours, social icons — v1.0
 - ✓ Framer Motion scroll-triggered animations on all sections — v1.0
 - ✓ Smooth page transitions via AnimatePresence — v1.0
-- ✓ Image placeholders styled as colored boxes with descriptive labels — v1.0
+- ✓ Image placeholders styled as colored boxes with descriptive labels — v1.0 (superseded by real photos in v1.2)
 - ✓ Fully responsive mobile-first design with 44px+ touch targets — v1.0
 - ✓ WCAG AA accessibility: focus states, ARIA labels, contrast, reduced motion — v1.0
 - ✓ SEO: per-page metadata, Open Graph, sitemap, robots.txt — v1.0
@@ -40,18 +40,16 @@ When someone lands on this site, they immediately think "these people are seriou
 - ✓ Header CTA meets 44px+ touch target — v1.1
 - ✓ Google Maps embed for retail yard on Contact page — v1.1
 - ✓ Lighthouse 90+ across all categories on all pages (avg 97.1) — v1.1
+- ✓ Real hero photographs on all 6 pages with next/image priority loading — v1.2
+- ✓ Real service card images (6), product card images (7), team portraits (4) — v1.2
+- ✓ Real gallery project images (10) in masonry grid and lightbox — v1.2
+- ✓ All 15 image components use next/image with proper sizes, fill, alt, priority props — v1.2
+- ✓ ImagePlaceholder component removed from codebase — v1.2
+- ✓ Image infrastructure: public/images/ organized by type, data files with real paths — v1.2
 
 ### Active
 
-## Current Milestone: v1.2 Real Images
-
-**Goal:** Replace all colored-box image placeholders with real sample landscaping photos, optimized via next/image.
-
-**Target features:**
-- Download sample landscaping images to public/images/
-- Replace every ImagePlaceholder usage with next/image and real src
-- Remove the ImagePlaceholder component entirely
-- Ensure all images are properly sized and optimized for web performance
+(None — planning next milestone)
 
 ### Out of Scope
 
@@ -64,14 +62,17 @@ When someone lands on this site, they immediately think "these people are seriou
 - Multi-language support — Fergus is English-speaking market
 - User accounts / login — no validated need
 - Mobile app — web-first, defer indefinitely
+- Image CMS / upload system — static images, owner provides replacement photos directly
+- Responsive art direction (different crops per breakpoint) — single image per slot sufficient
+- Blur placeholder generation — can add later if needed for perceived performance
 
 ## Context
 
-Shipped v1.1 after resolving all 7 v1.0 tech debt items and adding Google Maps.
+Shipped v1.2 after replacing all image placeholders with real photographs via next/image.
 Tech stack: Next.js 16 (App Router), Tailwind CSS v4, Framer Motion 12, TypeScript.
-Total: 16 phases (1-15 + 7.1), 29 plans, across 2 milestones (v1.0 + v1.1).
+Total: 21 phases (1-20 + 7.1), 37 plans, across 3 milestones (v1.0 + v1.1 + v1.2).
 Lighthouse verified: avg 97.1 across all 24 scores (6 pages x 4 categories).
-Zero tech debt remaining. Image placeholders still in place — real photos from owner needed before launch.
+All 15 image components use next/image with proper optimization. Sample stock photos in place — owner must replace with real business photos before launch.
 
 - YWI is an established landscaping company in Fergus, Ontario
 - Two locations: office (8146 Sideroad 15) and retail yard (6470 Beatty Line N)
@@ -107,6 +108,11 @@ Zero tech debt remaining. Image placeholders still in place — real photos from
 | Next.js opengraph-image.tsx convention | Auto-generated OG images, zero maintenance | ✓ Good — 6 routes, branded design |
 | Satori system fonts for OG images | Avoids font file loading complexity in ImageResponse | ✓ Good — approximates site typography |
 | Keyless Google Maps embed | No API key management, same interactive result | ✓ Good — simpler, no quota concerns |
+| next/image fill mode for all images | Consistent pattern, automatic srcset/format optimization | ✓ Good — all 15 components use fill + object-cover |
+| picsum.photos sample images | Free placeholder images until owner provides real photos | ✓ Good — unblocks development, easy to swap |
+| Image path convention: /images/{type}/{id}.jpg | Predictable paths derived from data entry IDs | ✓ Good — consistent across all 27 data entries |
+| priority prop only on hero images | Above-fold LCP optimization, no unnecessary preloads | ✓ Good — 6 heroes prioritized, 9 non-heroes lazy |
+| Responsive sizes props per layout | Correct srcset selection at each breakpoint | ✓ Good — grid-aware sizing (100vw heroes, breakpoint-matched cards) |
 
 ---
-*Last updated: 2026-02-20 after v1.2 milestone started*
+*Last updated: 2026-02-21 after v1.2 milestone*
