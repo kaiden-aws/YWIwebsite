@@ -51,25 +51,25 @@ export const teamMembers: TeamMember[] = [
     id: 'member-1',
     name: 'Team Member',
     role: 'Owner / Lead Designer',
-    image: 'Team — Owner headshot',
+    image: '/images/team/member-1.jpg',
   },
   {
     id: 'member-2',
     name: 'Team Member',
     role: 'Project Manager',
-    image: 'Team — Project manager headshot',
+    image: '/images/team/member-2.jpg',
   },
   {
     id: 'member-3',
     name: 'Team Member',
     role: 'Lead Installer',
-    image: 'Team — Lead installer headshot',
+    image: '/images/team/member-3.jpg',
   },
   {
     id: 'member-4',
     name: 'Team Member',
     role: 'Irrigation Specialist',
-    image: 'Team — Irrigation specialist headshot',
+    image: '/images/team/member-4.jpg',
   },
 ]
 
