@@ -2,7 +2,7 @@
 
 import { useRef } from 'react'
 import { m, useScroll, useTransform, useReducedMotion } from 'motion/react'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
+import Image from 'next/image'
 
 export default function HeroParallax({
   children,
@@ -27,13 +27,15 @@ export default function HeroParallax({
     <section ref={ref} className="relative min-h-screen overflow-hidden">
       {/* Parallax background layer */}
       <m.div className="absolute inset-0 -z-10" style={{ y }}>
-        <div className="h-full w-full">
-          <ImagePlaceholder
-            label="Hero — Completed landscape project"
-            priority={true}
-            className="!aspect-auto h-full w-full !rounded-none"
-          />
-        </div>
+        <Image
+          src="/images/heroes/home-hero.jpg"
+          alt="Completed landscape project showcasing professional outdoor design"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          quality={85}
+        />
       </m.div>
 
       {/* Foreground content */}
