@@ -3,7 +3,6 @@ import { sharedOpenGraph } from '@/lib/metadata'
 import AboutHero from '@/components/sections/about/AboutHero'
 import CompanyStory from '@/components/sections/about/CompanyStory'
 import ValuesGrid from '@/components/sections/about/ValuesGrid'
-import TeamSection from '@/components/sections/about/TeamSection'
 import WhyChooseUs from '@/components/sections/about/WhyChooseUs'
 
 export const metadata: Metadata = {
@@ -23,7 +22,6 @@ export default function AboutPage() {
       <AboutHero />
       <CompanyStory />
       <ValuesGrid />
-      <TeamSection />
       <WhyChooseUs />
     </div>
   )
