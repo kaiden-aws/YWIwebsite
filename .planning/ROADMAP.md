@@ -40,7 +40,7 @@
 
 **Milestone Goal:** Replace all colored-box image placeholders with real sample landscaping photos optimized via next/image, then remove the ImagePlaceholder component entirely.
 
-- [ ] **Phase 16: Image Infrastructure** - Directory structure and data model updates to support real image paths
+- [x] **Phase 16: Image Infrastructure** - Directory structure and data model updates to support real image paths (completed 2026-02-21)
 - [ ] **Phase 17: Hero Images** - Real full-viewport hero photos for all 6 pages
 - [ ] **Phase 18: Content Section Images** - Real photos for service cards, product cards, and team portraits
 - [ ] **Phase 19: Gallery Project Images** - Real photos for all 10 gallery projects with lightbox optimization
@@ -124,7 +124,7 @@ Plans:
 | 13. Launch Assets and Touch Targets | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 14. Google Maps Embed | v1.1 | 1/1 | Complete | 2026-02-20 |
 | 15. Lighthouse Verification | v1.1 | 1/1 | Complete | 2026-02-20 |
-| 16. Image Infrastructure | v1.2 | 0/1 | Planned | - |
+| 16. Image Infrastructure | 1/1 | Complete   | 2026-02-21 | - |
 | 17. Hero Images | v1.2 | 0/? | Not started | - |
 | 18. Content Section Images | v1.2 | 0/? | Not started | - |
 | 19. Gallery Project Images | v1.2 | 0/? | Not started | - |
