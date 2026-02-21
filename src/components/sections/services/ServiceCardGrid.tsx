@@ -1,7 +1,7 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/lib/data/services'
 import AnimatedSection from '@/components/ui/AnimatedSection'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 
 export default function ServiceCardGrid() {
   return (
@@ -11,10 +11,15 @@ export default function ServiceCardGrid() {
           {services.map((service, index) => (
             <AnimatedSection key={service.id} delay={index * 0.1}>
               <div className="flex flex-col h-full rounded-lg overflow-hidden bg-white shadow-sm">
-                <ImagePlaceholder
-                  label={service.imageLabel}
-                  aspectRatio="video"
-                />
+                <div className="relative aspect-video">
+                  <Image
+                    src={service.image}
+                    alt={service.imageLabel}
+                    fill
+                    sizes="(max-width: 768px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                    className="object-cover"
+                  />
+                </div>
                 <div className="flex flex-col flex-1 p-6">
                   <h3 className="font-display text-xl md:text-2xl text-forest mb-3">
                     {service.title}

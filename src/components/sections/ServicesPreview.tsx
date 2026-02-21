@@ -1,7 +1,7 @@
+import Image from 'next/image'
 import Link from 'next/link'
 import { services } from '@/lib/data/services'
 import AnimatedSection from '@/components/ui/AnimatedSection'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
 
 export default function ServicesPreview() {
   return (
@@ -23,10 +23,15 @@ export default function ServicesPreview() {
                   href={service.href}
                   className="group rounded-lg overflow-hidden bg-white shadow-sm hover:shadow-lg hover:-translate-y-2 motion-reduce:hover:translate-y-0 transition-all duration-300 block"
                 >
-                  <ImagePlaceholder
-                    label={service.image}
-                    aspectRatio="video"
-                  />
+                  <div className="relative aspect-video">
+                    <Image
+                      src={service.image}
+                      alt={service.title}
+                      fill
+                      sizes="(max-width: 768px) 100vw, 33vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="p-6">
                     <h3 className="font-display text-xl text-forest mb-2">
                       {service.title}
