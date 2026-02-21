@@ -5,14 +5,16 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** v1.2 Real Images
+**Current focus:** v1.2 Real Images — Phase 16: Image Infrastructure
 
 ## Current Position
 
-Phase: Not started (defining requirements)
-Plan: —
-Status: Defining requirements
-Last activity: 2026-02-20 — Milestone v1.2 started
+Phase: 16 of 20 (Image Infrastructure)
+Plan: None yet — ready to plan
+Status: Ready to plan
+Last activity: 2026-02-20 — Roadmap created for v1.2
+
+Progress: [░░░░░░░░░░] 0% (0/5 phases)
 
 ## Performance Metrics
 
@@ -27,6 +29,10 @@ Last activity: 2026-02-20 — Milestone v1.2 started
 - Total tasks: 10
 - Timeline: 1 day (2026-02-20)
 
+**Velocity (v1.2):**
+- Total plans completed: 0
+- Total phases completed: 0
+
 ## Accumulated Context
 
 ### Decisions
@@ -39,10 +45,10 @@ None.
 
 ### Blockers/Concerns
 
-- [Pre-launch]: Real project photos from owner needed to replace placeholders before site goes live
+- Images are sample/stock — real owner photos needed before actual launch
 
 ## Session Continuity
 
 Last session: 2026-02-20
-Stopped at: v1.1 milestone completed and archived
+Stopped at: v1.2 roadmap created, ready to plan Phase 16
 Resume file: None

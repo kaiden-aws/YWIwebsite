@@ -61,28 +61,28 @@ Which phases cover which requirements. Updated during roadmap creation.
 
 | Requirement | Phase | Status |
 |-------------|-------|--------|
-| HERO-01 | — | Pending |
-| HERO-02 | — | Pending |
-| HERO-03 | — | Pending |
-| HERO-04 | — | Pending |
-| HERO-05 | — | Pending |
-| HERO-06 | — | Pending |
-| SERV-01 | — | Pending |
-| PROD-01 | — | Pending |
-| PROJ-01 | — | Pending |
-| PROJ-02 | — | Pending |
-| TEAM-01 | — | Pending |
-| INFRA-01 | — | Pending |
-| INFRA-02 | — | Pending |
-| INFRA-03 | — | Pending |
-| INFRA-04 | — | Pending |
-| INFRA-05 | — | Pending |
+| HERO-01 | Phase 17 | Pending |
+| HERO-02 | Phase 17 | Pending |
+| HERO-03 | Phase 17 | Pending |
+| HERO-04 | Phase 17 | Pending |
+| HERO-05 | Phase 17 | Pending |
+| HERO-06 | Phase 17 | Pending |
+| SERV-01 | Phase 18 | Pending |
+| PROD-01 | Phase 18 | Pending |
+| PROJ-01 | Phase 19 | Pending |
+| PROJ-02 | Phase 19 | Pending |
+| TEAM-01 | Phase 18 | Pending |
+| INFRA-01 | Phase 16 | Pending |
+| INFRA-02 | Phase 16 | Pending |
+| INFRA-03 | Phase 20 | Pending |
+| INFRA-04 | Phase 20 | Pending |
+| INFRA-05 | Phase 20 | Pending |
 
 **Coverage:**
 - v1.2 requirements: 16 total
-- Mapped to phases: 0
-- Unmapped: 16
+- Mapped to phases: 16
+- Unmapped: 0
 
 ---
 *Requirements defined: 2026-02-20*
-*Last updated: 2026-02-20 after initial definition*
+*Last updated: 2026-02-20 after roadmap creation*
