@@ -1,6 +1,6 @@
 import { projects } from '@/lib/data/projects'
 import AnimatedSection from '@/components/ui/AnimatedSection'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
+import Image from 'next/image'
 import Link from 'next/link'
 
 export default function ProjectShowcase() {
@@ -23,10 +23,15 @@ export default function ProjectShowcase() {
                 className={project.featured ? 'col-span-2 row-span-2' : ''}
               >
                 <div className="group relative overflow-hidden rounded-lg">
-                  <ImagePlaceholder
-                    label={project.image}
-                    aspectRatio="square"
-                  />
+                  <div className="relative aspect-square">
+                    <Image
+                      src={project.image}
+                      alt={project.name}
+                      fill
+                      sizes="(max-width: 768px) 50vw, 33vw"
+                      className="object-cover"
+                    />
+                  </div>
                   <div className="absolute inset-0 bg-charcoal/60 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex items-end p-4 md:p-6">
                     <div>
                       <span className="text-cream font-display text-lg md:text-xl">

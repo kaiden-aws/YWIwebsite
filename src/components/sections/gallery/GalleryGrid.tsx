@@ -3,7 +3,7 @@
 import { useState, useCallback } from 'react'
 import { AnimatePresence, m } from 'motion/react'
 import { projects } from '@/lib/data/projects'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
+import Image from 'next/image'
 import { cn } from '@/lib/utils/cn'
 import GalleryLightbox from './GalleryLightbox'
 
@@ -75,9 +75,12 @@ export default function GalleryGrid() {
                 )}
                 onClick={() => setLightboxIndex(index)}
               >
-                <ImagePlaceholder
-                  label={project.image}
-                  className="!aspect-auto h-full w-full !rounded-none"
+                <Image
+                  src={project.image}
+                  alt={project.name}
+                  fill
+                  sizes="(max-width: 768px) 50vw, 33vw"
+                  className="object-cover"
                 />
                 {/* Hover overlay */}
                 <div className="absolute inset-0 bg-charcoal/60 transition-opacity duration-300 md:opacity-0 md:group-hover:opacity-100 flex items-end p-4 md:p-6">

@@ -3,7 +3,7 @@
 import { useEffect, useRef, useCallback } from 'react'
 import { AnimatePresence, m } from 'motion/react'
 import { X, ChevronLeft, ChevronRight } from 'lucide-react'
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
+import Image from 'next/image'
 import type { Project } from '@/lib/data/projects'
 
 interface GalleryLightboxProps {
@@ -119,11 +119,15 @@ export default function GalleryLightbox({
             </button>
 
             {/* Image */}
-            <ImagePlaceholder
-              label={current.image}
-              aspectRatio="video"
-              className="!rounded-lg w-full"
-            />
+            <div className="relative aspect-video w-full overflow-hidden rounded-lg">
+              <Image
+                src={current.image}
+                alt={current.name}
+                fill
+                sizes="(max-width: 768px) 100vw, 80vw"
+                className="object-cover"
+              />
+            </div>
 
             {/* Caption */}
             <div className="mt-4 text-center">
