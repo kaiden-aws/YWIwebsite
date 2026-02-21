@@ -43,7 +43,15 @@ When someone lands on this site, they immediately think "these people are seriou
 
 ### Active
 
-(No active milestone — use `/gsd:new-milestone` to start next)
+## Current Milestone: v1.2 Real Images
+
+**Goal:** Replace all colored-box image placeholders with real sample landscaping photos, optimized via next/image.
+
+**Target features:**
+- Download sample landscaping images to public/images/
+- Replace every ImagePlaceholder usage with next/image and real src
+- Remove the ImagePlaceholder component entirely
+- Ensure all images are properly sized and optimized for web performance
 
 ### Out of Scope
 
@@ -101,4 +109,4 @@ Zero tech debt remaining. Image placeholders still in place — real photos from
 | Keyless Google Maps embed | No API key management, same interactive result | ✓ Good — simpler, no quota concerns |
 
 ---
-*Last updated: 2026-02-20 after v1.1 milestone*
+*Last updated: 2026-02-20 after v1.2 milestone started*

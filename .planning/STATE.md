@@ -5,15 +5,14 @@
 See: .planning/PROJECT.md (updated 2026-02-20)
 
 **Core value:** When someone lands on this site, they immediately think "these people are serious professionals" — the design quality communicates trust, craftsmanship, and premium service before a single word is read.
-**Current focus:** Planning next milestone
+**Current focus:** v1.2 Real Images
 
 ## Current Position
 
-Phase: All complete (v1.0 + v1.1 shipped)
-Status: Between milestones
-Last activity: 2026-02-20 — Completed v1.1 milestone
-
-Progress: [##############################] 29/29 plans (v1.0 + v1.1 complete)
+Phase: Not started (defining requirements)
+Plan: —
+Status: Defining requirements
+Last activity: 2026-02-20 — Milestone v1.2 started
 
 ## Performance Metrics
 
