@@ -8,8 +8,7 @@ import GrainOverlay from '@/components/ui/GrainOverlay'
 const stats = [
   { value: 20, suffix: '+', label: 'Years Experience' },
   { value: 500, suffix: '+', label: 'Projects Completed' },
-  { value: 100, suffix: '%', label: 'Code Compliant' },
-  { value: null, display: 'Centre Wellington', label: 'Service Area' },
+  { value: null, display: 'Southern ON', label: 'Service Area' },
 ]
 
 function CountUp({ value, suffix }: { value: number; suffix: string }) {
@@ -50,7 +49,7 @@ export default function StatsBar() {
       <GrainOverlay />
       <AnimatedSection>
         <div className="max-w-7xl mx-auto relative z-10">
-          <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 text-center">
+          <div className="grid grid-cols-3 gap-8 md:gap-12 text-center">
             {stats.map((stat, index) => (
               <AnimatedSection key={stat.label} delay={index * 0.15}>
                 <div>

@@ -31,9 +31,9 @@ export default function Home() {
   return (
     <div>
       <HeroSection />
+      <StatsBar />
       <ServicesPreview />
       <AboutTeaser />
-      <StatsBar />
       <ProductsBanner />
       <ProjectShowcase />
       <TestimonialCarousel testimonials={testimonials} />
