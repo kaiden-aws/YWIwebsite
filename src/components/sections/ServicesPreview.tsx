@@ -47,6 +47,15 @@ export default function ServicesPreview() {
               </AnimatedSection>
             ))}
           </div>
+
+          <div className="text-center mt-12">
+            <Link
+              href="/services"
+              className="inline-block px-8 py-3 bg-terracotta text-cream rounded-lg font-medium hover:bg-terracotta-light transition-colors"
+            >
+              View All Services
+            </Link>
+          </div>
         </div>
       </AnimatedSection>
     </section>
