@@ -1,16 +1,22 @@
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
+import Image from 'next/image'
 import GrainOverlay from '@/components/ui/GrainOverlay'
 
 export default function ServicesHero() {
   return (
     <section className="relative py-32 md:py-40 px-6 bg-forest overflow-hidden">
-      {/* Background image placeholder */}
+      {/* Background image */}
       <div className="absolute inset-0">
-        <ImagePlaceholder
-          label="Services — YWI crew working on a landscape project"
-          priority={true}
-          className="!aspect-auto h-full w-full !rounded-none !bg-forest-light/30"
+        <Image
+          src="/images/heroes/services-hero.jpg"
+          alt="Professional landscaping crew performing outdoor construction"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          quality={80}
         />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-forest/60" />
       </div>
       <GrainOverlay />
 

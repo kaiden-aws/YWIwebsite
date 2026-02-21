@@ -1,16 +1,22 @@
-import ImagePlaceholder from '@/components/ui/ImagePlaceholder'
+import Image from 'next/image'
 import GrainOverlay from '@/components/ui/GrainOverlay'
 
 export default function ProductsHero() {
   return (
     <section className="relative py-32 md:py-40 px-6 bg-forest overflow-hidden">
-      {/* Background image placeholder */}
+      {/* Background image */}
       <div className="absolute inset-0">
-        <ImagePlaceholder
-          label="Products — Retail yard with bulk landscape materials"
-          priority={true}
-          className="!aspect-auto h-full w-full !rounded-none !bg-forest-light/30"
+        <Image
+          src="/images/heroes/products-hero.jpg"
+          alt="Bulk landscape materials and supplies at the retail yard"
+          fill
+          priority
+          sizes="100vw"
+          className="object-cover"
+          quality={80}
         />
+        {/* Dark overlay for text readability */}
+        <div className="absolute inset-0 bg-forest/60" />
       </div>
       <GrainOverlay />
 
